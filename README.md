@@ -57,7 +57,9 @@ components/
   Nav.tsx           fixed nav + mobile drawer
   Hero.tsx  About.tsx  Work.tsx  Categories.tsx  Collaborate.tsx  Contact.tsx
   SmoothImage.tsx   <img> + srcset, bypasses the optimiser (no re-encode, no upscaling)
-  HoverCarousel.tsx reveals the rest of a carousel on hover (2s per frame)
+  CarouselTile.tsx  advances a carousel on its own while in view (2s desktop /
+                    3s mobile); a cursor hovering freezes the frame and leaving
+                    resumes from it; static under reduced motion
   Reveal.tsx        scroll-reveal wrapper (no-op under reduced motion)
 lib/
   gallery.ts        typed content data (generated)

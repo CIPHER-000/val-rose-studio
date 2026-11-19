@@ -1,5 +1,5 @@
 import { works } from "@/lib/gallery";
-import HoverCarousel from "./HoverCarousel";
+import CarouselTile from "./CarouselTile";
 import Reveal from "./Reveal";
 
 const BLOCKS = [
@@ -65,7 +65,7 @@ export default function Categories() {
                   <Reveal>
                     <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-sm md:aspect-[6/5]">
                       {w && (
-                        <HoverCarousel
+                        <CarouselTile
                           images={w.images}
                           sizes="(max-width: 768px) 100vw, 56vw"
                           alt={`${b.label} content by Valentina Rose`}

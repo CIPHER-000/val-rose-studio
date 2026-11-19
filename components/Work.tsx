@@ -4,7 +4,7 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ChevronLeft, ChevronRight, Play, Volume2, VolumeX, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { films, works, type Film } from "@/lib/gallery";
-import HoverCarousel from "./HoverCarousel";
+import CarouselTile from "./CarouselTile";
 import Reveal from "./Reveal";
 import SmoothImage from "./SmoothImage";
 
@@ -25,37 +25,87 @@ function FilmCard({ film, onOpen }: { film: Film; onOpen: () => void }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [muted, setMuted] = useState(true);
 
-  // Play muted as soon as the card is on screen, pause when it leaves.
+  const tryPlay = useCallback(() => {
+    const video = videoRef.current;
+    if (!video || !video.paused) return;
+    const p = video.play();
+    if (p && typeof p.catch === "function") p.catch(() => {});
+  }, []);
+
+  /**
+   * Play muted while the card is on screen.
+   *
+   * Mobile browsers suspend or refuse muted playback after scrolling, so a
+   * lightweight keeper re-issues play() while the card is visible, and playback
+   * is re-kicked when the page becomes visible or the user touches the screen.
+   */
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
 
     video.muted = true;
-    const tryPlay = () => {
-      const p = video.play();
-      if (p && typeof p.catch === "function") p.catch(() => {});
+    let inView = false;
+    let keeper: number | null = null;
+
+    const startKeeper = () => {
+      if (keeper !== null) return;
+      keeper = window.setInterval(() => {
+        if (inView && !document.hidden && video.paused) tryPlay();
+      }, 1200);
     };
+
+    const stopKeeper = () => {
+      if (keeper !== null) {
+        window.clearInterval(keeper);
+        keeper = null;
+      }
+    };
+
+    let disconnect: (() => void) | null = null;
 
     if (typeof IntersectionObserver === "undefined") {
+      inView = true;
       tryPlay();
-      return;
+      startKeeper();
+    } else {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            inView = entry.isIntersecting;
+            if (inView) {
+              tryPlay();
+              startKeeper();
+            } else {
+              stopKeeper();
+              video.pause();
+            }
+          }
+        },
+        { threshold: 0.2 }
+      );
+      observer.observe(video);
+      disconnect = () => observer.disconnect();
     }
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) tryPlay();
-          else video.pause();
-        }
-      },
-      { threshold: 0.35 }
-    );
-    observer.observe(video);
+    const onWake = () => {
+      if (!document.hidden && inView) tryPlay();
+    };
+
+    document.addEventListener("visibilitychange", onWake);
+    window.addEventListener("touchstart", onWake, { passive: true });
+    window.addEventListener("touchend", onWake, { passive: true });
+    window.addEventListener("focus", onWake);
+
     return () => {
-      observer.disconnect();
+      disconnect?.();
+      document.removeEventListener("visibilitychange", onWake);
+      window.removeEventListener("touchstart", onWake);
+      window.removeEventListener("touchend", onWake);
+      window.removeEventListener("focus", onWake);
+      stopKeeper();
       video.pause();
     };
-  }, []);
+  }, [tryPlay]);
 
   const toggleSound = (event: React.MouseEvent) => {
     event.stopPropagation();
@@ -81,6 +131,7 @@ function FilmCard({ film, onOpen }: { film: Film; onOpen: () => void }) {
           playsInline
           preload="metadata"
           tabIndex={-1}
+          onCanPlay={tryPlay}
           className="zoom-img h-full w-full object-cover"
         />
         {/* Click target sits above the video so the clip never eats the click. */}
@@ -219,7 +270,7 @@ export default function Work() {
                   className="relative w-full overflow-hidden bg-blush"
                   style={{ aspectRatio: String(w.coverRatio) }}
                 >
-                  <HoverCarousel
+                  <CarouselTile
                     images={w.images}
                     sizes="(max-width: 768px) 100vw, 48vw"
                     alt={`${w.title} — ${w.kind} by Valentina Rose`}
@@ -256,7 +307,7 @@ export default function Work() {
                     className="relative w-full overflow-hidden bg-blush"
                     style={{ aspectRatio: String(w.coverRatio) }}
                   >
-                    <HoverCarousel
+                    <CarouselTile
                       images={w.images}
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 32vw"
                       alt={`${w.title} — ${w.kind} by Valentina Rose`}
