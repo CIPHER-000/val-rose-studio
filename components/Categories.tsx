@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { works } from "@/lib/gallery";
+import HoverCarousel from "./HoverCarousel";
 import Reveal from "./Reveal";
 
 const BLOCKS = [
@@ -63,14 +63,13 @@ export default function Categories() {
               >
                 <div className="md:col-span-7 md:[direction:ltr]">
                   <Reveal>
-                    <div className="relative aspect-[4/3] w-full overflow-hidden bg-blush md:aspect-[16/11]">
+                    <div className="group relative aspect-[4/3] w-full overflow-hidden bg-blush md:aspect-[16/11]">
                       {w && (
-                        <Image
-                          src={w.cover}
-                          alt={`${b.label} content by Valentina Rose`}
-                          fill
+                        <HoverCarousel
+                          images={w.images}
                           sizes="(max-width: 768px) 100vw, 56vw"
-                          className="object-cover object-top"
+                          alt={`${b.label} content by Valentina Rose`}
+                          imgClassName="object-top"
                         />
                       )}
                     </div>

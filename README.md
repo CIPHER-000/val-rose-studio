@@ -48,15 +48,19 @@ app/
 components/
   Nav.tsx           fixed nav + mobile drawer
   Hero.tsx  About.tsx  Work.tsx  Categories.tsx  Collaborate.tsx  Contact.tsx
+  SmoothImage.tsx   <img> + srcset, bypasses the optimiser (no re-encode, no upscaling)
+  HoverCarousel.tsx reveals the rest of a carousel on hover (2s per frame)
   Reveal.tsx        scroll-reveal wrapper (no-op under reduced motion)
 lib/
   gallery.ts        typed content data (generated)
 public/assets/
-  fashion/ beauty/ haircare/ skincare/ lifestyle/   optimised WebP + MP4
+  hero/             owner-supplied hero portrait (480/900/1200/1254)
+  fashion/ beauty/ haircare/ skincare/ lifestyle/   WebP variants + MP4
 scripts/
   asset_server.py   local sink used while collecting assets from the browser
-  prepare_assets.py raw originals -> optimised WebP (+ inventory)
-  gen_gallery.py    inventory -> lib/gallery.ts
+  prepare_assets.py raw originals -> WebP variants (480/900/1200/native) + inventory
+  prepare_hero.py   hero portrait -> public/assets/hero
+  gen_gallery.py    inventory -> lib/gallery.ts (merges related posts into one carousel)
 content-inventory.json / CONTENT-INVENTORY.md
 ```
 

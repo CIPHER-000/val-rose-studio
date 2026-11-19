@@ -41,10 +41,10 @@ export const metadata: Metadata = {
     siteName: "Val Rose Studio",
     images: [
       {
-        url: "/assets/fashion/lukacev-couture-01-1400.webp",
-        width: 1400,
-        height: 2096,
-        alt: "Valentina Rose — editorial fashion portrait",
+        url: "/assets/hero/hero-1200.webp",
+        width: 1200,
+        height: 1200,
+        alt: "Valentina Rose — beauty portrait",
       },
     ],
     locale: "en_GB",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "Val Rose Studio — Fashion, Beauty & Visual Storytelling",
     description:
       "Editorial portfolio of Valentina Rose. Fashion, beauty and lifestyle content for brand collaborations.",
-    images: ["/assets/fashion/lukacev-couture-01-1400.webp"],
+    images: ["/assets/hero/hero-1200.webp"],
   },
   robots: { index: true, follow: true },
   icons: { icon: "/icon.svg" },

@@ -1,11 +1,12 @@
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { ChevronLeft, ChevronRight, Play, X } from "lucide-react";
-import Image from "next/image";
-import { useCallback, useEffect, useState } from "react";
+import { ChevronLeft, ChevronRight, Play, Volume2, VolumeX, X } from "lucide-react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { films, works, type Film } from "@/lib/gallery";
+import HoverCarousel from "./HoverCarousel";
 import Reveal from "./Reveal";
+import SmoothImage from "./SmoothImage";
 
 type ViewerState =
   | { kind: "images"; workIndex: number; imageIndex: number }
@@ -18,23 +19,123 @@ const CATEGORY_LABEL: Record<string, string> = {
   lifestyle: "Lifestyle",
 };
 
+/* ---------------------------------------------------------------- film card */
+
+function FilmCard({ film, onOpen }: { film: Film; onOpen: () => void }) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [muted, setMuted] = useState(true);
+
+  // Play muted as soon as the card is on screen, pause when it leaves.
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    video.muted = true;
+    const tryPlay = () => {
+      const p = video.play();
+      if (p && typeof p.catch === "function") p.catch(() => {});
+    };
+
+    if (typeof IntersectionObserver === "undefined") {
+      tryPlay();
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) tryPlay();
+          else video.pause();
+        }
+      },
+      { threshold: 0.35 }
+    );
+    observer.observe(video);
+    return () => {
+      observer.disconnect();
+      video.pause();
+    };
+  }, []);
+
+  const toggleSound = (event: React.MouseEvent) => {
+    event.stopPropagation();
+    const video = videoRef.current;
+    if (!video) return;
+    const nextMuted = !muted;
+    setMuted(nextMuted);
+    video.muted = nextMuted;
+    if (!nextMuted) {
+      const p = video.play();
+      if (p && typeof p.catch === "function") p.catch(() => {});
+    }
+  };
+
+  return (
+    <div className="group zoom-wrap relative block w-full text-left">
+      <div className="relative aspect-[9/16] w-full overflow-hidden bg-blush">
+        <video
+          ref={videoRef}
+          src={film.src}
+          muted={muted}
+          loop
+          playsInline
+          preload="metadata"
+          tabIndex={-1}
+          className="zoom-img h-full w-full object-cover"
+        />
+        {/* Click target sits above the video so the clip never eats the click. */}
+        <button
+          type="button"
+          onClick={onOpen}
+          className="absolute inset-0 cursor-pointer"
+          aria-label={`Play ${film.title} with full controls`}
+        >
+          <span className="absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/15" />
+          <span className="absolute left-1/2 top-1/2 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-paper/70 bg-ink/25 text-paper opacity-0 backdrop-blur-sm transition-opacity duration-500 group-hover:opacity-100">
+            <Play className="ml-0.5 h-5 w-5" strokeWidth={1.5} fill="currentColor" />
+          </span>
+        </button>
+
+        <button
+          type="button"
+          onClick={toggleSound}
+          className="absolute bottom-3 right-3 flex items-center gap-2 rounded-full bg-ink/45 px-3 py-2 text-[11px] uppercase tracking-widest text-paper backdrop-blur-sm transition-colors hover:bg-ink/70"
+          aria-label={muted ? `Turn on sound for ${film.title}` : `Mute ${film.title}`}
+          aria-pressed={!muted}
+        >
+          {muted ? (
+            <VolumeX className="h-3.5 w-3.5" strokeWidth={1.6} />
+          ) : (
+            <Volume2 className="h-3.5 w-3.5" strokeWidth={1.6} />
+          )}
+          <span className="hidden sm:inline">{muted ? "Sound off" : "Sound on"}</span>
+        </button>
+      </div>
+      <div className="mt-3 flex items-center justify-between gap-3">
+        <span className="text-sm">{film.title}</span>
+        <span className="shrink-0 text-[11px] uppercase tracking-widest text-muted">
+          {film.category === "skincare" ? "Beauty" : film.category === "haircare" ? "Haircare" : "Fashion"}
+        </span>
+      </div>
+    </div>
+  );
+}
+
+/* -------------------------------------------------------------------- work */
+
 export default function Work() {
   const [viewer, setViewer] = useState<ViewerState>(null);
   const reduce = useReducedMotion();
 
   const close = useCallback(() => setViewer(null), []);
 
-  const step = useCallback(
-    (dir: 1 | -1) => {
-      setViewer((v) => {
-        if (!v || v.kind !== "images") return v;
-        const total = works[v.workIndex].images.length;
-        const next = (v.imageIndex + dir + total) % total;
-        return { ...v, imageIndex: next };
-      });
-    },
-    []
-  );
+  const step = useCallback((dir: 1 | -1) => {
+    setViewer((v) => {
+      if (!v || v.kind !== "images") return v;
+      const total = works[v.workIndex].images.length;
+      return { ...v, imageIndex: (v.imageIndex + dir + total) % total };
+    });
+  }, []);
 
   useEffect(() => {
     if (!viewer) return;
@@ -70,7 +171,8 @@ export default function Work() {
             <Reveal delay={0.08}>
               <p className="text-[15px] leading-relaxed text-muted">
                 A selection of published pieces across fashion, beauty and lifestyle — each one
-                art-directed, styled and produced for social-first formats.
+                art-directed, styled and produced for social-first formats. Hover a piece to see the
+                rest of its carousel.
               </p>
             </Reveal>
           </div>
@@ -82,39 +184,18 @@ export default function Work() {
             <div className="flex items-baseline justify-between border-b border-line pb-4">
               <h3 className="font-display text-2xl">Motion</h3>
               <span className="text-[11px] uppercase tracking-widest text-muted">
-                {films.length} films
+                {films.length} films · playing muted
               </span>
             </div>
           </Reveal>
           <div className="rail mt-8 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-2 lg:grid lg:grid-cols-4 lg:overflow-visible lg:pb-0">
             {films.map((f, i) => (
-              <Reveal key={f.id} delay={0.04 * i} className="shrink-0 snap-start lg:shrink">
-                <button
-                  type="button"
-                  onClick={() => setViewer({ kind: "video", film: f })}
-                  className="group zoom-wrap relative block w-[76vw] text-left sm:w-[46vw] lg:w-full"
-                  aria-label={`Play ${f.title}`}
-                >
-                  <div className="relative aspect-[9/16] w-full overflow-hidden bg-blush">
-                    <video
-                      src={f.src}
-                      muted
-                      playsInline
-                      preload="metadata"
-                      className="zoom-img h-full w-full object-cover"
-                    />
-                    <span className="absolute inset-0 bg-ink/10 transition-colors duration-500 group-hover:bg-ink/25" />
-                    <span className="absolute left-1/2 top-1/2 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-paper/70 bg-paper/20 backdrop-blur-sm transition-transform duration-500 ease-editorial group-hover:scale-105">
-                      <Play className="ml-1 h-5 w-5 text-paper" strokeWidth={1.5} fill="currentColor" />
-                    </span>
-                  </div>
-                  <div className="mt-3 flex items-center justify-between">
-                    <span className="text-sm">{f.title}</span>
-                    <span className="text-[11px] uppercase tracking-widest text-muted">
-                      {f.category === "skincare" ? "Beauty" : f.category === "haircare" ? "Haircare" : "Fashion"}
-                    </span>
-                  </div>
-                </button>
+              <Reveal
+                key={f.id}
+                delay={0.04 * i}
+                className="w-[76vw] shrink-0 snap-start sm:w-[46vw] lg:w-full lg:shrink"
+              >
+                <FilmCard film={f} onOpen={() => setViewer({ kind: "video", film: f })} />
               </Reveal>
             ))}
           </div>
@@ -131,12 +212,11 @@ export default function Work() {
                 aria-label={`View ${w.title}`}
               >
                 <div className="relative aspect-[4/5] w-full overflow-hidden bg-blush">
-                  <Image
-                    src={w.cover}
-                    alt={`${w.title} — ${w.kind} by Valentina Rose`}
-                    fill
+                  <HoverCarousel
+                    images={w.images}
                     sizes="(max-width: 768px) 100vw, 48vw"
-                    className="zoom-img object-cover"
+                    alt={`${w.title} — ${w.kind} by Valentina Rose`}
+                    imgClassName="zoom-img"
                   />
                 </div>
                 <div className="mt-4 flex items-baseline justify-between">
@@ -169,12 +249,11 @@ export default function Work() {
                     className="relative w-full overflow-hidden bg-blush"
                     style={{ aspectRatio: String(w.coverRatio < 0.75 ? 0.75 : w.coverRatio) }}
                   >
-                    <Image
-                      src={w.cover}
-                      alt={`${w.title} — ${w.kind} by Valentina Rose`}
-                      fill
+                    <HoverCarousel
+                      images={w.images}
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 32vw"
-                      className="zoom-img object-cover"
+                      alt={`${w.title} — ${w.kind} by Valentina Rose`}
+                      imgClassName="zoom-img"
                     />
                   </div>
                   <div className="mt-3 flex items-baseline justify-between gap-3">
@@ -198,13 +277,15 @@ export default function Work() {
         {viewer && (
           <motion.div
             className="fixed inset-0 z-[80] flex items-center justify-center bg-ink/[0.97] p-4 backdrop-blur-sm md:p-8"
-            initial={reduce ? { opacity: 0 } : { opacity: 0 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.35 }}
+            transition={{ duration: reduce ? 0 : 0.35 }}
             role="dialog"
             aria-modal="true"
-            aria-label={viewer.kind === "video" ? viewer.film.title : works[viewer.workIndex].title}
+            aria-label={
+              viewer.kind === "video" ? viewer.film.title : works[viewer.workIndex].title
+            }
             onClick={close}
           >
             <button
@@ -217,15 +298,17 @@ export default function Work() {
             </button>
 
             {viewer.kind === "video" ? (
-              <div className="w-full max-w-[min(420px,90vw)]" onClick={(e) => e.stopPropagation()}>
+              <div className="w-full max-w-[min(430px,90vw)]" onClick={(e) => e.stopPropagation()}>
                 <video
                   src={viewer.film.src}
-                  controls
                   autoPlay
+                  muted
+                  loop
+                  controls
                   playsInline
                   className="max-h-[80vh] w-full bg-black object-contain"
                 />
-                <div className="mt-4 flex items-baseline justify-between text-paper">
+                <div className="mt-4 flex items-baseline justify-between gap-4 text-paper">
                   <div>
                     <p className="font-display text-xl">{viewer.film.title}</p>
                     <p className="mt-1 text-xs uppercase tracking-widest text-paper/60">
@@ -248,15 +331,14 @@ export default function Work() {
                 onClick={(e) => e.stopPropagation()}
               >
                 <div className="relative flex max-h-[76vh] w-full items-center justify-center">
-                  <Image
+                  <SmoothImage
                     key={works[viewer.workIndex].images[viewer.imageIndex].src}
                     src={works[viewer.workIndex].images[viewer.imageIndex].src}
+                    srcSet={works[viewer.workIndex].images[viewer.imageIndex].srcSet}
+                    sizes="(max-width: 768px) 92vw, 70vw"
                     alt={`${works[viewer.workIndex].title} — image ${viewer.imageIndex + 1}`}
-                    width={works[viewer.workIndex].images[viewer.imageIndex].width}
-                    height={works[viewer.workIndex].images[viewer.imageIndex].height}
-                    sizes="90vw"
-                    className="max-h-[76vh] w-auto object-contain"
                     priority
+                    className="carousel-frame max-h-[76vh] w-auto max-w-full object-contain"
                   />
                   {works[viewer.workIndex].images.length > 1 && (
                     <>
@@ -291,7 +373,10 @@ export default function Work() {
                       {viewer.imageIndex + 1} / {works[viewer.workIndex].images.length}
                     </span>
                     <a
-                      href={works[viewer.workIndex].postUrl}
+                      href={
+                        works[viewer.workIndex].images[viewer.imageIndex].postUrl ||
+                        works[viewer.workIndex].postUrl
+                      }
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-xs uppercase tracking-widest text-paper/70 underline underline-offset-4 hover:text-paper"

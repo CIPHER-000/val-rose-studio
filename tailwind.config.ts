@@ -5,13 +5,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        paper: "#FAF7F3",
-        white: "#FFFFFF",
-        ink: "#17130F",
-        muted: "#776C61",
-        line: "#E7DFD5",
-        accent: "#9C7A5E",
-        blush: "#F1E8E1",
+        paper: "#F8EEEB",
+        white: "#FDF7F5",
+        ink: "#231614",
+        muted: "#7E6763",
+        line: "#E9D5D1",
+        accent: "#A6646D",
+        blush: "#EFDCD9",
+        rose: "#C98B93",
+        shell: "#FCF4F2",
       },
       fontFamily: {
         display: ["var(--font-display)", "Georgia", "serif"],

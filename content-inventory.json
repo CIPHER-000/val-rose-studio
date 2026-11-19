@@ -4,24 +4,37 @@
       "slug": "sultry-fragrance",
       "index": 1,
       "category": "beauty",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/beauty/sultry-fragrance-01-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 65.7
+        "480": {
+          "file": "/assets/beauty/sultry-fragrance-01-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 43.4
         },
-        "1400": {
-          "file": "/assets/beauty/sultry-fragrance-01-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 128.1
+        "900": {
+          "file": "/assets/beauty/sultry-fragrance-01-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 104.0
+        },
+        "1200": {
+          "file": "/assets/beauty/sultry-fragrance-01-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 151.3
+        },
+        "1600": {
+          "file": "/assets/beauty/sultry-fragrance-01-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 213.4
         }
       },
-      "src": "/assets/beauty/sultry-fragrance-01-1400.webp",
+      "src": "/assets/beauty/sultry-fragrance-01-1600.webp",
+      "srcSet": "/assets/beauty/sultry-fragrance-01-480.webp 480w, /assets/beauty/sultry-fragrance-01-900.webp 900w, /assets/beauty/sultry-fragrance-01-1200.webp 1200w, /assets/beauty/sultry-fragrance-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -29,24 +42,37 @@
       "slug": "sultry-fragrance",
       "index": 2,
       "category": "beauty",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/beauty/sultry-fragrance-02-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 68.1
+        "480": {
+          "file": "/assets/beauty/sultry-fragrance-02-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 44.2
         },
-        "1400": {
-          "file": "/assets/beauty/sultry-fragrance-02-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 137.3
+        "900": {
+          "file": "/assets/beauty/sultry-fragrance-02-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 111.0
+        },
+        "1200": {
+          "file": "/assets/beauty/sultry-fragrance-02-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 164.0
+        },
+        "1600": {
+          "file": "/assets/beauty/sultry-fragrance-02-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 232.1
         }
       },
-      "src": "/assets/beauty/sultry-fragrance-02-1400.webp",
+      "src": "/assets/beauty/sultry-fragrance-02-1600.webp",
+      "srcSet": "/assets/beauty/sultry-fragrance-02-480.webp 480w, /assets/beauty/sultry-fragrance-02-900.webp 900w, /assets/beauty/sultry-fragrance-02-1200.webp 1200w, /assets/beauty/sultry-fragrance-02-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -54,24 +80,37 @@
       "slug": "sultry-fragrance",
       "index": 3,
       "category": "beauty",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/beauty/sultry-fragrance-03-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 79.8
+        "480": {
+          "file": "/assets/beauty/sultry-fragrance-03-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 51.9
         },
-        "1400": {
-          "file": "/assets/beauty/sultry-fragrance-03-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 151.9
+        "900": {
+          "file": "/assets/beauty/sultry-fragrance-03-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 125.5
+        },
+        "1200": {
+          "file": "/assets/beauty/sultry-fragrance-03-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 178.9
+        },
+        "1600": {
+          "file": "/assets/beauty/sultry-fragrance-03-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 254.9
         }
       },
-      "src": "/assets/beauty/sultry-fragrance-03-1400.webp",
+      "src": "/assets/beauty/sultry-fragrance-03-1600.webp",
+      "srcSet": "/assets/beauty/sultry-fragrance-03-480.webp 480w, /assets/beauty/sultry-fragrance-03-900.webp 900w, /assets/beauty/sultry-fragrance-03-1200.webp 1200w, /assets/beauty/sultry-fragrance-03-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -79,24 +118,37 @@
       "slug": "sultry-fragrance",
       "index": 4,
       "category": "beauty",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/beauty/sultry-fragrance-04-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 71.0
+        "480": {
+          "file": "/assets/beauty/sultry-fragrance-04-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 49.7
         },
-        "1400": {
-          "file": "/assets/beauty/sultry-fragrance-04-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 137.1
+        "900": {
+          "file": "/assets/beauty/sultry-fragrance-04-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 113.2
+        },
+        "1200": {
+          "file": "/assets/beauty/sultry-fragrance-04-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 163.8
+        },
+        "1600": {
+          "file": "/assets/beauty/sultry-fragrance-04-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 234.8
         }
       },
-      "src": "/assets/beauty/sultry-fragrance-04-1400.webp",
+      "src": "/assets/beauty/sultry-fragrance-04-1600.webp",
+      "srcSet": "/assets/beauty/sultry-fragrance-04-480.webp 480w, /assets/beauty/sultry-fragrance-04-900.webp 900w, /assets/beauty/sultry-fragrance-04-1200.webp 1200w, /assets/beauty/sultry-fragrance-04-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -104,24 +156,37 @@
       "slug": "sultry-fragrance",
       "index": 5,
       "category": "beauty",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/beauty/sultry-fragrance-05-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 62.4
+        "480": {
+          "file": "/assets/beauty/sultry-fragrance-05-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 42.8
         },
-        "1400": {
-          "file": "/assets/beauty/sultry-fragrance-05-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 125.6
+        "900": {
+          "file": "/assets/beauty/sultry-fragrance-05-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 102.7
+        },
+        "1200": {
+          "file": "/assets/beauty/sultry-fragrance-05-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 150.6
+        },
+        "1600": {
+          "file": "/assets/beauty/sultry-fragrance-05-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 215.6
         }
       },
-      "src": "/assets/beauty/sultry-fragrance-05-1400.webp",
+      "src": "/assets/beauty/sultry-fragrance-05-1600.webp",
+      "srcSet": "/assets/beauty/sultry-fragrance-05-480.webp 480w, /assets/beauty/sultry-fragrance-05-900.webp 900w, /assets/beauty/sultry-fragrance-05-1200.webp 1200w, /assets/beauty/sultry-fragrance-05-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -129,24 +194,37 @@
       "slug": "sultry-fragrance",
       "index": 6,
       "category": "beauty",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/beauty/sultry-fragrance-06-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 65.4
+        "480": {
+          "file": "/assets/beauty/sultry-fragrance-06-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 43.0
         },
-        "1400": {
-          "file": "/assets/beauty/sultry-fragrance-06-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 129.8
+        "900": {
+          "file": "/assets/beauty/sultry-fragrance-06-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 104.5
+        },
+        "1200": {
+          "file": "/assets/beauty/sultry-fragrance-06-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 154.0
+        },
+        "1600": {
+          "file": "/assets/beauty/sultry-fragrance-06-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 217.9
         }
       },
-      "src": "/assets/beauty/sultry-fragrance-06-1400.webp",
+      "src": "/assets/beauty/sultry-fragrance-06-1600.webp",
+      "srcSet": "/assets/beauty/sultry-fragrance-06-480.webp 480w, /assets/beauty/sultry-fragrance-06-900.webp 900w, /assets/beauty/sultry-fragrance-06-1200.webp 1200w, /assets/beauty/sultry-fragrance-06-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -154,24 +232,37 @@
       "slug": "sultry-fragrance",
       "index": 7,
       "category": "beauty",
-      "width": 1400,
-      "height": 1400,
+      "width": 1600,
+      "height": 1600,
       "ratio": 1.0,
       "variants": {
-        "800": {
-          "file": "/assets/beauty/sultry-fragrance-07-800.webp",
-          "w": 800,
-          "h": 800,
-          "kb": 64.9
+        "480": {
+          "file": "/assets/beauty/sultry-fragrance-07-480.webp",
+          "w": 480,
+          "h": 480,
+          "kb": 40.7
         },
-        "1400": {
-          "file": "/assets/beauty/sultry-fragrance-07-1400.webp",
-          "w": 1400,
-          "h": 1400,
-          "kb": 132.1
+        "900": {
+          "file": "/assets/beauty/sultry-fragrance-07-900.webp",
+          "w": 900,
+          "h": 900,
+          "kb": 104.5
+        },
+        "1200": {
+          "file": "/assets/beauty/sultry-fragrance-07-1200.webp",
+          "w": 1200,
+          "h": 1200,
+          "kb": 149.6
+        },
+        "1600": {
+          "file": "/assets/beauty/sultry-fragrance-07-1600.webp",
+          "w": 1600,
+          "h": 1600,
+          "kb": 212.2
         }
       },
-      "src": "/assets/beauty/sultry-fragrance-07-1400.webp",
+      "src": "/assets/beauty/sultry-fragrance-07-1600.webp",
+      "srcSet": "/assets/beauty/sultry-fragrance-07-480.webp 480w, /assets/beauty/sultry-fragrance-07-900.webp 900w, /assets/beauty/sultry-fragrance-07-1200.webp 1200w, /assets/beauty/sultry-fragrance-07-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -179,18 +270,31 @@
       "slug": "burgundy-looks",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/burgundy-looks-01-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 63.3
+        "480": {
+          "file": "/assets/fashion/burgundy-looks-01-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 40.5
+        },
+        "900": {
+          "file": "/assets/fashion/burgundy-looks-01-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 103.1
+        },
+        "1024": {
+          "file": "/assets/fashion/burgundy-looks-01-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 120.3
         }
       },
-      "src": "/assets/fashion/burgundy-looks-01-800.webp",
+      "src": "/assets/fashion/burgundy-looks-01-1024.webp",
+      "srcSet": "/assets/fashion/burgundy-looks-01-480.webp 480w, /assets/fashion/burgundy-looks-01-900.webp 900w, /assets/fashion/burgundy-looks-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -198,18 +302,31 @@
       "slug": "burgundy-looks",
       "index": 2,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/burgundy-looks-02-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 65.6
+        "480": {
+          "file": "/assets/fashion/burgundy-looks-02-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 39.2
+        },
+        "900": {
+          "file": "/assets/fashion/burgundy-looks-02-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 108.1
+        },
+        "1024": {
+          "file": "/assets/fashion/burgundy-looks-02-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 126.3
         }
       },
-      "src": "/assets/fashion/burgundy-looks-02-800.webp",
+      "src": "/assets/fashion/burgundy-looks-02-1024.webp",
+      "srcSet": "/assets/fashion/burgundy-looks-02-480.webp 480w, /assets/fashion/burgundy-looks-02-900.webp 900w, /assets/fashion/burgundy-looks-02-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -217,18 +334,31 @@
       "slug": "burgundy-looks",
       "index": 3,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/burgundy-looks-03-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 42.9
+        "480": {
+          "file": "/assets/fashion/burgundy-looks-03-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 28.4
+        },
+        "900": {
+          "file": "/assets/fashion/burgundy-looks-03-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 69.3
+        },
+        "1024": {
+          "file": "/assets/fashion/burgundy-looks-03-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 80.4
         }
       },
-      "src": "/assets/fashion/burgundy-looks-03-800.webp",
+      "src": "/assets/fashion/burgundy-looks-03-1024.webp",
+      "srcSet": "/assets/fashion/burgundy-looks-03-480.webp 480w, /assets/fashion/burgundy-looks-03-900.webp 900w, /assets/fashion/burgundy-looks-03-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -236,24 +366,37 @@
       "slug": "burgundy-looks",
       "index": 4,
       "category": "fashion",
-      "width": 1400,
-      "height": 933,
-      "ratio": 1.501,
+      "width": 1536,
+      "height": 1024,
+      "ratio": 1.5,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/burgundy-looks-04-800.webp",
-          "w": 800,
-          "h": 533,
-          "kb": 31.4
+        "480": {
+          "file": "/assets/fashion/burgundy-looks-04-480.webp",
+          "w": 480,
+          "h": 320,
+          "kb": 20.4
         },
-        "1400": {
-          "file": "/assets/fashion/burgundy-looks-04-1400.webp",
-          "w": 1400,
-          "h": 933,
-          "kb": 74.8
+        "900": {
+          "file": "/assets/fashion/burgundy-looks-04-900.webp",
+          "w": 900,
+          "h": 600,
+          "kb": 52.0
+        },
+        "1200": {
+          "file": "/assets/fashion/burgundy-looks-04-1200.webp",
+          "w": 1200,
+          "h": 800,
+          "kb": 80.8
+        },
+        "1536": {
+          "file": "/assets/fashion/burgundy-looks-04-1536.webp",
+          "w": 1536,
+          "h": 1024,
+          "kb": 112.1
         }
       },
-      "src": "/assets/fashion/burgundy-looks-04-1400.webp",
+      "src": "/assets/fashion/burgundy-looks-04-1536.webp",
+      "srcSet": "/assets/fashion/burgundy-looks-04-480.webp 480w, /assets/fashion/burgundy-looks-04-900.webp 900w, /assets/fashion/burgundy-looks-04-1200.webp 1200w, /assets/fashion/burgundy-looks-04-1536.webp 1536w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -261,24 +404,37 @@
       "slug": "burgundy-looks",
       "index": 5,
       "category": "fashion",
-      "width": 1400,
-      "height": 933,
-      "ratio": 1.501,
+      "width": 1536,
+      "height": 1024,
+      "ratio": 1.5,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/burgundy-looks-05-800.webp",
-          "w": 800,
-          "h": 533,
-          "kb": 38.0
+        "480": {
+          "file": "/assets/fashion/burgundy-looks-05-480.webp",
+          "w": 480,
+          "h": 320,
+          "kb": 21.9
         },
-        "1400": {
-          "file": "/assets/fashion/burgundy-looks-05-1400.webp",
-          "w": 1400,
-          "h": 933,
-          "kb": 96.6
+        "900": {
+          "file": "/assets/fashion/burgundy-looks-05-900.webp",
+          "w": 900,
+          "h": 600,
+          "kb": 65.6
+        },
+        "1200": {
+          "file": "/assets/fashion/burgundy-looks-05-1200.webp",
+          "w": 1200,
+          "h": 800,
+          "kb": 103.5
+        },
+        "1536": {
+          "file": "/assets/fashion/burgundy-looks-05-1536.webp",
+          "w": 1536,
+          "h": 1024,
+          "kb": 146.3
         }
       },
-      "src": "/assets/fashion/burgundy-looks-05-1400.webp",
+      "src": "/assets/fashion/burgundy-looks-05-1536.webp",
+      "srcSet": "/assets/fashion/burgundy-looks-05-480.webp 480w, /assets/fashion/burgundy-looks-05-900.webp 900w, /assets/fashion/burgundy-looks-05-1200.webp 1200w, /assets/fashion/burgundy-looks-05-1536.webp 1536w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -286,18 +442,31 @@
       "slug": "city-coffee",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/city-coffee-01-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 95.3
+        "480": {
+          "file": "/assets/fashion/city-coffee-01-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 63.3
+        },
+        "900": {
+          "file": "/assets/fashion/city-coffee-01-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 152.5
+        },
+        "1024": {
+          "file": "/assets/fashion/city-coffee-01-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 177.2
         }
       },
-      "src": "/assets/fashion/city-coffee-01-800.webp",
+      "src": "/assets/fashion/city-coffee-01-1024.webp",
+      "srcSet": "/assets/fashion/city-coffee-01-480.webp 480w, /assets/fashion/city-coffee-01-900.webp 900w, /assets/fashion/city-coffee-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702506225749085458",
       "title": "City & Coffee"
     },
@@ -305,18 +474,31 @@
       "slug": "halloween-peek",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/halloween-peek-01-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 40.2
+        "480": {
+          "file": "/assets/fashion/halloween-peek-01-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 27.7
+        },
+        "900": {
+          "file": "/assets/fashion/halloween-peek-01-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 63.9
+        },
+        "1024": {
+          "file": "/assets/fashion/halloween-peek-01-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 71.8
         }
       },
-      "src": "/assets/fashion/halloween-peek-01-800.webp",
+      "src": "/assets/fashion/halloween-peek-01-1024.webp",
+      "srcSet": "/assets/fashion/halloween-peek-01-480.webp 480w, /assets/fashion/halloween-peek-01-900.webp 900w, /assets/fashion/halloween-peek-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568",
       "title": "Halloween Preview"
     },
@@ -324,18 +506,31 @@
       "slug": "halloween-romance",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/halloween-romance-01-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 106.7
+        "480": {
+          "file": "/assets/fashion/halloween-romance-01-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 61.3
+        },
+        "900": {
+          "file": "/assets/fashion/halloween-romance-01-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 168.4
+        },
+        "1024": {
+          "file": "/assets/fashion/halloween-romance-01-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 193.3
         }
       },
-      "src": "/assets/fashion/halloween-romance-01-800.webp",
+      "src": "/assets/fashion/halloween-romance-01-1024.webp",
+      "srcSet": "/assets/fashion/halloween-romance-01-480.webp 480w, /assets/fashion/halloween-romance-01-900.webp 900w, /assets/fashion/halloween-romance-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702795356060339474",
       "title": "Halloween Romance"
     },
@@ -343,24 +538,37 @@
       "slug": "lukacev-couture",
       "index": 1,
       "category": "fashion",
-      "width": 1400,
-      "height": 2096,
+      "width": 1600,
+      "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/lukacev-couture-01-800.webp",
-          "w": 800,
-          "h": 1198,
-          "kb": 87.3
+        "480": {
+          "file": "/assets/fashion/lukacev-couture-01-480.webp",
+          "w": 480,
+          "h": 719,
+          "kb": 56.4
         },
-        "1400": {
-          "file": "/assets/fashion/lukacev-couture-01-1400.webp",
-          "w": 1400,
-          "h": 2096,
-          "kb": 166.6
+        "900": {
+          "file": "/assets/fashion/lukacev-couture-01-900.webp",
+          "w": 900,
+          "h": 1348,
+          "kb": 135.8
+        },
+        "1200": {
+          "file": "/assets/fashion/lukacev-couture-01-1200.webp",
+          "w": 1200,
+          "h": 1797,
+          "kb": 191.8
+        },
+        "1600": {
+          "file": "/assets/fashion/lukacev-couture-01-1600.webp",
+          "w": 1600,
+          "h": 2396,
+          "kb": 271.8
         }
       },
-      "src": "/assets/fashion/lukacev-couture-01-1400.webp",
+      "src": "/assets/fashion/lukacev-couture-01-1600.webp",
+      "srcSet": "/assets/fashion/lukacev-couture-01-480.webp 480w, /assets/fashion/lukacev-couture-01-900.webp 900w, /assets/fashion/lukacev-couture-01-1200.webp 1200w, /assets/fashion/lukacev-couture-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -368,24 +576,37 @@
       "slug": "lukacev-couture",
       "index": 2,
       "category": "fashion",
-      "width": 1400,
-      "height": 2096,
+      "width": 1600,
+      "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/lukacev-couture-02-800.webp",
-          "w": 800,
-          "h": 1198,
-          "kb": 30.6
+        "480": {
+          "file": "/assets/fashion/lukacev-couture-02-480.webp",
+          "w": 480,
+          "h": 719,
+          "kb": 22.2
         },
-        "1400": {
-          "file": "/assets/fashion/lukacev-couture-02-1400.webp",
-          "w": 1400,
-          "h": 2096,
-          "kb": 61.8
+        "900": {
+          "file": "/assets/fashion/lukacev-couture-02-900.webp",
+          "w": 900,
+          "h": 1348,
+          "kb": 51.2
+        },
+        "1200": {
+          "file": "/assets/fashion/lukacev-couture-02-1200.webp",
+          "w": 1200,
+          "h": 1797,
+          "kb": 73.3
+        },
+        "1600": {
+          "file": "/assets/fashion/lukacev-couture-02-1600.webp",
+          "w": 1600,
+          "h": 2396,
+          "kb": 104.0
         }
       },
-      "src": "/assets/fashion/lukacev-couture-02-1400.webp",
+      "src": "/assets/fashion/lukacev-couture-02-1600.webp",
+      "srcSet": "/assets/fashion/lukacev-couture-02-480.webp 480w, /assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1200.webp 1200w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -393,24 +614,37 @@
       "slug": "lukacev-couture",
       "index": 3,
       "category": "fashion",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/lukacev-couture-03-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 40.4
+        "480": {
+          "file": "/assets/fashion/lukacev-couture-03-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 27.9
         },
-        "1400": {
-          "file": "/assets/fashion/lukacev-couture-03-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 79.1
+        "900": {
+          "file": "/assets/fashion/lukacev-couture-03-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 64.2
+        },
+        "1200": {
+          "file": "/assets/fashion/lukacev-couture-03-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 94.1
+        },
+        "1600": {
+          "file": "/assets/fashion/lukacev-couture-03-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 132.6
         }
       },
-      "src": "/assets/fashion/lukacev-couture-03-1400.webp",
+      "src": "/assets/fashion/lukacev-couture-03-1600.webp",
+      "srcSet": "/assets/fashion/lukacev-couture-03-480.webp 480w, /assets/fashion/lukacev-couture-03-900.webp 900w, /assets/fashion/lukacev-couture-03-1200.webp 1200w, /assets/fashion/lukacev-couture-03-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -418,24 +652,37 @@
       "slug": "lukacev-couture",
       "index": 4,
       "category": "fashion",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/lukacev-couture-04-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 41.4
+        "480": {
+          "file": "/assets/fashion/lukacev-couture-04-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 27.1
         },
-        "1400": {
-          "file": "/assets/fashion/lukacev-couture-04-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 82.4
+        "900": {
+          "file": "/assets/fashion/lukacev-couture-04-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 66.0
+        },
+        "1200": {
+          "file": "/assets/fashion/lukacev-couture-04-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 95.9
+        },
+        "1600": {
+          "file": "/assets/fashion/lukacev-couture-04-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 134.9
         }
       },
-      "src": "/assets/fashion/lukacev-couture-04-1400.webp",
+      "src": "/assets/fashion/lukacev-couture-04-1600.webp",
+      "srcSet": "/assets/fashion/lukacev-couture-04-480.webp 480w, /assets/fashion/lukacev-couture-04-900.webp 900w, /assets/fashion/lukacev-couture-04-1200.webp 1200w, /assets/fashion/lukacev-couture-04-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -443,24 +690,37 @@
       "slug": "lukacev-couture",
       "index": 5,
       "category": "fashion",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/lukacev-couture-05-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 44.2
+        "480": {
+          "file": "/assets/fashion/lukacev-couture-05-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 29.0
         },
-        "1400": {
-          "file": "/assets/fashion/lukacev-couture-05-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 88.0
+        "900": {
+          "file": "/assets/fashion/lukacev-couture-05-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 70.5
+        },
+        "1200": {
+          "file": "/assets/fashion/lukacev-couture-05-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 102.3
+        },
+        "1600": {
+          "file": "/assets/fashion/lukacev-couture-05-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 147.9
         }
       },
-      "src": "/assets/fashion/lukacev-couture-05-1400.webp",
+      "src": "/assets/fashion/lukacev-couture-05-1600.webp",
+      "srcSet": "/assets/fashion/lukacev-couture-05-480.webp 480w, /assets/fashion/lukacev-couture-05-900.webp 900w, /assets/fashion/lukacev-couture-05-1200.webp 1200w, /assets/fashion/lukacev-couture-05-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -468,24 +728,37 @@
       "slug": "lukacev-couture",
       "index": 6,
       "category": "fashion",
-      "width": 1400,
-      "height": 2096,
+      "width": 1600,
+      "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/lukacev-couture-06-800.webp",
-          "w": 800,
-          "h": 1198,
-          "kb": 51.6
+        "480": {
+          "file": "/assets/fashion/lukacev-couture-06-480.webp",
+          "w": 480,
+          "h": 719,
+          "kb": 33.2
         },
-        "1400": {
-          "file": "/assets/fashion/lukacev-couture-06-1400.webp",
-          "w": 1400,
-          "h": 2096,
-          "kb": 103.1
+        "900": {
+          "file": "/assets/fashion/lukacev-couture-06-900.webp",
+          "w": 900,
+          "h": 1348,
+          "kb": 84.5
+        },
+        "1200": {
+          "file": "/assets/fashion/lukacev-couture-06-1200.webp",
+          "w": 1200,
+          "h": 1797,
+          "kb": 121.7
+        },
+        "1600": {
+          "file": "/assets/fashion/lukacev-couture-06-1600.webp",
+          "w": 1600,
+          "h": 2396,
+          "kb": 169.8
         }
       },
-      "src": "/assets/fashion/lukacev-couture-06-1400.webp",
+      "src": "/assets/fashion/lukacev-couture-06-1600.webp",
+      "srcSet": "/assets/fashion/lukacev-couture-06-480.webp 480w, /assets/fashion/lukacev-couture-06-900.webp 900w, /assets/fashion/lukacev-couture-06-1200.webp 1200w, /assets/fashion/lukacev-couture-06-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -493,24 +766,37 @@
       "slug": "lukacev-couture",
       "index": 7,
       "category": "fashion",
-      "width": 1400,
-      "height": 2096,
+      "width": 1600,
+      "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/lukacev-couture-07-800.webp",
-          "w": 800,
-          "h": 1198,
-          "kb": 63.6
+        "480": {
+          "file": "/assets/fashion/lukacev-couture-07-480.webp",
+          "w": 480,
+          "h": 719,
+          "kb": 40.0
         },
-        "1400": {
-          "file": "/assets/fashion/lukacev-couture-07-1400.webp",
-          "w": 1400,
-          "h": 2096,
-          "kb": 124.0
+        "900": {
+          "file": "/assets/fashion/lukacev-couture-07-900.webp",
+          "w": 900,
+          "h": 1348,
+          "kb": 103.1
+        },
+        "1200": {
+          "file": "/assets/fashion/lukacev-couture-07-1200.webp",
+          "w": 1200,
+          "h": 1797,
+          "kb": 146.6
+        },
+        "1600": {
+          "file": "/assets/fashion/lukacev-couture-07-1600.webp",
+          "w": 1600,
+          "h": 2396,
+          "kb": 203.8
         }
       },
-      "src": "/assets/fashion/lukacev-couture-07-1400.webp",
+      "src": "/assets/fashion/lukacev-couture-07-1600.webp",
+      "srcSet": "/assets/fashion/lukacev-couture-07-480.webp 480w, /assets/fashion/lukacev-couture-07-900.webp 900w, /assets/fashion/lukacev-couture-07-1200.webp 1200w, /assets/fashion/lukacev-couture-07-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -518,24 +804,37 @@
       "slug": "lukacev-couture",
       "index": 8,
       "category": "fashion",
-      "width": 1400,
-      "height": 2096,
+      "width": 1600,
+      "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/lukacev-couture-08-800.webp",
-          "w": 800,
-          "h": 1198,
-          "kb": 28.9
+        "480": {
+          "file": "/assets/fashion/lukacev-couture-08-480.webp",
+          "w": 480,
+          "h": 719,
+          "kb": 20.3
         },
-        "1400": {
-          "file": "/assets/fashion/lukacev-couture-08-1400.webp",
-          "w": 1400,
-          "h": 2096,
-          "kb": 59.0
+        "900": {
+          "file": "/assets/fashion/lukacev-couture-08-900.webp",
+          "w": 900,
+          "h": 1348,
+          "kb": 48.3
+        },
+        "1200": {
+          "file": "/assets/fashion/lukacev-couture-08-1200.webp",
+          "w": 1200,
+          "h": 1797,
+          "kb": 70.0
+        },
+        "1600": {
+          "file": "/assets/fashion/lukacev-couture-08-1600.webp",
+          "w": 1600,
+          "h": 2396,
+          "kb": 101.0
         }
       },
-      "src": "/assets/fashion/lukacev-couture-08-1400.webp",
+      "src": "/assets/fashion/lukacev-couture-08-1600.webp",
+      "srcSet": "/assets/fashion/lukacev-couture-08-480.webp 480w, /assets/fashion/lukacev-couture-08-900.webp 900w, /assets/fashion/lukacev-couture-08-1200.webp 1200w, /assets/fashion/lukacev-couture-08-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -543,24 +842,37 @@
       "slug": "navy-burgundy",
       "index": 1,
       "category": "fashion",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/navy-burgundy-01-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 25.4
+        "480": {
+          "file": "/assets/fashion/navy-burgundy-01-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 18.0
         },
-        "1400": {
-          "file": "/assets/fashion/navy-burgundy-01-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 53.0
+        "900": {
+          "file": "/assets/fashion/navy-burgundy-01-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 43.3
+        },
+        "1200": {
+          "file": "/assets/fashion/navy-burgundy-01-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 63.5
+        },
+        "1600": {
+          "file": "/assets/fashion/navy-burgundy-01-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 89.2
         }
       },
-      "src": "/assets/fashion/navy-burgundy-01-1400.webp",
+      "src": "/assets/fashion/navy-burgundy-01-1600.webp",
+      "srcSet": "/assets/fashion/navy-burgundy-01-480.webp 480w, /assets/fashion/navy-burgundy-01-900.webp 900w, /assets/fashion/navy-burgundy-01-1200.webp 1200w, /assets/fashion/navy-burgundy-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706521375812390151",
       "title": "Navy & Burgundy"
     },
@@ -568,18 +880,31 @@
       "slug": "ootd-styling",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 340,
-      "ratio": 2.353,
+      "width": 1024,
+      "height": 436,
+      "ratio": 2.349,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/ootd-styling-01-800.webp",
-          "w": 800,
-          "h": 340,
-          "kb": 15.0
+        "480": {
+          "file": "/assets/fashion/ootd-styling-01-480.webp",
+          "w": 480,
+          "h": 204,
+          "kb": 10.6
+        },
+        "900": {
+          "file": "/assets/fashion/ootd-styling-01-900.webp",
+          "w": 900,
+          "h": 383,
+          "kb": 23.8
+        },
+        "1024": {
+          "file": "/assets/fashion/ootd-styling-01-1024.webp",
+          "w": 1024,
+          "h": 436,
+          "kb": 25.8
         }
       },
-      "src": "/assets/fashion/ootd-styling-01-800.webp",
+      "src": "/assets/fashion/ootd-styling-01-1024.webp",
+      "srcSet": "/assets/fashion/ootd-styling-01-480.webp 480w, /assets/fashion/ootd-styling-01-900.webp 900w, /assets/fashion/ootd-styling-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702478324743851272",
       "title": "Everyday Styling"
     },
@@ -587,18 +912,37 @@
       "slug": "paris-fashion-week",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1579,
+      "width": 1220,
+      "height": 2408,
       "ratio": 0.507,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/paris-fashion-week-01-800.webp",
-          "w": 800,
-          "h": 1579,
-          "kb": 89.7
+        "480": {
+          "file": "/assets/fashion/paris-fashion-week-01-480.webp",
+          "w": 480,
+          "h": 947,
+          "kb": 64.6
+        },
+        "900": {
+          "file": "/assets/fashion/paris-fashion-week-01-900.webp",
+          "w": 900,
+          "h": 1776,
+          "kb": 140.1
+        },
+        "1200": {
+          "file": "/assets/fashion/paris-fashion-week-01-1200.webp",
+          "w": 1200,
+          "h": 2369,
+          "kb": 196.8
+        },
+        "1220": {
+          "file": "/assets/fashion/paris-fashion-week-01-1220.webp",
+          "w": 1220,
+          "h": 2408,
+          "kb": 195.0
         }
       },
-      "src": "/assets/fashion/paris-fashion-week-01-800.webp",
+      "src": "/assets/fashion/paris-fashion-week-01-1220.webp",
+      "srcSet": "/assets/fashion/paris-fashion-week-01-480.webp 480w, /assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1200.webp 1200w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520",
       "title": "Paris Fashion Week"
     },
@@ -606,18 +950,31 @@
       "slug": "parisian-summer",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1416,
+      "width": 944,
+      "height": 1672,
       "ratio": 0.565,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/parisian-summer-01-800.webp",
-          "w": 800,
-          "h": 1416,
-          "kb": 114.7
+        "480": {
+          "file": "/assets/fashion/parisian-summer-01-480.webp",
+          "w": 480,
+          "h": 850,
+          "kb": 82.3
+        },
+        "900": {
+          "file": "/assets/fashion/parisian-summer-01-900.webp",
+          "w": 900,
+          "h": 1594,
+          "kb": 181.1
+        },
+        "944": {
+          "file": "/assets/fashion/parisian-summer-01-944.webp",
+          "w": 944,
+          "h": 1672,
+          "kb": 180.6
         }
       },
-      "src": "/assets/fashion/parisian-summer-01-800.webp",
+      "src": "/assets/fashion/parisian-summer-01-944.webp",
+      "srcSet": "/assets/fashion/parisian-summer-01-480.webp 480w, /assets/fashion/parisian-summer-01-900.webp 900w, /assets/fashion/parisian-summer-01-944.webp 944w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702479453288484114",
       "title": "Parisian Summer"
     },
@@ -625,24 +982,37 @@
       "slug": "runway-collection",
       "index": 1,
       "category": "fashion",
-      "width": 1400,
-      "height": 2096,
+      "width": 1600,
+      "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/runway-collection-01-800.webp",
-          "w": 800,
-          "h": 1198,
-          "kb": 35.2
+        "480": {
+          "file": "/assets/fashion/runway-collection-01-480.webp",
+          "w": 480,
+          "h": 719,
+          "kb": 26.1
         },
-        "1400": {
-          "file": "/assets/fashion/runway-collection-01-1400.webp",
-          "w": 1400,
-          "h": 2096,
-          "kb": 71.2
+        "900": {
+          "file": "/assets/fashion/runway-collection-01-900.webp",
+          "w": 900,
+          "h": 1348,
+          "kb": 59.4
+        },
+        "1200": {
+          "file": "/assets/fashion/runway-collection-01-1200.webp",
+          "w": 1200,
+          "h": 1797,
+          "kb": 86.5
+        },
+        "1600": {
+          "file": "/assets/fashion/runway-collection-01-1600.webp",
+          "w": 1600,
+          "h": 2396,
+          "kb": 125.3
         }
       },
-      "src": "/assets/fashion/runway-collection-01-1400.webp",
+      "src": "/assets/fashion/runway-collection-01-1600.webp",
+      "srcSet": "/assets/fashion/runway-collection-01-480.webp 480w, /assets/fashion/runway-collection-01-900.webp 900w, /assets/fashion/runway-collection-01-1200.webp 1200w, /assets/fashion/runway-collection-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706",
       "title": "Runway Edit"
     },
@@ -650,24 +1020,37 @@
       "slug": "runway-collection",
       "index": 2,
       "category": "fashion",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/runway-collection-02-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 27.3
+        "480": {
+          "file": "/assets/fashion/runway-collection-02-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 19.4
         },
-        "1400": {
-          "file": "/assets/fashion/runway-collection-02-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 54.2
+        "900": {
+          "file": "/assets/fashion/runway-collection-02-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 43.9
+        },
+        "1200": {
+          "file": "/assets/fashion/runway-collection-02-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 63.8
+        },
+        "1600": {
+          "file": "/assets/fashion/runway-collection-02-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 91.6
         }
       },
-      "src": "/assets/fashion/runway-collection-02-1400.webp",
+      "src": "/assets/fashion/runway-collection-02-1600.webp",
+      "srcSet": "/assets/fashion/runway-collection-02-480.webp 480w, /assets/fashion/runway-collection-02-900.webp 900w, /assets/fashion/runway-collection-02-1200.webp 1200w, /assets/fashion/runway-collection-02-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706",
       "title": "Runway Edit"
     },
@@ -675,24 +1058,37 @@
       "slug": "runway-collection",
       "index": 3,
       "category": "fashion",
-      "width": 1400,
-      "height": 1863,
+      "width": 1600,
+      "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/runway-collection-03-800.webp",
-          "w": 800,
-          "h": 1065,
-          "kb": 32.4
+        "480": {
+          "file": "/assets/fashion/runway-collection-03-480.webp",
+          "w": 480,
+          "h": 639,
+          "kb": 23.5
         },
-        "1400": {
-          "file": "/assets/fashion/runway-collection-03-1400.webp",
-          "w": 1400,
-          "h": 1863,
-          "kb": 64.3
+        "900": {
+          "file": "/assets/fashion/runway-collection-03-900.webp",
+          "w": 900,
+          "h": 1198,
+          "kb": 50.6
+        },
+        "1200": {
+          "file": "/assets/fashion/runway-collection-03-1200.webp",
+          "w": 1200,
+          "h": 1598,
+          "kb": 74.6
+        },
+        "1600": {
+          "file": "/assets/fashion/runway-collection-03-1600.webp",
+          "w": 1600,
+          "h": 2130,
+          "kb": 113.5
         }
       },
-      "src": "/assets/fashion/runway-collection-03-1400.webp",
+      "src": "/assets/fashion/runway-collection-03-1600.webp",
+      "srcSet": "/assets/fashion/runway-collection-03-480.webp 480w, /assets/fashion/runway-collection-03-900.webp 900w, /assets/fashion/runway-collection-03-1200.webp 1200w, /assets/fashion/runway-collection-03-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706",
       "title": "Runway Edit"
     },
@@ -700,18 +1096,31 @@
       "slug": "street-style-bags",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/street-style-bags-01-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 64.4
+        "480": {
+          "file": "/assets/fashion/street-style-bags-01-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 39.5
+        },
+        "900": {
+          "file": "/assets/fashion/street-style-bags-01-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 105.4
+        },
+        "1024": {
+          "file": "/assets/fashion/street-style-bags-01-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 120.2
         }
       },
-      "src": "/assets/fashion/street-style-bags-01-800.webp",
+      "src": "/assets/fashion/street-style-bags-01-1024.webp",
+      "srcSet": "/assets/fashion/street-style-bags-01-480.webp 480w, /assets/fashion/street-style-bags-01-900.webp 900w, /assets/fashion/street-style-bags-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -719,18 +1128,31 @@
       "slug": "street-style-bags",
       "index": 2,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/street-style-bags-02-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 90.5
+        "480": {
+          "file": "/assets/fashion/street-style-bags-02-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 53.2
+        },
+        "900": {
+          "file": "/assets/fashion/street-style-bags-02-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 143.4
+        },
+        "1024": {
+          "file": "/assets/fashion/street-style-bags-02-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 163.6
         }
       },
-      "src": "/assets/fashion/street-style-bags-02-800.webp",
+      "src": "/assets/fashion/street-style-bags-02-1024.webp",
+      "srcSet": "/assets/fashion/street-style-bags-02-480.webp 480w, /assets/fashion/street-style-bags-02-900.webp 900w, /assets/fashion/street-style-bags-02-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -738,18 +1160,31 @@
       "slug": "street-style-bags",
       "index": 3,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/street-style-bags-03-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 117.5
+        "480": {
+          "file": "/assets/fashion/street-style-bags-03-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 75.9
+        },
+        "900": {
+          "file": "/assets/fashion/street-style-bags-03-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 188.6
+        },
+        "1024": {
+          "file": "/assets/fashion/street-style-bags-03-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 210.9
         }
       },
-      "src": "/assets/fashion/street-style-bags-03-800.webp",
+      "src": "/assets/fashion/street-style-bags-03-1024.webp",
+      "srcSet": "/assets/fashion/street-style-bags-03-480.webp 480w, /assets/fashion/street-style-bags-03-900.webp 900w, /assets/fashion/street-style-bags-03-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -757,18 +1192,31 @@
       "slug": "street-style-bags",
       "index": 4,
       "category": "fashion",
-      "width": 800,
-      "height": 960,
+      "width": 1080,
+      "height": 1296,
       "ratio": 0.833,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/street-style-bags-04-800.webp",
-          "w": 800,
-          "h": 960,
-          "kb": 80.3
+        "480": {
+          "file": "/assets/fashion/street-style-bags-04-480.webp",
+          "w": 480,
+          "h": 576,
+          "kb": 50.1
+        },
+        "900": {
+          "file": "/assets/fashion/street-style-bags-04-900.webp",
+          "w": 900,
+          "h": 1080,
+          "kb": 128.3
+        },
+        "1080": {
+          "file": "/assets/fashion/street-style-bags-04-1080.webp",
+          "w": 1080,
+          "h": 1296,
+          "kb": 152.1
         }
       },
-      "src": "/assets/fashion/street-style-bags-04-800.webp",
+      "src": "/assets/fashion/street-style-bags-04-1080.webp",
+      "srcSet": "/assets/fashion/street-style-bags-04-480.webp 480w, /assets/fashion/street-style-bags-04-900.webp 900w, /assets/fashion/street-style-bags-04-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -776,18 +1224,31 @@
       "slug": "street-style-bags",
       "index": 5,
       "category": "fashion",
-      "width": 800,
-      "height": 962,
-      "ratio": 0.832,
+      "width": 1080,
+      "height": 1300,
+      "ratio": 0.831,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/street-style-bags-05-800.webp",
-          "w": 800,
-          "h": 962,
-          "kb": 61.7
+        "480": {
+          "file": "/assets/fashion/street-style-bags-05-480.webp",
+          "w": 480,
+          "h": 578,
+          "kb": 44.4
+        },
+        "900": {
+          "file": "/assets/fashion/street-style-bags-05-900.webp",
+          "w": 900,
+          "h": 1083,
+          "kb": 95.6
+        },
+        "1080": {
+          "file": "/assets/fashion/street-style-bags-05-1080.webp",
+          "w": 1080,
+          "h": 1300,
+          "kb": 114.4
         }
       },
-      "src": "/assets/fashion/street-style-bags-05-800.webp",
+      "src": "/assets/fashion/street-style-bags-05-1080.webp",
+      "srcSet": "/assets/fashion/street-style-bags-05-480.webp 480w, /assets/fashion/street-style-bags-05-900.webp 900w, /assets/fashion/street-style-bags-05-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -795,18 +1256,31 @@
       "slug": "streetwear-sneakers",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1066,
+      "width": 1080,
+      "height": 1440,
       "ratio": 0.75,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/streetwear-sneakers-01-800.webp",
-          "w": 800,
-          "h": 1066,
-          "kb": 101.0
+        "480": {
+          "file": "/assets/fashion/streetwear-sneakers-01-480.webp",
+          "w": 480,
+          "h": 640,
+          "kb": 65.0
+        },
+        "900": {
+          "file": "/assets/fashion/streetwear-sneakers-01-900.webp",
+          "w": 900,
+          "h": 1200,
+          "kb": 155.6
+        },
+        "1080": {
+          "file": "/assets/fashion/streetwear-sneakers-01-1080.webp",
+          "w": 1080,
+          "h": 1440,
+          "kb": 186.1
         }
       },
-      "src": "/assets/fashion/streetwear-sneakers-01-800.webp",
+      "src": "/assets/fashion/streetwear-sneakers-01-1080.webp",
+      "srcSet": "/assets/fashion/streetwear-sneakers-01-480.webp 480w, /assets/fashion/streetwear-sneakers-01-900.webp 900w, /assets/fashion/streetwear-sneakers-01-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706059500494572808",
       "title": "Streetwear & Sneakers"
     },
@@ -814,18 +1288,31 @@
       "slug": "streetwear-sneakers",
       "index": 2,
       "category": "fashion",
-      "width": 800,
-      "height": 1066,
+      "width": 1080,
+      "height": 1440,
       "ratio": 0.75,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/streetwear-sneakers-02-800.webp",
-          "w": 800,
-          "h": 1066,
-          "kb": 89.3
+        "480": {
+          "file": "/assets/fashion/streetwear-sneakers-02-480.webp",
+          "w": 480,
+          "h": 640,
+          "kb": 57.5
+        },
+        "900": {
+          "file": "/assets/fashion/streetwear-sneakers-02-900.webp",
+          "w": 900,
+          "h": 1200,
+          "kb": 134.3
+        },
+        "1080": {
+          "file": "/assets/fashion/streetwear-sneakers-02-1080.webp",
+          "w": 1080,
+          "h": 1440,
+          "kb": 163.9
         }
       },
-      "src": "/assets/fashion/streetwear-sneakers-02-800.webp",
+      "src": "/assets/fashion/streetwear-sneakers-02-1080.webp",
+      "srcSet": "/assets/fashion/streetwear-sneakers-02-480.webp 480w, /assets/fashion/streetwear-sneakers-02-900.webp 900w, /assets/fashion/streetwear-sneakers-02-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706059500494572808",
       "title": "Streetwear & Sneakers"
     },
@@ -833,18 +1320,31 @@
       "slug": "tom-ford-editorial",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1001,
+      "width": 1080,
+      "height": 1352,
       "ratio": 0.799,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/tom-ford-editorial-01-800.webp",
-          "w": 800,
-          "h": 1001,
-          "kb": 44.6
+        "480": {
+          "file": "/assets/fashion/tom-ford-editorial-01-480.webp",
+          "w": 480,
+          "h": 601,
+          "kb": 28.3
+        },
+        "900": {
+          "file": "/assets/fashion/tom-ford-editorial-01-900.webp",
+          "w": 900,
+          "h": 1127,
+          "kb": 69.2
+        },
+        "1080": {
+          "file": "/assets/fashion/tom-ford-editorial-01-1080.webp",
+          "w": 1080,
+          "h": 1352,
+          "kb": 82.8
         }
       },
-      "src": "/assets/fashion/tom-ford-editorial-01-800.webp",
+      "src": "/assets/fashion/tom-ford-editorial-01-1080.webp",
+      "srcSet": "/assets/fashion/tom-ford-editorial-01-480.webp 480w, /assets/fashion/tom-ford-editorial-01-900.webp 900w, /assets/fashion/tom-ford-editorial-01-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702221003094641938",
       "title": "Tom Ford Editorial"
     },
@@ -852,18 +1352,31 @@
       "slug": "trinity-collection",
       "index": 1,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/trinity-collection-01-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 94.4
+        "480": {
+          "file": "/assets/fashion/trinity-collection-01-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 61.8
+        },
+        "900": {
+          "file": "/assets/fashion/trinity-collection-01-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 145.6
+        },
+        "1024": {
+          "file": "/assets/fashion/trinity-collection-01-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 169.1
         }
       },
-      "src": "/assets/fashion/trinity-collection-01-800.webp",
+      "src": "/assets/fashion/trinity-collection-01-1024.webp",
+      "srcSet": "/assets/fashion/trinity-collection-01-480.webp 480w, /assets/fashion/trinity-collection-01-900.webp 900w, /assets/fashion/trinity-collection-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -871,18 +1384,31 @@
       "slug": "trinity-collection",
       "index": 2,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/trinity-collection-02-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 64.7
+        "480": {
+          "file": "/assets/fashion/trinity-collection-02-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 40.7
+        },
+        "900": {
+          "file": "/assets/fashion/trinity-collection-02-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 102.5
+        },
+        "1024": {
+          "file": "/assets/fashion/trinity-collection-02-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 119.1
         }
       },
-      "src": "/assets/fashion/trinity-collection-02-800.webp",
+      "src": "/assets/fashion/trinity-collection-02-1024.webp",
+      "srcSet": "/assets/fashion/trinity-collection-02-480.webp 480w, /assets/fashion/trinity-collection-02-900.webp 900w, /assets/fashion/trinity-collection-02-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -890,18 +1416,31 @@
       "slug": "trinity-collection",
       "index": 3,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/trinity-collection-03-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 82.4
+        "480": {
+          "file": "/assets/fashion/trinity-collection-03-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 56.0
+        },
+        "900": {
+          "file": "/assets/fashion/trinity-collection-03-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 134.5
+        },
+        "1024": {
+          "file": "/assets/fashion/trinity-collection-03-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 158.1
         }
       },
-      "src": "/assets/fashion/trinity-collection-03-800.webp",
+      "src": "/assets/fashion/trinity-collection-03-1024.webp",
+      "srcSet": "/assets/fashion/trinity-collection-03-480.webp 480w, /assets/fashion/trinity-collection-03-900.webp 900w, /assets/fashion/trinity-collection-03-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -909,18 +1448,31 @@
       "slug": "trinity-collection",
       "index": 4,
       "category": "fashion",
-      "width": 800,
-      "height": 1200,
+      "width": 1024,
+      "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/trinity-collection-04-800.webp",
-          "w": 800,
-          "h": 1200,
-          "kb": 63.2
+        "480": {
+          "file": "/assets/fashion/trinity-collection-04-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 40.2
+        },
+        "900": {
+          "file": "/assets/fashion/trinity-collection-04-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 102.1
+        },
+        "1024": {
+          "file": "/assets/fashion/trinity-collection-04-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 118.2
         }
       },
-      "src": "/assets/fashion/trinity-collection-04-800.webp",
+      "src": "/assets/fashion/trinity-collection-04-1024.webp",
+      "srcSet": "/assets/fashion/trinity-collection-04-480.webp 480w, /assets/fashion/trinity-collection-04-900.webp 900w, /assets/fashion/trinity-collection-04-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -928,18 +1480,37 @@
       "slug": "trinity-collection",
       "index": 5,
       "category": "fashion",
-      "width": 800,
-      "height": 446,
-      "ratio": 1.794,
+      "width": 1376,
+      "height": 768,
+      "ratio": 1.792,
       "variants": {
-        "800": {
-          "file": "/assets/fashion/trinity-collection-05-800.webp",
-          "w": 800,
-          "h": 446,
-          "kb": 44.7
+        "480": {
+          "file": "/assets/fashion/trinity-collection-05-480.webp",
+          "w": 480,
+          "h": 268,
+          "kb": 27.3
+        },
+        "900": {
+          "file": "/assets/fashion/trinity-collection-05-900.webp",
+          "w": 900,
+          "h": 502,
+          "kb": 72.1
+        },
+        "1200": {
+          "file": "/assets/fashion/trinity-collection-05-1200.webp",
+          "w": 1200,
+          "h": 670,
+          "kb": 109.6
+        },
+        "1376": {
+          "file": "/assets/fashion/trinity-collection-05-1376.webp",
+          "w": 1376,
+          "h": 768,
+          "kb": 129.9
         }
       },
-      "src": "/assets/fashion/trinity-collection-05-800.webp",
+      "src": "/assets/fashion/trinity-collection-05-1376.webp",
+      "srcSet": "/assets/fashion/trinity-collection-05-480.webp 480w, /assets/fashion/trinity-collection-05-900.webp 900w, /assets/fashion/trinity-collection-05-1200.webp 1200w, /assets/fashion/trinity-collection-05-1376.webp 1376w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -947,24 +1518,37 @@
       "slug": "green-door-candle",
       "index": 1,
       "category": "lifestyle",
-      "width": 1400,
-      "height": 1400,
+      "width": 1600,
+      "height": 1600,
       "ratio": 1.0,
       "variants": {
-        "800": {
-          "file": "/assets/lifestyle/green-door-candle-01-800.webp",
-          "w": 800,
-          "h": 800,
-          "kb": 44.3
+        "480": {
+          "file": "/assets/lifestyle/green-door-candle-01-480.webp",
+          "w": 480,
+          "h": 480,
+          "kb": 29.4
         },
-        "1400": {
-          "file": "/assets/lifestyle/green-door-candle-01-1400.webp",
-          "w": 1400,
-          "h": 1400,
-          "kb": 88.0
+        "900": {
+          "file": "/assets/lifestyle/green-door-candle-01-900.webp",
+          "w": 900,
+          "h": 900,
+          "kb": 70.5
+        },
+        "1200": {
+          "file": "/assets/lifestyle/green-door-candle-01-1200.webp",
+          "w": 1200,
+          "h": 1200,
+          "kb": 101.7
+        },
+        "1600": {
+          "file": "/assets/lifestyle/green-door-candle-01-1600.webp",
+          "w": 1600,
+          "h": 1600,
+          "kb": 144.8
         }
       },
-      "src": "/assets/lifestyle/green-door-candle-01-1400.webp",
+      "src": "/assets/lifestyle/green-door-candle-01-1600.webp",
+      "srcSet": "/assets/lifestyle/green-door-candle-01-480.webp 480w, /assets/lifestyle/green-door-candle-01-900.webp 900w, /assets/lifestyle/green-door-candle-01-1200.webp 1200w, /assets/lifestyle/green-door-candle-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
       "title": "Green Door Candle Co."
     },
@@ -972,24 +1556,37 @@
       "slug": "green-door-candle",
       "index": 2,
       "category": "lifestyle",
-      "width": 1400,
-      "height": 1400,
+      "width": 1600,
+      "height": 1600,
       "ratio": 1.0,
       "variants": {
-        "800": {
-          "file": "/assets/lifestyle/green-door-candle-02-800.webp",
-          "w": 800,
-          "h": 800,
-          "kb": 42.1
+        "480": {
+          "file": "/assets/lifestyle/green-door-candle-02-480.webp",
+          "w": 480,
+          "h": 480,
+          "kb": 30.3
         },
-        "1400": {
-          "file": "/assets/lifestyle/green-door-candle-02-1400.webp",
-          "w": 1400,
-          "h": 1400,
-          "kb": 83.3
+        "900": {
+          "file": "/assets/lifestyle/green-door-candle-02-900.webp",
+          "w": 900,
+          "h": 900,
+          "kb": 69.1
+        },
+        "1200": {
+          "file": "/assets/lifestyle/green-door-candle-02-1200.webp",
+          "w": 1200,
+          "h": 1200,
+          "kb": 97.3
+        },
+        "1600": {
+          "file": "/assets/lifestyle/green-door-candle-02-1600.webp",
+          "w": 1600,
+          "h": 1600,
+          "kb": 140.9
         }
       },
-      "src": "/assets/lifestyle/green-door-candle-02-1400.webp",
+      "src": "/assets/lifestyle/green-door-candle-02-1600.webp",
+      "srcSet": "/assets/lifestyle/green-door-candle-02-480.webp 480w, /assets/lifestyle/green-door-candle-02-900.webp 900w, /assets/lifestyle/green-door-candle-02-1200.webp 1200w, /assets/lifestyle/green-door-candle-02-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
       "title": "Green Door Candle Co."
     },
@@ -997,24 +1594,37 @@
       "slug": "green-door-candle",
       "index": 3,
       "category": "lifestyle",
-      "width": 1400,
-      "height": 1400,
+      "width": 1600,
+      "height": 1600,
       "ratio": 1.0,
       "variants": {
-        "800": {
-          "file": "/assets/lifestyle/green-door-candle-03-800.webp",
-          "w": 800,
-          "h": 800,
-          "kb": 54.8
+        "480": {
+          "file": "/assets/lifestyle/green-door-candle-03-480.webp",
+          "w": 480,
+          "h": 480,
+          "kb": 34.6
         },
-        "1400": {
-          "file": "/assets/lifestyle/green-door-candle-03-1400.webp",
-          "w": 1400,
-          "h": 1400,
-          "kb": 112.6
+        "900": {
+          "file": "/assets/lifestyle/green-door-candle-03-900.webp",
+          "w": 900,
+          "h": 900,
+          "kb": 88.8
+        },
+        "1200": {
+          "file": "/assets/lifestyle/green-door-candle-03-1200.webp",
+          "w": 1200,
+          "h": 1200,
+          "kb": 129.8
+        },
+        "1600": {
+          "file": "/assets/lifestyle/green-door-candle-03-1600.webp",
+          "w": 1600,
+          "h": 1600,
+          "kb": 180.9
         }
       },
-      "src": "/assets/lifestyle/green-door-candle-03-1400.webp",
+      "src": "/assets/lifestyle/green-door-candle-03-1600.webp",
+      "srcSet": "/assets/lifestyle/green-door-candle-03-480.webp 480w, /assets/lifestyle/green-door-candle-03-900.webp 900w, /assets/lifestyle/green-door-candle-03-1200.webp 1200w, /assets/lifestyle/green-door-candle-03-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
       "title": "Green Door Candle Co."
     },
@@ -1022,24 +1632,37 @@
       "slug": "green-door-candle",
       "index": 4,
       "category": "lifestyle",
-      "width": 1400,
-      "height": 932,
-      "ratio": 1.502,
+      "width": 1600,
+      "height": 1066,
+      "ratio": 1.501,
       "variants": {
-        "800": {
-          "file": "/assets/lifestyle/green-door-candle-04-800.webp",
-          "w": 800,
-          "h": 533,
-          "kb": 53.3
+        "480": {
+          "file": "/assets/lifestyle/green-door-candle-04-480.webp",
+          "w": 480,
+          "h": 320,
+          "kb": 34.0
         },
-        "1400": {
-          "file": "/assets/lifestyle/green-door-candle-04-1400.webp",
-          "w": 1400,
-          "h": 932,
-          "kb": 107.9
+        "900": {
+          "file": "/assets/lifestyle/green-door-candle-04-900.webp",
+          "w": 900,
+          "h": 600,
+          "kb": 83.2
+        },
+        "1200": {
+          "file": "/assets/lifestyle/green-door-candle-04-1200.webp",
+          "w": 1200,
+          "h": 800,
+          "kb": 122.6
+        },
+        "1600": {
+          "file": "/assets/lifestyle/green-door-candle-04-1600.webp",
+          "w": 1600,
+          "h": 1066,
+          "kb": 170.1
         }
       },
-      "src": "/assets/lifestyle/green-door-candle-04-1400.webp",
+      "src": "/assets/lifestyle/green-door-candle-04-1600.webp",
+      "srcSet": "/assets/lifestyle/green-door-candle-04-480.webp 480w, /assets/lifestyle/green-door-candle-04-900.webp 900w, /assets/lifestyle/green-door-candle-04-1200.webp 1200w, /assets/lifestyle/green-door-candle-04-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
       "title": "Green Door Candle Co."
     }

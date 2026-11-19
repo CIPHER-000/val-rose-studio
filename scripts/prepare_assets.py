@@ -4,6 +4,13 @@ Prepare web assets for the Val Rose Studio site.
 
 Reads raw-assets/ and emits responsive, optimised images into public/assets/
 plus a content inventory (JSON + Markdown) recording each asset's source post.
+
+Crispness rules:
+  * every image gets responsive variants up to its NATIVE width (never upscaled),
+  * the largest variant is always the source resolution,
+  * WebP is encoded at q92 with method=6 (near-visual-lossless, sharp detail).
+The site then picks a variant with <img srcset/sizes>, so no second re-encode and
+no browser-side upscaling happens.
 """
 import json
 import os
@@ -44,7 +51,10 @@ VIDEOS = {
     "fashion-7702357591774661895": ("7702357591774661895", "Autumn Street Style", "fashion"),
 }
 
-WIDTHS = (800, 1400)
+# Candidate widths. Each is only used if the source is at least that wide, and the
+# native width is always added as the top variant, so nothing is ever upscaled.
+CANDIDATE_WIDTHS = (480, 900, 1200, 1600)
+QUALITY = 88
 TIKTOK = "https://www.tiktok.com/@valrose.studio0"
 
 
@@ -54,31 +64,41 @@ def out_dir(cat):
     return d
 
 
+def widths_for(native):
+    ws = [w for w in CANDIDATE_WIDTHS if w < native]
+    ws.append(native)  # always include the source resolution
+    return sorted(set(ws))
+
+
 def process_image(src_path, cat, slug, idx):
     im = Image.open(src_path).convert("RGB")
+    native = im.width
     variants = {}
-    for w in WIDTHS:
-        if im.width < w:
-            continue
-        h = int(im.height * (w / im.width))
-        r = im.resize((w, h), Image.LANCZOS)
+    for w in widths_for(native):
+        h = int(round(im.height * (w / im.width)))
+        r = im if w == native else im.resize((w, h), Image.LANCZOS)
         name = f"{slug}-{idx:02d}-{w}.webp"
-        r.save(os.path.join(out_dir(cat), name), "WEBP", quality=82, method=6)
-        variants[w] = {"file": f"/assets/{cat}/{name}", "w": w, "h": h,
-                       "kb": round(os.path.getsize(os.path.join(out_dir(cat), name)) / 1024, 1)}
-    if not variants:
-        w, h = im.size
-        name = f"{slug}-{idx:02d}-orig.webp"
-        im.save(os.path.join(out_dir(cat), name), "WEBP", quality=82, method=6)
-        variants[w] = {"file": f"/assets/{cat}/{name}", "w": w, "h": h,
-                       "kb": round(os.path.getsize(os.path.join(out_dir(cat), name)) / 1024, 1)}
-    biggest = variants[max(variants)]
+        path = os.path.join(out_dir(cat), name)
+        r.save(path, "WEBP", quality=QUALITY, method=6)
+        variants[w] = {
+            "file": f"/assets/{cat}/{name}",
+            "w": w,
+            "h": h,
+            "kb": round(os.path.getsize(path) / 1024, 1),
+        }
+
+    ordered = [variants[w] for w in sorted(variants)]
+    biggest = ordered[-1]
     return {
-        "slug": slug, "index": idx, "category": cat,
-        "width": biggest["w"], "height": biggest["h"],
+        "slug": slug,
+        "index": idx,
+        "category": cat,
+        "width": biggest["w"],
+        "height": biggest["h"],
         "ratio": round(biggest["w"] / biggest["h"], 3),
-        "variants": variants,
+        "variants": {str(v["w"]): v for v in ordered},
         "src": biggest["file"],
+        "srcSet": ", ".join(f"{v['file']} {v['w']}w" for v in ordered),
     }
 
 
@@ -136,9 +156,13 @@ def main():
              f"All assets are Valentina Rose's own published TikTok content.",
              f"Profile: {TIKTOK}", "",
              f"## Images ({len(inventory['images'])})", "",
-             "| # | Title | Category | Size | Source post |", "|---|---|---|---|---|"]
+             "| # | Title | Category | Native size | Variants | Source post |",
+             "|---|---|---|---|---|---|"]
     for i, a in enumerate(inventory["images"], 1):
-        lines.append(f"| {i} | {a.get('title','')} | {a['category']} | {a['width']}×{a['height']} | {a.get('post_url','')} |")
+        vs = ", ".join(sorted(a["variants"], key=int))
+        lines.append(
+            f"| {i} | {a.get('title','')} | {a['category']} | {a['width']}×{a['height']} | {vs} | {a.get('post_url','')} |"
+        )
     lines += ["", f"## Videos ({len(inventory['videos'])})", "",
               "| # | Title | Category | Size | Source post |", "|---|---|---|---|---|"]
     for i, v in enumerate(inventory["videos"], 1):
@@ -151,6 +175,8 @@ def main():
     for a in inventory["images"]:
         cats[a["category"]] = cats.get(a["category"], 0) + 1
     print("by category:", cats)
+    total_kb = sum(v["kb"] for a in inventory["images"] for v in a["variants"].values())
+    print("total variant weight:", round(total_kb / 1024, 1), "MB")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import SmoothImage from "./SmoothImage";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 
@@ -8,7 +8,7 @@ export default function Hero() {
   const reduce = useReducedMotion();
 
   return (
-    <section id="top" className="relative overflow-hidden bg-paper">
+    <section id="top" className="wash-rose relative overflow-hidden bg-paper">
       <div className="mx-auto grid max-w-editorial grid-cols-1 items-center gap-10 px-6 pb-16 pt-28 md:grid-cols-12 md:gap-8 md:px-10 md:pb-24 md:pt-32">
         {/* Copy */}
         <div className="md:col-span-5 md:pr-6">
@@ -81,20 +81,20 @@ export default function Hero() {
             initial={reduce ? false : { opacity: 0, scale: 1.04 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-            className="relative aspect-[4/5] w-full overflow-hidden bg-blush md:aspect-[4/4.6]"
+            className="relative aspect-[4/5] w-full overflow-hidden bg-blush md:aspect-[5/6]"
           >
-            <Image
-              src="/assets/fashion/navy-burgundy-01-1400.webp"
-              alt="Valentina Rose in a tailored navy coat and burgundy collar, editorial portrait"
-              fill
-              priority
+            <SmoothImage
+              src="/assets/hero/hero-1254.webp"
+              srcSet="/assets/hero/hero-480.webp 480w, /assets/hero/hero-900.webp 900w, /assets/hero/hero-1200.webp 1200w, /assets/hero/hero-1254.webp 1254w"
               sizes="(max-width: 768px) 100vw, 58vw"
-              className="object-cover object-top"
+              alt="Valentina Rose, beauty portrait in a silver satin slip"
+              priority
+              className="absolute inset-0 h-full w-full object-cover object-center"
             />
           </motion.div>
           <div className="mt-3 flex items-center justify-between text-[11px] uppercase tracking-widest text-muted">
-            <span>Navy &amp; Burgundy</span>
-            <span>Editorial</span>
+            <span>Beauty Portrait</span>
+            <span>Studio</span>
           </div>
         </div>
       </div>

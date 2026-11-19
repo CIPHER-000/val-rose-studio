@@ -3,11 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --paper: #faf7f3;
-  --ink: #17130f;
-  --muted: #776c61;
-  --line: #e7dfd5;
-  --accent: #9c7a5e;
+  --paper: #f8eeeb;
+  --shell: #fcf4f2;
+  --blush: #efdcd9;
+  --ink: #231614;
+  --muted: #7e6763;
+  --line: #e9d5d1;
+  --accent: #a6646d;
+  --rose: #c98b93;
 }
 
 * {
@@ -41,8 +44,8 @@ body {
 }
 
 ::selection {
-  background: #17130f;
-  color: #faf7f3;
+  background: #231614;
+  color: #fdf7f5;
 }
 
 /* Editorial rules */
@@ -56,7 +59,28 @@ body {
   font-size: 0.6875rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
+}
+
+/* Soft blush wash used behind the hero and the closing section */
+.wash-rose {
+  background-image:
+    radial-gradient(60% 55% at 18% 12%, rgba(201, 139, 147, 0.22), transparent 70%),
+    radial-gradient(50% 50% at 92% 8%, rgba(239, 220, 217, 0.55), transparent 75%);
+}
+
+/* Frame change while a carousel tile advances */
+.carousel-frame {
+  animation: carouselFade 0.5s ease both;
+}
+
+@keyframes carouselFade {
+  from {
+    opacity: 0.55;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .display-tight {
