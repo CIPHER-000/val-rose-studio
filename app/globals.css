@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #faf7f3;
+  --ink: #17130f;
+  --muted: #776c61;
+  --line: #e7dfd5;
+  --accent: #9c7a5e;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--paper);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+::selection {
+  background: #17130f;
+  color: #faf7f3;
+}
+
+/* Editorial rules */
+.rule {
+  height: 1px;
+  background: var(--line);
+}
+
+/* Small caps eyebrow */
+.eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.display-tight {
+  font-variation-settings: "opsz" 96, "SOFT" 0, "WONK" 0;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+}
+
+/* Keep section headings clear of the fixed navigation when jumping to an anchor */
+section[id] {
+  scroll-margin-top: 84px;
+}
+
+/* Focus visibility for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+/* Hide scrollbar on horizontal rails but keep scrolling */
+.rail {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.rail::-webkit-scrollbar {
+  display: none;
+}
+
+/* Scroll reveal (see components/Reveal.tsx) */
+.reveal {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 24px));
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1) var(--reveal-delay, 0s),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1) var(--reveal-delay, 0s);
+  will-change: opacity, transform;
+}
+
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* Subtle image zoom on hover, disabled for reduced motion */
+.zoom-wrap {
+  overflow: hidden;
+}
+.zoom-img {
+  transition: transform 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+.zoom-wrap:hover .zoom-img {
+  transform: scale(1.035);
+}
+@media (prefers-reduced-motion: reduce) {
+  .zoom-wrap:hover .zoom-img {
+    transform: none;
+  }
+}
