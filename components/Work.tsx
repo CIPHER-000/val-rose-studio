@@ -3,6 +3,7 @@
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ChevronLeft, ChevronRight, Play, Volume2, VolumeX, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { films, works, type Film } from "@/lib/gallery";
 import CarouselTile from "./CarouselTile";
 import Reveal from "./Reveal";
@@ -176,7 +177,12 @@ function FilmCard({ film, onOpen }: { film: Film; onOpen: () => void }) {
 
 export default function Work() {
   const [viewer, setViewer] = useState<ViewerState>(null);
+  const [portalReady, setPortalReady] = useState(false);
   const reduce = useReducedMotion();
+
+  useEffect(() => {
+    setPortalReady(true);
+  }, []);
 
   const close = useCallback(() => setViewer(null), []);
 
@@ -342,34 +348,41 @@ export default function Work() {
         </div>
       </div>
 
-      {/* Viewer */}
-      <AnimatePresence>
-        {viewer && (
-          <motion.div
-            className="fixed inset-0 z-[80] flex items-center justify-center bg-ink/[0.97] p-4 backdrop-blur-sm md:p-8"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: reduce ? 0 : 0.35 }}
-            role="dialog"
-            aria-modal="true"
-            aria-label={
-              viewer.kind === "video" ? viewer.film.title : works[viewer.workIndex].title
-            }
-            onClick={close}
-          >
-            <button
-              type="button"
-              onClick={close}
-              className="absolute right-5 top-5 flex h-11 w-11 items-center justify-center rounded-full border border-paper/30 text-paper transition-colors hover:bg-paper hover:text-ink"
-              aria-label="Close"
-            >
-              <X className="h-5 w-5" strokeWidth={1.25} />
-            </button>
+      {/* Viewer — portalled to <body>. Each section uses the grain overlay, which
+          sets isolation: isolate and would otherwise trap this fixed overlay in
+          the section's stacking context, letting the z-50 nav paint over it. */}
+      {portalReady &&
+        createPortal(
+          <AnimatePresence>
+            {viewer && (
+              <motion.div
+                className="fixed inset-0 z-[200] flex items-center justify-center bg-ink/[0.97] p-4 backdrop-blur-sm md:p-8"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: reduce ? 0 : 0.35 }}
+                role="dialog"
+                aria-modal="true"
+                aria-label={
+                  viewer.kind === "video" ? viewer.film.title : works[viewer.workIndex].title
+                }
+                onClick={close}
+              >
+                <button
+                  type="button"
+                  onClick={close}
+                  className="absolute right-4 top-20 z-10 flex h-11 w-11 items-center justify-center rounded-full border border-paper/30 text-paper transition-colors hover:bg-paper hover:text-ink md:right-6 md:top-6"
+                  aria-label="Close"
+                >
+                  <X className="h-5 w-5" strokeWidth={1.25} />
+                </button>
 
-            {viewer.kind === "video" ? (
-              <div className="w-full max-w-[min(430px,90vw)]" onClick={(e) => e.stopPropagation()}>
-                <video
+                {viewer.kind === "video" ? (
+                  <div
+                    className="w-full max-w-[min(430px,90vw)]"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <video
                   src={viewer.film.src}
                   autoPlay
                   muted
@@ -457,9 +470,11 @@ export default function Work() {
                 </div>
               </div>
             )}
-          </motion.div>
+              </motion.div>
+            )}
+          </AnimatePresence>,
+          document.body
         )}
-      </AnimatePresence>
     </section>
   );
 }
