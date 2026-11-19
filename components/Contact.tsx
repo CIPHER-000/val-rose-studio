@@ -10,7 +10,7 @@ const INCLUDES = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="border-t border-line bg-ink text-paper">
+    <section id="contact" className="grain border-t border-line bg-ink text-paper">
       <div className="mx-auto max-w-editorial px-6 py-20 md:px-10 md:py-28">
         <Reveal>
           <p className="text-[11px] uppercase tracking-widest text-paper/50">Contact</p>

@@ -426,26 +426,6 @@ export const works: Work[] = [
     ]
   },
   {
-    "slug": "parisian-summer",
-    "title": "Parisian Summer",
-    "kind": "Seasonal",
-    "category": "fashion",
-    "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702479453288484114",
-    "cover": "/assets/fashion/parisian-summer-01-944.webp",
-    "coverSrcSet": "/assets/fashion/parisian-summer-01-480.webp 480w, /assets/fashion/parisian-summer-01-900.webp 900w, /assets/fashion/parisian-summer-01-944.webp 944w",
-    "coverRatio": 0.565,
-    "images": [
-      {
-        "src": "/assets/fashion/parisian-summer-01-944.webp",
-        "srcSet": "/assets/fashion/parisian-summer-01-480.webp 480w, /assets/fashion/parisian-summer-01-900.webp 900w, /assets/fashion/parisian-summer-01-944.webp 944w",
-        "ratio": 0.565,
-        "width": 944,
-        "height": 1672,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702479453288484114"
-      }
-    ]
-  },
-  {
     "slug": "ootd-styling",
     "title": "Everyday Styling",
     "kind": "OOTD",

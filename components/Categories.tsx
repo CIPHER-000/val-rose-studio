@@ -31,7 +31,7 @@ const BLOCKS = [
 
 export default function Categories() {
   return (
-    <section id="categories" className="border-t border-line bg-white">
+    <section id="categories" className="wash-deep grain border-t border-line bg-panel">
       <div className="mx-auto max-w-editorial px-6 py-20 md:px-10 md:py-28">
         <Reveal>
           <div className="grid gap-6 md:grid-cols-12 md:items-end">
@@ -63,13 +63,13 @@ export default function Categories() {
               >
                 <div className="md:col-span-7 md:[direction:ltr]">
                   <Reveal>
-                    <div className="group relative aspect-[4/3] w-full overflow-hidden bg-blush md:aspect-[16/11]">
+                    <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-sm md:aspect-[6/5]">
                       {w && (
                         <HoverCarousel
                           images={w.images}
                           sizes="(max-width: 768px) 100vw, 56vw"
                           alt={`${b.label} content by Valentina Rose`}
-                          imgClassName="object-top"
+                          priority={i === 0}
                         />
                       )}
                     </div>

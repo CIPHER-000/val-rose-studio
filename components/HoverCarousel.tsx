@@ -83,7 +83,7 @@ export default function HoverCarousel({
         sizes={sizes}
         alt={alt}
         priority={priority}
-        className={`carousel-frame absolute inset-0 h-full w-full object-cover ${imgClassName}`}
+        className={`carousel-frame absolute inset-0 h-full w-full object-contain ${imgClassName}`}
       />
 
       {canCycle && (

@@ -21,12 +21,20 @@ Live: **https://val-rose-studio.vercel.app**
 
 ## Sections
 
-1. **Hero** — wordmark, name, positioning line, "Explore the Work" / "Collaborate"
-2. **About** — creative direction and practice
-3. **Selected Work** — film rail plus editorial grid; click any piece for a keyboard-navigable lightbox with links back to the original TikTok post
-4. **Content Directions** — Fashion & Styling / Beauty & Skincare / Haircare & Lifestyle
-5. **Collaboration Formats** — five ways to work together
-6. **Contact** — email, TikTok, published follower/like figures
+1. **Hero** — name, positioning, published-figure strip, full (uncropped) portrait
+2. **Ticker** — slow discipline strip that pauses on hover
+3. **About** — statement, practice copy, capability cards
+4. **Selected Work** — film rail plus editorial grid; every image shown at its own
+   aspect ratio (nothing cropped), hover to see the rest of a carousel, click for a
+   keyboard-navigable lightbox with links back to the original post
+5. **Content Directions** — Fashion & Styling / Beauty & Skincare / Haircare & Lifestyle
+6. **Process** — how a collaboration runs, in four agreed stages
+7. **Collaboration Formats** — five ways to work together
+8. **Social Presence** — TikTok, followers, likes (as published)
+9. **Contact** — email, what to include, TikTok
+
+Surfaces alternate across paper / shell / rose panel / deep rose with a fine grain
+overlay and soft radial washes, so no section is a flat white fill.
 
 ## Local development
 

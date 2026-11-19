@@ -10,7 +10,7 @@ const STATS = [
 
 export default function Social() {
   return (
-    <section id="social" className="border-t border-line bg-white">
+    <section id="social" className="grain border-t border-line bg-shell">
       <div className="mx-auto max-w-editorial px-6 py-20 md:px-10 md:py-28">
         <Reveal>
           <div className="grid gap-6 md:grid-cols-12 md:items-end">

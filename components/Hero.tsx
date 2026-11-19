@@ -1,15 +1,22 @@
 "use client";
 
-import SmoothImage from "./SmoothImage";
 import { motion, useReducedMotion } from "framer-motion";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { profile } from "@/lib/gallery";
+import SmoothImage from "./SmoothImage";
+
+const STATS = [
+  { label: "Followers", value: profile.followers },
+  { label: "Likes", value: profile.likes },
+  { label: "Platform", value: "TikTok" },
+];
 
 export default function Hero() {
   const reduce = useReducedMotion();
 
   return (
-    <section id="top" className="wash-rose relative overflow-hidden bg-paper">
-      <div className="mx-auto grid max-w-editorial grid-cols-1 items-center gap-10 px-6 pb-16 pt-28 md:grid-cols-12 md:gap-8 md:px-10 md:pb-24 md:pt-32">
+    <section id="top" className="wash-rose grain relative overflow-hidden bg-paper">
+      <div className="mx-auto grid max-w-editorial grid-cols-1 items-center gap-10 px-6 pb-14 pt-28 md:grid-cols-12 md:gap-10 md:px-10 md:pb-20 md:pt-32">
         {/* Copy */}
         <div className="md:col-span-5 md:pr-6">
           <motion.p
@@ -55,7 +62,7 @@ export default function Hero() {
             initial={reduce ? false : { opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-10 flex flex-wrap items-center gap-4"
+            className="mt-9 flex flex-wrap items-center gap-4"
           >
             <a
               href="#work"
@@ -73,15 +80,34 @@ export default function Hero() {
               Collaborate
             </a>
           </motion.div>
+
+          {/* Credential strip — published profile figures only */}
+          <motion.dl
+            initial={reduce ? false : { opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.55 }}
+            className="mt-10 grid max-w-md grid-cols-3 gap-4 border-t border-ink/15 pt-5"
+          >
+            {STATS.map((s) => (
+              <div key={s.label}>
+                <dt className="text-[10px] uppercase tracking-[0.2em] text-muted">{s.label}</dt>
+                <dd className="mt-1.5 font-display text-xl">{s.value}</dd>
+              </div>
+            ))}
+          </motion.dl>
+          <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-muted/80">
+            As published on {profile.handle}
+          </p>
         </div>
 
-        {/* Portrait */}
+        {/* Portrait — shown whole, never cropped */}
         <div className="md:col-span-7">
           <motion.div
-            initial={reduce ? false : { opacity: 0, scale: 1.04 }}
+            initial={reduce ? false : { opacity: 0, scale: 1.03 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-            className="relative aspect-[4/5] w-full overflow-hidden bg-blush md:aspect-[5/6]"
+            className="relative w-full overflow-hidden rounded-sm bg-blush"
+            style={{ aspectRatio: "1 / 1" }}
           >
             <SmoothImage
               src="/assets/hero/hero-1254.webp"
@@ -89,12 +115,23 @@ export default function Hero() {
               sizes="(max-width: 768px) 100vw, 58vw"
               alt="Valentina Rose, beauty portrait in a silver satin slip"
               priority
-              className="absolute inset-0 h-full w-full object-cover object-center"
+              className="absolute inset-0 h-full w-full object-contain"
             />
           </motion.div>
           <div className="mt-3 flex items-center justify-between text-[11px] uppercase tracking-widest text-muted">
             <span>Beauty Portrait</span>
-            <span>Studio</span>
+            <a
+              href={profile.tiktok}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-1.5 transition-colors hover:text-ink"
+            >
+              {profile.handle}
+              <ArrowUpRight
+                className="h-3 w-3 transition-transform duration-500 ease-editorial group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                strokeWidth={1.6}
+              />
+            </a>
           </div>
         </div>
       </div>

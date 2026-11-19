@@ -40,7 +40,7 @@ const FORMATS = [
 
 export default function Collaborate() {
   return (
-    <section id="collaborate" className="border-t border-line bg-paper">
+    <section id="collaborate" className="grain border-t border-line bg-paper">
       <div className="mx-auto max-w-editorial px-6 py-20 md:px-10 md:py-28">
         <Reveal>
           <div className="grid gap-6 md:grid-cols-12 md:items-end">
@@ -64,7 +64,7 @@ export default function Collaborate() {
         <div className="mt-16 border-t border-line">
           {FORMATS.map((f, i) => (
             <Reveal key={f.n} delay={0.03 * i}>
-              <div className="group grid gap-4 border-b border-line py-8 transition-colors duration-500 hover:bg-white md:grid-cols-12 md:gap-8 md:py-10">
+              <div className="group grid gap-4 border-b border-line py-8 transition-colors duration-500 hover:bg-white/70 md:grid-cols-12 md:gap-8 md:py-10">
                 <div className="md:col-span-1">
                   <span className="font-display text-lg text-accent">{f.n}</span>
                 </div>

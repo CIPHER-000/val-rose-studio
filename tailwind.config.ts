@@ -5,15 +5,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        paper: "#F8EEEB",
-        white: "#FDF7F5",
-        ink: "#231614",
-        muted: "#7E6763",
-        line: "#E9D5D1",
-        accent: "#A6646D",
+        paper: "#F7E9E5",
+        shell: "#FBF2EF",
+        panel: "#F0D8D4",
+        deep: "#E7C6C1",
+        white: "#FDF8F6",
+        ink: "#241614",
+        muted: "#7D6660",
+        line: "#E5CCC7",
+        accent: "#AE5A66",
         blush: "#EFDCD9",
-        rose: "#C98B93",
-        shell: "#FCF4F2",
+        rose: "#C87F89",
       },
       fontFamily: {
         display: ["var(--font-display)", "Georgia", "serif"],
@@ -27,6 +29,15 @@ const config: Config = {
       },
       transitionTimingFunction: {
         editorial: "cubic-bezier(0.22, 1, 0.36, 1)",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 38s linear infinite",
       },
     },
   },

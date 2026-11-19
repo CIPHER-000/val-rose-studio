@@ -155,7 +155,7 @@ export default function Work() {
   const [featureA, featureB, ...rest] = works;
 
   return (
-    <section id="work" className="border-t border-line bg-paper">
+    <section id="work" className="grain border-t border-line bg-paper">
       <div className="mx-auto max-w-editorial px-6 py-20 md:px-10 md:py-28">
         {/* Header */}
         <div className="grid gap-6 md:grid-cols-12 md:items-end">
@@ -173,6 +173,10 @@ export default function Work() {
                 A selection of published pieces across fashion, beauty and lifestyle — each one
                 art-directed, styled and produced for social-first formats. Hover a piece to see the
                 rest of its carousel.
+              </p>
+              <p className="mt-4 text-[11px] uppercase tracking-[0.18em] text-accent">
+                {works.length} pieces · {works.reduce((n, w) => n + w.images.length, 0)} stills ·{" "}
+                {films.length} films
               </p>
             </Reveal>
           </div>
@@ -211,7 +215,10 @@ export default function Work() {
                 className="group zoom-wrap block w-full text-left"
                 aria-label={`View ${w.title}`}
               >
-                <div className="relative aspect-[4/5] w-full overflow-hidden bg-blush">
+                <div
+                  className="relative w-full overflow-hidden bg-blush"
+                  style={{ aspectRatio: String(w.coverRatio) }}
+                >
                   <HoverCarousel
                     images={w.images}
                     sizes="(max-width: 768px) 100vw, 48vw"
@@ -247,7 +254,7 @@ export default function Work() {
                 >
                   <div
                     className="relative w-full overflow-hidden bg-blush"
-                    style={{ aspectRatio: String(w.coverRatio < 0.75 ? 0.75 : w.coverRatio) }}
+                    style={{ aspectRatio: String(w.coverRatio) }}
                   >
                     <HoverCarousel
                       images={w.images}

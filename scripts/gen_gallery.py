@@ -18,7 +18,6 @@ GROUPS = {
         ("navy-burgundy", "Navy & Burgundy", "Lookbook"),
         ("tom-ford-editorial", "Tom Ford Editorial", "Creative direction"),
         ("city-coffee", "City & Coffee", "Lifestyle styling"),
-        ("parisian-summer", "Parisian Summer", "Seasonal"),
         ("ootd-styling", "Everyday Styling", "OOTD"),
     ],
     "beauty": [("sultry-fragrance", "Sultry Extrait de Parfum", "Fragrance")],
