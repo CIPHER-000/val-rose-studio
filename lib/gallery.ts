@@ -27,18 +27,10 @@ export const works: Work[] = [
     "kind": "Couture editorial",
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
-    "cover": "/assets/fashion/lukacev-couture-01-1600.webp",
-    "coverSrcSet": "/assets/fashion/lukacev-couture-01-480.webp 480w, /assets/fashion/lukacev-couture-01-900.webp 900w, /assets/fashion/lukacev-couture-01-1200.webp 1200w, /assets/fashion/lukacev-couture-01-1600.webp 1600w",
+    "cover": "/assets/fashion/lukacev-couture-02-1600.webp",
+    "coverSrcSet": "/assets/fashion/lukacev-couture-02-480.webp 480w, /assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1200.webp 1200w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
     "coverRatio": 0.668,
     "images": [
-      {
-        "src": "/assets/fashion/lukacev-couture-01-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-01-480.webp 480w, /assets/fashion/lukacev-couture-01-900.webp 900w, /assets/fashion/lukacev-couture-01-1200.webp 1200w, /assets/fashion/lukacev-couture-01-1600.webp 1600w",
-        "ratio": 0.668,
-        "width": 1600,
-        "height": 2396,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391"
-      },
       {
         "src": "/assets/fashion/lukacev-couture-02-1600.webp",
         "srcSet": "/assets/fashion/lukacev-couture-02-480.webp 480w, /assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1200.webp 1200w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
@@ -94,6 +86,14 @@ export const works: Work[] = [
         "width": 1600,
         "height": 2396,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391"
+      },
+      {
+        "src": "/assets/fashion/lukacev-couture-01-1600.webp",
+        "srcSet": "/assets/fashion/lukacev-couture-01-480.webp 480w, /assets/fashion/lukacev-couture-01-900.webp 900w, /assets/fashion/lukacev-couture-01-1200.webp 1200w, /assets/fashion/lukacev-couture-01-1600.webp 1600w",
+        "ratio": 0.668,
+        "width": 1600,
+        "height": 2396,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391"
       }
     ]
   },
@@ -137,14 +137,6 @@ export const works: Work[] = [
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970"
-      },
-      {
-        "src": "/assets/fashion/trinity-collection-05-1376.webp",
-        "srcSet": "/assets/fashion/trinity-collection-05-480.webp 480w, /assets/fashion/trinity-collection-05-900.webp 900w, /assets/fashion/trinity-collection-05-1200.webp 1200w, /assets/fashion/trinity-collection-05-1376.webp 1376w",
-        "ratio": 1.792,
-        "width": 1376,
-        "height": 768,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970"
       }
     ]
@@ -318,26 +310,6 @@ export const works: Work[] = [
     ]
   },
   {
-    "slug": "paris-fashion-week",
-    "title": "Paris Fashion Week",
-    "kind": "Editorial",
-    "category": "fashion",
-    "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520",
-    "cover": "/assets/fashion/paris-fashion-week-01-1220.webp",
-    "coverSrcSet": "/assets/fashion/paris-fashion-week-01-480.webp 480w, /assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1200.webp 1200w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
-    "coverRatio": 0.507,
-    "images": [
-      {
-        "src": "/assets/fashion/paris-fashion-week-01-1220.webp",
-        "srcSet": "/assets/fashion/paris-fashion-week-01-480.webp 480w, /assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1200.webp 1200w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
-        "ratio": 0.507,
-        "width": 1220,
-        "height": 2408,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520"
-      }
-    ]
-  },
-  {
     "slug": "navy-burgundy",
     "title": "Navy & Burgundy",
     "kind": "Lookbook",
@@ -354,6 +326,34 @@ export const works: Work[] = [
         "width": 1600,
         "height": 2130,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7706521375812390151"
+      }
+    ]
+  },
+  {
+    "slug": "paris-street-city",
+    "title": "Paris Street & City",
+    "kind": "Lifestyle",
+    "category": "fashion",
+    "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520",
+    "cover": "/assets/fashion/paris-fashion-week-01-1220.webp",
+    "coverSrcSet": "/assets/fashion/paris-fashion-week-01-480.webp 480w, /assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1200.webp 1200w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
+    "coverRatio": 0.507,
+    "images": [
+      {
+        "src": "/assets/fashion/paris-fashion-week-01-1220.webp",
+        "srcSet": "/assets/fashion/paris-fashion-week-01-480.webp 480w, /assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1200.webp 1200w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
+        "ratio": 0.507,
+        "width": 1220,
+        "height": 2408,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520"
+      },
+      {
+        "src": "/assets/fashion/city-coffee-01-1024.webp",
+        "srcSet": "/assets/fashion/city-coffee-01-480.webp 480w, /assets/fashion/city-coffee-01-900.webp 900w, /assets/fashion/city-coffee-01-1024.webp 1024w",
+        "ratio": 0.667,
+        "width": 1024,
+        "height": 1536,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702506225749085458"
       }
     ]
   },
@@ -402,26 +402,6 @@ export const works: Work[] = [
         "width": 1024,
         "height": 1536,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702795356060339474"
-      }
-    ]
-  },
-  {
-    "slug": "city-coffee",
-    "title": "City & Coffee",
-    "kind": "Lifestyle styling",
-    "category": "fashion",
-    "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702506225749085458",
-    "cover": "/assets/fashion/city-coffee-01-1024.webp",
-    "coverSrcSet": "/assets/fashion/city-coffee-01-480.webp 480w, /assets/fashion/city-coffee-01-900.webp 900w, /assets/fashion/city-coffee-01-1024.webp 1024w",
-    "coverRatio": 0.667,
-    "images": [
-      {
-        "src": "/assets/fashion/city-coffee-01-1024.webp",
-        "srcSet": "/assets/fashion/city-coffee-01-480.webp 480w, /assets/fashion/city-coffee-01-900.webp 900w, /assets/fashion/city-coffee-01-1024.webp 1024w",
-        "ratio": 0.667,
-        "width": 1024,
-        "height": 1536,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702506225749085458"
       }
     ]
   },

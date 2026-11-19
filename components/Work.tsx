@@ -263,7 +263,8 @@ export default function Work() {
               <button
                 type="button"
                 onClick={() => setViewer({ kind: "images", workIndex: i, imageIndex: 0 })}
-                className="group zoom-wrap block w-full text-left"
+                className="group zoom-wrap mx-auto block w-full text-left"
+                style={{ maxWidth: `calc(68vh * ${w.coverRatio})` }}
                 aria-label={`View ${w.title}`}
               >
                 <div
@@ -300,7 +301,8 @@ export default function Work() {
                 <button
                   type="button"
                   onClick={() => setViewer({ kind: "images", workIndex: globalIndex, imageIndex: 0 })}
-                  className="group zoom-wrap block w-full text-left"
+                  className="group zoom-wrap mx-auto block w-full text-left"
+                  style={{ maxWidth: `calc(68vh * ${w.coverRatio})` }}
                   aria-label={`View ${w.title}`}
                 >
                   <div

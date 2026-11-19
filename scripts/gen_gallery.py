@@ -14,10 +14,8 @@ GROUPS = {
         ("burgundy-looks", "Burgundy Looks", "Lookbook"),
         ("runway-collection", "Runway Edit", "Runway"),
         ("streetwear-sneakers", "Streetwear & Sneakers", "Streetwear"),
-        ("paris-fashion-week", "Paris Fashion Week", "Editorial"),
         ("navy-burgundy", "Navy & Burgundy", "Lookbook"),
         ("tom-ford-editorial", "Tom Ford Editorial", "Creative direction"),
-        ("city-coffee", "City & Coffee", "Lifestyle styling"),
         ("ootd-styling", "Everyday Styling", "OOTD"),
     ],
     "beauty": [("sultry-fragrance", "Sultry Extrait de Parfum", "Fragrance")],
@@ -35,13 +33,30 @@ MERGES = [
         "sources": ["halloween-peek", "halloween-romance"],
         "position_after": "tom-ford-editorial",
     },
+    {
+        "slug": "paris-street-city",
+        "title": "Paris Street & City",
+        "kind": "Lifestyle",
+        "category": "fashion",
+        "sources": ["paris-fashion-week", "city-coffee"],
+        "position_after": "navy-burgundy",
+    },
 ]
+
+# Cover frames. The Lukačev post opens on a four-person group shot; the owner
+# wants the carousel to open on Valentina in the red dress instead, so the group
+# shot moves to the end.
+FRAME_ORDER = {
+    "lukacev-couture": [2, 3, 4, 5, 6, 7, 8, 1],
+}
 
 # Frames that are not portfolio imagery and are left out of the gallery:
 # engagement/CTA end-cards ("Comment X below"), which read as marketing slides
 # rather than creative work. Keyed by slug -> set of 1-based frame indexes.
 SKIP_IMAGES = {
     "sultry-fragrance": {7},
+    # A wide "TRINITY" wordmark slide — a title card, not a photograph.
+    "trinity-collection": {5},
 }
 
 images = inv["images"]
@@ -57,6 +72,12 @@ def work_from(slug, title, kind, cat, sources=None):
     items = []
     for s in slugs:
         items.extend(sorted(by_slug.get(s, []), key=lambda x: x["index"]))
+
+    order = FRAME_ORDER.get(slug)
+    if order:
+        position = {index: i for i, index in enumerate(order)}
+        items.sort(key=lambda x: position.get(x["index"], len(position)))
+
     if not items:
         return None
     cover = items[0]
