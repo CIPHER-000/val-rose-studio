@@ -256,39 +256,49 @@ export default function Work() {
           </div>
         </div>
 
-        {/* Editorial features */}
-        <div className="mt-20 grid gap-6 md:grid-cols-2 md:gap-8">
+        {/* Editorial features — sized as large as the screen allows, side by side */}
+        <div className="mt-20 flex flex-col items-center gap-10 md:flex-row md:items-start md:justify-center md:gap-12">
           {[featureA, featureB].filter(Boolean).map((w, i) => (
-            <Reveal key={w.slug} delay={0.05 * i}>
-              <button
-                type="button"
-                onClick={() => setViewer({ kind: "images", workIndex: i, imageIndex: 0 })}
-                className="group zoom-wrap mx-auto block w-full text-left"
-                style={{ maxWidth: `calc(68vh * ${w.coverRatio})` }}
-                aria-label={`View ${w.title}`}
-              >
-                <div
-                  className="relative w-full overflow-hidden bg-blush"
-                  style={{ aspectRatio: String(w.coverRatio) }}
+            <div
+              key={w.slug}
+              className="w-full"
+              // Frame height = viewport minus the fixed nav and the caption below,
+              // so the whole piece is on screen at the largest size that fits.
+              style={{
+                width: `calc((100vh - 165px) * ${w.coverRatio})`,
+                maxWidth: "100%",
+              }}
+            >
+              <Reveal delay={0.05 * i}>
+                <button
+                  type="button"
+                  onClick={() => setViewer({ kind: "images", workIndex: i, imageIndex: 0 })}
+                  className="group zoom-wrap block w-full text-left"
+                  aria-label={`View ${w.title}`}
                 >
-                  <CarouselTile
-                    images={w.images}
-                    sizes="(max-width: 768px) 100vw, 48vw"
-                    alt={`${w.title} — ${w.kind} by Valentina Rose`}
-                    imgClassName="zoom-img"
-                  />
-                </div>
-                <div className="mt-4 flex items-baseline justify-between">
-                  <div>
-                    <h3 className="font-display text-2xl">{w.title}</h3>
-                    <p className="mt-1 text-sm text-muted">{w.kind}</p>
+                  <div
+                    className="relative w-full overflow-hidden bg-blush"
+                    style={{ aspectRatio: String(w.coverRatio) }}
+                  >
+                    <CarouselTile
+                      images={w.images}
+                      sizes="(max-width: 768px) 100vw, 40vw"
+                      alt={`${w.title} — ${w.kind} by Valentina Rose`}
+                      imgClassName="zoom-img"
+                    />
                   </div>
-                  <span className="text-[11px] uppercase tracking-widest text-muted">
-                    {w.images.length} {w.images.length === 1 ? "image" : "images"}
-                  </span>
-                </div>
-              </button>
-            </Reveal>
+                  <div className="mt-4 flex items-baseline justify-between gap-4">
+                    <div>
+                      <h3 className="font-display text-2xl">{w.title}</h3>
+                      <p className="mt-1 text-sm text-muted">{w.kind}</p>
+                    </div>
+                    <span className="shrink-0 text-[11px] uppercase tracking-widest text-muted">
+                      {w.images.length} {w.images.length === 1 ? "image" : "images"}
+                    </span>
+                  </div>
+                </button>
+              </Reveal>
+            </div>
           ))}
         </div>
 
