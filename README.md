@@ -79,3 +79,12 @@ secrets are required to build.
 ```bash
 vercel --prod
 ```
+
+## Notes
+
+- `app/icon.svg`, `app/robots.ts` and `app/sitemap.ts` are deliberately **not** used. Next's
+  metadata-route loader injects the absolute source path into generated code, which breaks the
+  build when the checkout path contains an apostrophe (as this one does). The favicon, robots and
+  sitemap are therefore static files in `public/`.
+- `scripts/verify_assets.cjs` requests every asset referenced by `lib/gallery.ts` and reports any
+  that fail, which is a quick pre-deploy smoke test against `npm start`.

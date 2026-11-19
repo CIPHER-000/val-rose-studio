@@ -35,3 +35,5 @@ yarn-error.log*
 
 # source originals (public/assets holds the optimised web versions)
 /raw-assets/
+
+.vercel

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://val-rose-studio.vercel.app/sitemap.xml
