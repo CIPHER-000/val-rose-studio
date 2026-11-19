@@ -502,14 +502,6 @@ export const works: Work[] = [
         "width": 1600,
         "height": 2130,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874"
-      },
-      {
-        "src": "/assets/beauty/sultry-fragrance-07-1600.webp",
-        "srcSet": "/assets/beauty/sultry-fragrance-07-480.webp 480w, /assets/beauty/sultry-fragrance-07-900.webp 900w, /assets/beauty/sultry-fragrance-07-1200.webp 1200w, /assets/beauty/sultry-fragrance-07-1600.webp 1600w",
-        "ratio": 1.0,
-        "width": 1600,
-        "height": 1600,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874"
       }
     ]
   },

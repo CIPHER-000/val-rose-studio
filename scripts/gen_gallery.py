@@ -37,9 +37,18 @@ MERGES = [
     },
 ]
 
+# Frames that are not portfolio imagery and are left out of the gallery:
+# engagement/CTA end-cards ("Comment X below"), which read as marketing slides
+# rather than creative work. Keyed by slug -> set of 1-based frame indexes.
+SKIP_IMAGES = {
+    "sultry-fragrance": {7},
+}
+
 images = inv["images"]
 by_slug = {}
 for a in images:
+    if a["index"] in SKIP_IMAGES.get(a["slug"], set()):
+        continue
     by_slug.setdefault(a["slug"], []).append(a)
 
 
