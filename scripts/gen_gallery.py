@@ -58,11 +58,14 @@ FRAME_ORDER = {
     "lukacev-couture": [2, 3, 4, 5, 6, 7, 8, 1],
 }
 
-# Frames that are not portfolio imagery and are left out of the gallery:
-# engagement/CTA end-cards ("Comment X below"), which read as marketing slides
-# rather than creative work. Keyed by slug -> set of 1-based frame indexes.
+# Frames that are not portfolio imagery and are left out of the gallery.
+# Keyed by slug -> set of 1-based frame indexes.
 SKIP_IMAGES = {
+    # "Comment SULTRY below" engagement end-card.
     "sultry-fragrance": {7},
+    # The TRINITY group shot is a wide landscape frame inside a portrait carousel,
+    # so it letterboxes awkwardly against the rest of the set.
+    "trinity-collection": {5},
 }
 
 images = inv["images"]
