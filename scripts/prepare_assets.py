@@ -35,7 +35,6 @@ POSTS = {
     "halloween-romance": ("7702795356060339474", "Halloween Romance", "fashion"),
     "halloween-peek": ("7702224676579298568", "Halloween Preview", "fashion"),
     "halloween-looks": ("7702535243588291847", "Halloween Looks", "fashion"),
-    "halloween-group": ("7702733715851545863", "Halloween Group", "fashion"),
     "tom-ford-editorial": ("7702221003094641938", "Tom Ford Editorial", "fashion"),
     "city-coffee": ("7702506225749085458", "City & Coffee", "fashion"),
     "parisian-summer": ("7702479453288484114", "Parisian Summer", "fashion"),

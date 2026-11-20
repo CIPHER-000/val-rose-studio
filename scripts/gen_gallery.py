@@ -38,7 +38,7 @@ MERGES = [
         "title": "Halloween",
         "kind": "Seasonal",
         "category": "fashion",
-        "sources": ["halloween-peek", "halloween-romance", "halloween-looks", "halloween-group"],
+        "sources": ["halloween-peek", "halloween-romance", "halloween-looks"],
         "position_after": "trinity-collection",
     },
     {
@@ -63,8 +63,6 @@ FRAME_ORDER = {
 # rather than creative work. Keyed by slug -> set of 1-based frame indexes.
 SKIP_IMAGES = {
     "sultry-fragrance": {7},
-    # A wide "TRINITY" wordmark slide — a title card, not a photograph.
-    "trinity-collection": {5},
 }
 
 images = inv["images"]

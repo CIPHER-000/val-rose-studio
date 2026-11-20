@@ -3,7 +3,7 @@
 All assets are Valentina Rose's own published TikTok content.
 Profile: https://www.tiktok.com/@valrose.studio0
 
-## Images (82)
+## Images (81)
 
 | # | Title | Category | Native size | Variants | Source post |
 |---|---|---|---|---|---|
@@ -37,42 +37,42 @@ Profile: https://www.tiktok.com/@valrose.studio0
 | 28 | Burgundy Looks | fashion | 1536×1024 | 900, 1536 | https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928 |
 | 29 | Burgundy Looks | fashion | 1536×1024 | 900, 1536 | https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928 |
 | 30 | City & Coffee | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702506225749085458 |
-| 31 | Halloween Group | fashion | 1376×768 | 900, 1376 | https://www.tiktok.com/@valrose.studio0/photo/7702733715851545863 |
+| 31 | Halloween Looks | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847 |
 | 32 | Halloween Looks | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847 |
 | 33 | Halloween Looks | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847 |
 | 34 | Halloween Looks | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847 |
 | 35 | Halloween Looks | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847 |
-| 36 | Halloween Looks | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847 |
-| 37 | Halloween Preview | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568 |
-| 38 | Halloween Romance | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702795356060339474 |
+| 36 | Halloween Preview | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568 |
+| 37 | Halloween Romance | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702795356060339474 |
+| 38 | Lukacev Couture | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
 | 39 | Lukacev Couture | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
-| 40 | Lukacev Couture | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
+| 40 | Lukacev Couture | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
 | 41 | Lukacev Couture | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
 | 42 | Lukacev Couture | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
-| 43 | Lukacev Couture | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
+| 43 | Lukacev Couture | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
 | 44 | Lukacev Couture | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
 | 45 | Lukacev Couture | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
-| 46 | Lukacev Couture | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391 |
-| 47 | Navy & Burgundy | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7706521375812390151 |
-| 48 | Everyday Styling | fashion | 1024×436 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702478324743851272 |
-| 49 | Paris Fashion Week | fashion | 1220×2408 | 900, 1220 | https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520 |
-| 50 | Parisian Summer | fashion | 944×1672 | 944 | https://www.tiktok.com/@valrose.studio0/photo/7702479453288484114 |
-| 51 | Runway Edit | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706 |
+| 46 | Navy & Burgundy | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7706521375812390151 |
+| 47 | Everyday Styling | fashion | 1024×436 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702478324743851272 |
+| 48 | Paris Fashion Week | fashion | 1220×2408 | 900, 1220 | https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520 |
+| 49 | Parisian Summer | fashion | 944×1672 | 944 | https://www.tiktok.com/@valrose.studio0/photo/7702479453288484114 |
+| 50 | Runway Edit | fashion | 1600×2396 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706 |
+| 51 | Runway Edit | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706 |
 | 52 | Runway Edit | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706 |
-| 53 | Runway Edit | fashion | 1600×2130 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706 |
+| 53 | Street Style & Statement Bags | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690 |
 | 54 | Street Style & Statement Bags | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690 |
 | 55 | Street Style & Statement Bags | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690 |
-| 56 | Street Style & Statement Bags | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690 |
-| 57 | Street Style & Statement Bags | fashion | 1080×1296 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690 |
-| 58 | Street Style & Statement Bags | fashion | 1080×1300 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690 |
+| 56 | Street Style & Statement Bags | fashion | 1080×1296 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690 |
+| 57 | Street Style & Statement Bags | fashion | 1080×1300 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690 |
+| 58 | Streetwear & Sneakers | fashion | 1080×1440 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7706059500494572808 |
 | 59 | Streetwear & Sneakers | fashion | 1080×1440 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7706059500494572808 |
-| 60 | Streetwear & Sneakers | fashion | 1080×1440 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7706059500494572808 |
-| 61 | Tom Ford Editorial | fashion | 1080×1352 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7702221003094641938 |
+| 60 | Tom Ford Editorial | fashion | 1080×1352 | 900, 1080 | https://www.tiktok.com/@valrose.studio0/photo/7702221003094641938 |
+| 61 | The Trinity Collection | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970 |
 | 62 | The Trinity Collection | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970 |
 | 63 | The Trinity Collection | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970 |
 | 64 | The Trinity Collection | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970 |
-| 65 | The Trinity Collection | fashion | 1024×1536 | 1024 | https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970 |
-| 66 | The Trinity Collection | fashion | 1376×768 | 900, 1376 | https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970 |
+| 65 | The Trinity Collection | fashion | 1376×768 | 900, 1376 | https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970 |
+| 66 |  | haircare | 1199×1312 | 900, 1199 |  |
 | 67 |  | haircare | 1199×1312 | 900, 1199 |  |
 | 68 |  | haircare | 1199×1312 | 900, 1199 |  |
 | 69 |  | haircare | 1199×1312 | 900, 1199 |  |
@@ -84,11 +84,10 @@ Profile: https://www.tiktok.com/@valrose.studio0
 | 75 |  | haircare | 1199×1312 | 900, 1199 |  |
 | 76 |  | haircare | 1199×1312 | 900, 1199 |  |
 | 77 |  | haircare | 1199×1312 | 900, 1199 |  |
-| 78 |  | haircare | 1199×1312 | 900, 1199 |  |
+| 78 | Green Door Candle Co. | lifestyle | 1600×1600 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218 |
 | 79 | Green Door Candle Co. | lifestyle | 1600×1600 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218 |
 | 80 | Green Door Candle Co. | lifestyle | 1600×1600 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218 |
-| 81 | Green Door Candle Co. | lifestyle | 1600×1600 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218 |
-| 82 | Green Door Candle Co. | lifestyle | 1600×1066 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218 |
+| 81 | Green Door Candle Co. | lifestyle | 1600×1066 | 900, 1600 | https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218 |
 
 ## Videos (4)
 

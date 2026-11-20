@@ -138,6 +138,14 @@ export const works: Work[] = [
         "width": 1024,
         "height": 1536,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970"
+      },
+      {
+        "src": "/assets/fashion/trinity-collection-05-1376.webp",
+        "srcSet": "/assets/fashion/trinity-collection-05-900.webp 900w, /assets/fashion/trinity-collection-05-1376.webp 1376w",
+        "ratio": 1.792,
+        "width": 1376,
+        "height": 768,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970"
       }
     ]
   },
@@ -206,14 +214,6 @@ export const works: Work[] = [
         "width": 1024,
         "height": 1536,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847"
-      },
-      {
-        "src": "/assets/fashion/halloween-group-01-1376.webp",
-        "srcSet": "/assets/fashion/halloween-group-01-900.webp 900w, /assets/fashion/halloween-group-01-1376.webp 1376w",
-        "ratio": 1.792,
-        "width": 1376,
-        "height": 768,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702733715851545863"
       }
     ]
   },

@@ -723,32 +723,6 @@
       "title": "City & Coffee"
     },
     {
-      "slug": "halloween-group",
-      "index": 1,
-      "category": "fashion",
-      "width": 1376,
-      "height": 768,
-      "ratio": 1.792,
-      "variants": {
-        "900": {
-          "file": "/assets/fashion/halloween-group-01-900.webp",
-          "w": 900,
-          "h": 502,
-          "kb": 89.8
-        },
-        "1376": {
-          "file": "/assets/fashion/halloween-group-01-1376.webp",
-          "w": 1376,
-          "h": 768,
-          "kb": 175.8
-        }
-      },
-      "src": "/assets/fashion/halloween-group-01-1376.webp",
-      "srcSet": "/assets/fashion/halloween-group-01-900.webp 900w, /assets/fashion/halloween-group-01-1376.webp 1376w",
-      "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702733715851545863",
-      "title": "Halloween Group"
-    },
-    {
       "slug": "halloween-looks",
       "index": 1,
       "category": "fashion",
