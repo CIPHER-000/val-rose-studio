@@ -30,8 +30,8 @@ MERGES = [
         "title": "Halloween",
         "kind": "Seasonal",
         "category": "fashion",
-        "sources": ["halloween-peek", "halloween-romance"],
-        "position_after": "tom-ford-editorial",
+        "sources": ["halloween-peek", "halloween-romance", "halloween-looks"],
+        "position_after": "trinity-collection",
     },
     {
         "slug": "paris-street-city",

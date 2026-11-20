@@ -471,6 +471,166 @@
       "title": "City & Coffee"
     },
     {
+      "slug": "halloween-looks",
+      "index": 1,
+      "category": "fashion",
+      "width": 1024,
+      "height": 1536,
+      "ratio": 0.667,
+      "variants": {
+        "480": {
+          "file": "/assets/fashion/halloween-looks-01-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 50.9
+        },
+        "900": {
+          "file": "/assets/fashion/halloween-looks-01-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 119.3
+        },
+        "1024": {
+          "file": "/assets/fashion/halloween-looks-01-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 137.2
+        }
+      },
+      "src": "/assets/fashion/halloween-looks-01-1024.webp",
+      "srcSet": "/assets/fashion/halloween-looks-01-480.webp 480w, /assets/fashion/halloween-looks-01-900.webp 900w, /assets/fashion/halloween-looks-01-1024.webp 1024w",
+      "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
+      "title": "Halloween Looks"
+    },
+    {
+      "slug": "halloween-looks",
+      "index": 2,
+      "category": "fashion",
+      "width": 1024,
+      "height": 1536,
+      "ratio": 0.667,
+      "variants": {
+        "480": {
+          "file": "/assets/fashion/halloween-looks-02-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 53.3
+        },
+        "900": {
+          "file": "/assets/fashion/halloween-looks-02-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 122.0
+        },
+        "1024": {
+          "file": "/assets/fashion/halloween-looks-02-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 141.8
+        }
+      },
+      "src": "/assets/fashion/halloween-looks-02-1024.webp",
+      "srcSet": "/assets/fashion/halloween-looks-02-480.webp 480w, /assets/fashion/halloween-looks-02-900.webp 900w, /assets/fashion/halloween-looks-02-1024.webp 1024w",
+      "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
+      "title": "Halloween Looks"
+    },
+    {
+      "slug": "halloween-looks",
+      "index": 3,
+      "category": "fashion",
+      "width": 1024,
+      "height": 1536,
+      "ratio": 0.667,
+      "variants": {
+        "480": {
+          "file": "/assets/fashion/halloween-looks-03-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 39.2
+        },
+        "900": {
+          "file": "/assets/fashion/halloween-looks-03-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 93.7
+        },
+        "1024": {
+          "file": "/assets/fashion/halloween-looks-03-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 104.6
+        }
+      },
+      "src": "/assets/fashion/halloween-looks-03-1024.webp",
+      "srcSet": "/assets/fashion/halloween-looks-03-480.webp 480w, /assets/fashion/halloween-looks-03-900.webp 900w, /assets/fashion/halloween-looks-03-1024.webp 1024w",
+      "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
+      "title": "Halloween Looks"
+    },
+    {
+      "slug": "halloween-looks",
+      "index": 4,
+      "category": "fashion",
+      "width": 1024,
+      "height": 1536,
+      "ratio": 0.667,
+      "variants": {
+        "480": {
+          "file": "/assets/fashion/halloween-looks-04-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 61.3
+        },
+        "900": {
+          "file": "/assets/fashion/halloween-looks-04-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 168.4
+        },
+        "1024": {
+          "file": "/assets/fashion/halloween-looks-04-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 193.3
+        }
+      },
+      "src": "/assets/fashion/halloween-looks-04-1024.webp",
+      "srcSet": "/assets/fashion/halloween-looks-04-480.webp 480w, /assets/fashion/halloween-looks-04-900.webp 900w, /assets/fashion/halloween-looks-04-1024.webp 1024w",
+      "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
+      "title": "Halloween Looks"
+    },
+    {
+      "slug": "halloween-looks",
+      "index": 5,
+      "category": "fashion",
+      "width": 1024,
+      "height": 1536,
+      "ratio": 0.667,
+      "variants": {
+        "480": {
+          "file": "/assets/fashion/halloween-looks-05-480.webp",
+          "w": 480,
+          "h": 720,
+          "kb": 27.7
+        },
+        "900": {
+          "file": "/assets/fashion/halloween-looks-05-900.webp",
+          "w": 900,
+          "h": 1350,
+          "kb": 63.9
+        },
+        "1024": {
+          "file": "/assets/fashion/halloween-looks-05-1024.webp",
+          "w": 1024,
+          "h": 1536,
+          "kb": 71.8
+        }
+      },
+      "src": "/assets/fashion/halloween-looks-05-1024.webp",
+      "srcSet": "/assets/fashion/halloween-looks-05-480.webp 480w, /assets/fashion/halloween-looks-05-900.webp 900w, /assets/fashion/halloween-looks-05-1024.webp 1024w",
+      "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
+      "title": "Halloween Looks"
+    },
+    {
       "slug": "halloween-peek",
       "index": 1,
       "category": "fashion",

@@ -24,9 +24,12 @@ Live: **https://val-rose-studio.vercel.app**
 1. **Hero** — name, positioning, published-figure strip, full (uncropped) portrait
 2. **Ticker** — slow discipline strip that pauses on hover
 3. **About** — statement, practice copy, capability cards
-4. **Selected Work** — film rail plus editorial grid; every image shown at its own
-   aspect ratio (nothing cropped), hover to see the rest of a carousel, click for a
-   keyboard-navigable lightbox with links back to the original post
+4. **Selected Work** — film rail, three lead pieces (Lukačev Couture, The Trinity
+   Collection, Halloween) at screen-filling size, then a **Show more** panel that
+   reveals the remaining ten pieces and a **Show less** control to collapse them.
+   Every image is shown at its own aspect ratio (nothing cropped), hover holds a
+   frame, and clicking opens a keyboard-navigable lightbox with links back to the
+   original post
 5. **Content Directions** — Fashion & Styling / Beauty & Skincare / Haircare & Lifestyle
 6. **Process** — how a collaboration runs, in four agreed stages
 7. **Collaboration Formats** — five ways to work together

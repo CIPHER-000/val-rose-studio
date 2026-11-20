@@ -1,8 +1,9 @@
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { ChevronLeft, ChevronRight, Play, Volume2, VolumeX, X } from "lucide-react";
+import { ChevronDown, ChevronLeft, ChevronRight, Play, Volume2, VolumeX, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
+import type { CSSProperties } from "react";
 import { createPortal } from "react-dom";
 import { films, works, type Film } from "@/lib/gallery";
 import CarouselTile from "./CarouselTile";
@@ -178,6 +179,7 @@ function FilmCard({ film, onOpen }: { film: Film; onOpen: () => void }) {
 export default function Work() {
   const [viewer, setViewer] = useState<ViewerState>(null);
   const [portalReady, setPortalReady] = useState(false);
+  const [expanded, setExpanded] = useState(false);
   const reduce = useReducedMotion();
 
   useEffect(() => {
@@ -192,6 +194,20 @@ export default function Work() {
       const total = works[v.workIndex].images.length;
       return { ...v, imageIndex: (v.imageIndex + dir + total) % total };
     });
+  }, []);
+
+  /** Reveal or collapse the rest of the gallery, keeping the reader oriented. */
+  const toggleGallery = useCallback((next: boolean) => {
+    setExpanded(next);
+    window.setTimeout(() => {
+      const target = document.getElementById(next ? "full-gallery" : "work");
+      target?.scrollIntoView({
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "auto"
+          : "smooth",
+        block: "start",
+      });
+    }, 80);
   }, []);
 
   useEffect(() => {
@@ -209,7 +225,8 @@ export default function Work() {
     };
   }, [viewer, close, step]);
 
-  const [featureA, featureB, ...rest] = works;
+  const [featureA, featureB, featureC, ...rest] = works;
+  const features = [featureA, featureB, featureC].filter(Boolean);
 
   return (
     <section id="work" className="grain border-t border-line bg-paper">
@@ -264,16 +281,18 @@ export default function Work() {
 
         {/* Editorial features — sized as large as the screen allows, side by side */}
         <div className="mt-20 flex flex-col items-center gap-10 md:flex-row md:items-start md:justify-center md:gap-12">
-          {[featureA, featureB].filter(Boolean).map((w, i) => (
+          {features.map((w, i) => (
             <div
               key={w.slug}
-              className="w-full"
-              // Frame height = viewport minus the fixed nav and the caption below,
-              // so the whole piece is on screen at the largest size that fits.
-              style={{
-                width: `calc((100vh - 165px) * ${w.coverRatio})`,
-                maxWidth: "100%",
-              }}
+              className="w-full md:w-[var(--feature-w)]"
+              // Height = viewport minus the fixed nav and the caption; width falls
+              // back to a third of the row so three pieces still fit side by side.
+              style={
+                {
+                  "--feature-w": `min(calc((100vh - 165px) * ${w.coverRatio}), calc((100% - 6rem) / 3))`,
+                  maxWidth: "100%",
+                } as CSSProperties
+              }
             >
               <Reveal delay={0.05 * i}>
                 <button
@@ -288,7 +307,7 @@ export default function Work() {
                   >
                     <CarouselTile
                       images={w.images}
-                      sizes="(max-width: 768px) 100vw, 40vw"
+                      sizes="(max-width: 768px) 100vw, 33vw"
                       alt={`${w.title} — ${w.kind} by Valentina Rose`}
                       imgClassName="zoom-img"
                     />
@@ -308,44 +327,104 @@ export default function Work() {
           ))}
         </div>
 
-        {/* Masonry remainder */}
-        <div className="mt-6 columns-1 gap-6 sm:columns-2 md:gap-8 lg:columns-3">
-          {rest.map((w, i) => {
-            const globalIndex = i + 2;
-            return (
-              <Reveal key={w.slug} delay={0.02 * (i % 3)} className="mb-6 break-inside-avoid md:mb-8">
-                <button
-                  type="button"
-                  onClick={() => setViewer({ kind: "images", workIndex: globalIndex, imageIndex: 0 })}
-                  className="group zoom-wrap mx-auto block w-full text-left"
-                  style={{ maxWidth: `calc(68vh * ${w.coverRatio})` }}
-                  aria-label={`View ${w.title}`}
-                >
-                  <div
-                    className="relative w-full overflow-hidden bg-blush"
-                    style={{ aspectRatio: String(w.coverRatio) }}
-                  >
-                    <CarouselTile
-                      images={w.images}
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 32vw"
-                      alt={`${w.title} — ${w.kind} by Valentina Rose`}
-                      imgClassName="zoom-img"
-                    />
-                  </div>
-                  <div className="mt-3 flex items-baseline justify-between gap-3">
-                    <div>
-                      <h3 className="text-[15px]">{w.title}</h3>
-                      <p className="mt-0.5 text-[13px] text-muted">{w.kind}</p>
-                    </div>
-                    <span className="shrink-0 text-[10px] uppercase tracking-widest text-muted">
-                      {CATEGORY_LABEL[w.category] ?? w.category}
-                    </span>
-                  </div>
-                </button>
-              </Reveal>
-            );
-          })}
+        {/* Show more — everything else stays collapsed until asked for */}
+        <div className="mt-16">
+          <button
+            type="button"
+            onClick={() => toggleGallery(!expanded)}
+            aria-expanded={expanded}
+            aria-controls="full-gallery"
+            className="group flex w-full items-center justify-between gap-6 border-y border-line py-6 text-left transition-colors duration-500 hover:bg-shell/70 md:py-7"
+          >
+            <span className="flex flex-wrap items-baseline gap-x-5 gap-y-2">
+              <span className="font-display text-2xl md:text-3xl">
+                {expanded ? "Hide the full gallery" : "Show more work"}
+              </span>
+              <span className="text-[11px] uppercase tracking-widest text-muted">
+                {expanded ? "collapse" : `${rest.length} more pieces`}
+              </span>
+            </span>
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-ink/25 transition-colors duration-500 group-hover:bg-ink group-hover:text-paper">
+              <ChevronDown
+                className={`h-5 w-5 transition-transform duration-500 ease-editorial ${
+                  expanded ? "rotate-180" : ""
+                }`}
+                strokeWidth={1.4}
+              />
+            </span>
+          </button>
         </div>
+
+        {expanded && (
+          <div id="full-gallery" className="mt-12 scroll-mt-24">
+            <div className="mb-6 flex items-baseline justify-between border-b border-line pb-3">
+              <h3 className="font-display text-2xl">Full gallery</h3>
+              <span className="text-[11px] uppercase tracking-widest text-muted">
+                {rest.length} pieces · {rest.reduce((n, w) => n + w.images.length, 0)} stills
+              </span>
+            </div>
+
+            {/* Masonry remainder */}
+            <div className="columns-1 gap-6 sm:columns-2 md:gap-8 lg:columns-3">
+              {rest.map((w, i) => {
+                const globalIndex = i + features.length;
+                return (
+                  <Reveal
+                    key={w.slug}
+                    delay={0.02 * (i % 3)}
+                    className="mb-6 break-inside-avoid md:mb-8"
+                  >
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setViewer({ kind: "images", workIndex: globalIndex, imageIndex: 0 })
+                      }
+                      className="group zoom-wrap mx-auto block w-full text-left"
+                      style={{ maxWidth: `calc(68vh * ${w.coverRatio})` }}
+                      aria-label={`View ${w.title}`}
+                    >
+                      <div
+                        className="relative w-full overflow-hidden bg-blush"
+                        style={{ aspectRatio: String(w.coverRatio) }}
+                      >
+                        <CarouselTile
+                          images={w.images}
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 32vw"
+                          alt={`${w.title} — ${w.kind} by Valentina Rose`}
+                          imgClassName="zoom-img"
+                        />
+                      </div>
+                      <div className="mt-3 flex items-baseline justify-between gap-3">
+                        <div>
+                          <h3 className="text-[15px]">{w.title}</h3>
+                          <p className="mt-0.5 text-[13px] text-muted">{w.kind}</p>
+                        </div>
+                        <span className="shrink-0 text-[10px] uppercase tracking-widest text-muted">
+                          {CATEGORY_LABEL[w.category] ?? w.category}
+                        </span>
+                      </div>
+                    </button>
+                  </Reveal>
+                );
+              })}
+            </div>
+
+            {/* Show less — collapse from the bottom of the gallery */}
+            <div className="mt-12 flex justify-center">
+              <button
+                type="button"
+                onClick={() => toggleGallery(false)}
+                className="group inline-flex items-center gap-3 rounded-full border border-ink/25 px-7 py-3.5 text-sm transition-colors duration-300 hover:border-ink hover:bg-ink hover:text-paper"
+              >
+                Show less
+                <ChevronDown
+                  className="h-4 w-4 rotate-180 transition-transform duration-500 ease-editorial group-hover:-translate-y-0.5"
+                  strokeWidth={1.5}
+                />
+              </button>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Viewer — portalled to <body>. Each section uses the grain overlay, which

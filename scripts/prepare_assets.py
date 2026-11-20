@@ -34,6 +34,7 @@ POSTS = {
     "navy-burgundy": ("7706521375812390151", "Navy & Burgundy", "fashion"),
     "halloween-romance": ("7702795356060339474", "Halloween Romance", "fashion"),
     "halloween-peek": ("7702224676579298568", "Halloween Preview", "fashion"),
+    "halloween-looks": ("7702535243588291847", "Halloween Looks", "fashion"),
     "tom-ford-editorial": ("7702221003094641938", "Tom Ford Editorial", "fashion"),
     "city-coffee": ("7702506225749085458", "City & Coffee", "fashion"),
     "parisian-summer": ("7702479453288484114", "Parisian Summer", "fashion"),
@@ -56,6 +57,10 @@ VIDEOS = {
 CANDIDATE_WIDTHS = (480, 900, 1200, 1600)
 QUALITY = 88
 TIKTOK = "https://www.tiktok.com/@valrose.studio0"
+
+# Folders that are not published content: the hero portrait has its own script
+# and anything prefixed with "_" is deliberately held back.
+SKIP_DIRS = {"hero", "_unused"}
 
 
 def out_dir(cat):
@@ -107,7 +112,7 @@ def main():
 
     for cat in sorted(os.listdir(RAW)):
         cdir = os.path.join(RAW, cat)
-        if not os.path.isdir(cdir):
+        if not os.path.isdir(cdir) or cat in SKIP_DIRS or cat.startswith("_"):
             continue
         for f in sorted(os.listdir(cdir)):
             if not f.lower().endswith((".jpg", ".jpeg", ".png")):

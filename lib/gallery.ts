@@ -142,6 +142,74 @@ export const works: Work[] = [
     ]
   },
   {
+    "slug": "halloween",
+    "title": "Halloween",
+    "kind": "Seasonal",
+    "category": "fashion",
+    "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568",
+    "cover": "/assets/fashion/halloween-peek-01-1024.webp",
+    "coverSrcSet": "/assets/fashion/halloween-peek-01-480.webp 480w, /assets/fashion/halloween-peek-01-900.webp 900w, /assets/fashion/halloween-peek-01-1024.webp 1024w",
+    "coverRatio": 0.667,
+    "images": [
+      {
+        "src": "/assets/fashion/halloween-peek-01-1024.webp",
+        "srcSet": "/assets/fashion/halloween-peek-01-480.webp 480w, /assets/fashion/halloween-peek-01-900.webp 900w, /assets/fashion/halloween-peek-01-1024.webp 1024w",
+        "ratio": 0.667,
+        "width": 1024,
+        "height": 1536,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568"
+      },
+      {
+        "src": "/assets/fashion/halloween-romance-01-1024.webp",
+        "srcSet": "/assets/fashion/halloween-romance-01-480.webp 480w, /assets/fashion/halloween-romance-01-900.webp 900w, /assets/fashion/halloween-romance-01-1024.webp 1024w",
+        "ratio": 0.667,
+        "width": 1024,
+        "height": 1536,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702795356060339474"
+      },
+      {
+        "src": "/assets/fashion/halloween-looks-01-1024.webp",
+        "srcSet": "/assets/fashion/halloween-looks-01-480.webp 480w, /assets/fashion/halloween-looks-01-900.webp 900w, /assets/fashion/halloween-looks-01-1024.webp 1024w",
+        "ratio": 0.667,
+        "width": 1024,
+        "height": 1536,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847"
+      },
+      {
+        "src": "/assets/fashion/halloween-looks-02-1024.webp",
+        "srcSet": "/assets/fashion/halloween-looks-02-480.webp 480w, /assets/fashion/halloween-looks-02-900.webp 900w, /assets/fashion/halloween-looks-02-1024.webp 1024w",
+        "ratio": 0.667,
+        "width": 1024,
+        "height": 1536,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847"
+      },
+      {
+        "src": "/assets/fashion/halloween-looks-03-1024.webp",
+        "srcSet": "/assets/fashion/halloween-looks-03-480.webp 480w, /assets/fashion/halloween-looks-03-900.webp 900w, /assets/fashion/halloween-looks-03-1024.webp 1024w",
+        "ratio": 0.667,
+        "width": 1024,
+        "height": 1536,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847"
+      },
+      {
+        "src": "/assets/fashion/halloween-looks-04-1024.webp",
+        "srcSet": "/assets/fashion/halloween-looks-04-480.webp 480w, /assets/fashion/halloween-looks-04-900.webp 900w, /assets/fashion/halloween-looks-04-1024.webp 1024w",
+        "ratio": 0.667,
+        "width": 1024,
+        "height": 1536,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847"
+      },
+      {
+        "src": "/assets/fashion/halloween-looks-05-1024.webp",
+        "srcSet": "/assets/fashion/halloween-looks-05-480.webp 480w, /assets/fashion/halloween-looks-05-900.webp 900w, /assets/fashion/halloween-looks-05-1024.webp 1024w",
+        "ratio": 0.667,
+        "width": 1024,
+        "height": 1536,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847"
+      }
+    ]
+  },
+  {
     "slug": "street-style-bags",
     "title": "Street Style & Statement Bags",
     "kind": "Street style",
@@ -374,34 +442,6 @@ export const works: Work[] = [
         "width": 1080,
         "height": 1352,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702221003094641938"
-      }
-    ]
-  },
-  {
-    "slug": "halloween",
-    "title": "Halloween",
-    "kind": "Seasonal",
-    "category": "fashion",
-    "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568",
-    "cover": "/assets/fashion/halloween-peek-01-1024.webp",
-    "coverSrcSet": "/assets/fashion/halloween-peek-01-480.webp 480w, /assets/fashion/halloween-peek-01-900.webp 900w, /assets/fashion/halloween-peek-01-1024.webp 1024w",
-    "coverRatio": 0.667,
-    "images": [
-      {
-        "src": "/assets/fashion/halloween-peek-01-1024.webp",
-        "srcSet": "/assets/fashion/halloween-peek-01-480.webp 480w, /assets/fashion/halloween-peek-01-900.webp 900w, /assets/fashion/halloween-peek-01-1024.webp 1024w",
-        "ratio": 0.667,
-        "width": 1024,
-        "height": 1536,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568"
-      },
-      {
-        "src": "/assets/fashion/halloween-romance-01-1024.webp",
-        "srcSet": "/assets/fashion/halloween-romance-01-480.webp 480w, /assets/fashion/halloween-romance-01-900.webp 900w, /assets/fashion/halloween-romance-01-1024.webp 1024w",
-        "ratio": 0.667,
-        "width": 1024,
-        "height": 1536,
-        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702795356060339474"
       }
     ]
   },
