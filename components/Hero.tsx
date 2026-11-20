@@ -68,7 +68,7 @@ export default function Hero() {
               href="#work"
               className="group inline-flex items-center gap-3 rounded-full bg-ink px-7 py-3.5 text-sm text-paper transition-transform duration-500 ease-editorial hover:-translate-y-0.5"
             >
-              Explore the Work
+              Explore My Work
               <span className="inline-block transition-transform duration-500 ease-editorial group-hover:translate-x-1">
                 →
               </span>

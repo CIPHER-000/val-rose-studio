@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 const CAPABILITIES = [
   {
     title: "Direction",
-    items: ["Creative direction", "Editorial styling", "Shot lists & treatment"],
+    items: ["Moodboard & references", "Styling and shot list", "Light and location"],
   },
   {
     title: "Formats",
@@ -24,13 +24,13 @@ export default function About() {
             <Reveal>
               <p className="eyebrow">About</p>
               <h2 className="display-tight mt-5 font-display text-4xl md:text-5xl">
-                A considered eye for
+                What it&rsquo;s like
                 <br />
-                fashion and beauty
+                to work with me
               </h2>
               <p className="mt-8 max-w-sm font-display text-2xl leading-snug text-ink/85">
-                &ldquo;Every frame is art-directed before it is photographed — palette, silhouette
-                and light agreed first.&rdquo;
+                &ldquo;I&rsquo;d rather shoot one set that looks right than twenty that look like
+                everything else.&rdquo;
               </p>
             </Reveal>
           </div>
@@ -39,21 +39,43 @@ export default function About() {
             <Reveal delay={0.06}>
               <div className="space-y-5 text-[15px] leading-[1.75] text-ink/80">
                 <p>
-                  Valentina Rose is a fashion, beauty and lifestyle content creator working across
-                  editorial styling, skincare and haircare. Her work centres on visual storytelling —
-                  building a mood, a look and a narrative frame by frame, then shaping it into
-                  content that belongs on a brand&rsquo;s own feed.
+                  I&rsquo;m Valentina, a model and content creator working in fashion, beauty and
+                  haircare. I make the sort of images a brand is happy to put on its own grid —
+                  work that belongs beside the campaign, not borrowed from someone else&rsquo;s
+                  moodboard.
                 </p>
                 <p>
-                  Each piece begins with art direction: a palette, a setting, a silhouette, the way
-                  light falls across a product. Outfits are styled to be read as looks rather than
-                  garments; skincare and haircare are shot as rituals rather than demonstrations.
+                  Every set starts with a conversation and a moodboard: the palette, the light, the
+                  pieces, how the product should feel in someone&rsquo;s hands. I&rsquo;d rather agree
+                  that before the camera comes out than try to rescue it in the edit.
                 </p>
                 <p>
-                  She works with brands across fashion and apparel, skincare, beauty and haircare to
-                  create imagery for launches, evergreen campaigns and seasonal features.
+                  So products get used the way people actually use them. A serum goes onto skin,
+                  hair is washed and towel-dried, a coat is worn on a street at a particular hour.
+                  If a bottle needs to sit on a bare table, it&rsquo;s because the story called for
+                  it — not because it was the fastest thing to shoot.
+                </p>
+                <p>
+                  You deal with me from the first email to the final file, so nothing gets lost
+                  between a brief and a shoot. You see the edit before it goes anywhere, and the
+                  same look carries across a launch instead of stopping at one post.
                 </p>
               </div>
+
+              <p className="mt-7 text-[15px] leading-[1.75] text-ink/80">
+                If you&rsquo;re launching something soon, tell me what it is. I&rsquo;ll tell you
+                honestly whether I&rsquo;m the right person for it.
+              </p>
+
+              <a
+                href="#contact"
+                className="group mt-6 inline-flex items-center gap-2.5 text-sm text-accent underline-offset-4 transition-colors hover:text-ink hover:underline"
+              >
+                Start with an email
+                <span className="transition-transform duration-500 ease-editorial group-hover:translate-x-1">
+                  →
+                </span>
+              </a>
             </Reveal>
           </div>
         </div>
