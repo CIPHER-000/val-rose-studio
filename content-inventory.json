@@ -1,6 +1,522 @@
 {
   "images": [
     {
+      "slug": "beauty-edit",
+      "index": 1,
+      "category": "beauty",
+      "width": 1148,
+      "height": 1371,
+      "ratio": 0.837,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-01-480.webp",
+          "w": 480,
+          "h": 573,
+          "kb": 32.2
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-01-900.webp",
+          "w": 900,
+          "h": 1075,
+          "kb": 80.7
+        },
+        "1148": {
+          "file": "/assets/beauty/beauty-edit-01-1148.webp",
+          "w": 1148,
+          "h": 1371,
+          "kb": 111.1
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-01-1148.webp",
+      "srcSet": "/assets/beauty/beauty-edit-01-480.webp 480w, /assets/beauty/beauty-edit-01-900.webp 900w, /assets/beauty/beauty-edit-01-1148.webp 1148w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 2,
+      "category": "beauty",
+      "width": 1148,
+      "height": 1371,
+      "ratio": 0.837,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-02-480.webp",
+          "w": 480,
+          "h": 573,
+          "kb": 33.1
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-02-900.webp",
+          "w": 900,
+          "h": 1075,
+          "kb": 87.6
+        },
+        "1148": {
+          "file": "/assets/beauty/beauty-edit-02-1148.webp",
+          "w": 1148,
+          "h": 1371,
+          "kb": 125.7
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-02-1148.webp",
+      "srcSet": "/assets/beauty/beauty-edit-02-480.webp 480w, /assets/beauty/beauty-edit-02-900.webp 900w, /assets/beauty/beauty-edit-02-1148.webp 1148w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 3,
+      "category": "beauty",
+      "width": 1147,
+      "height": 1372,
+      "ratio": 0.836,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-03-480.webp",
+          "w": 480,
+          "h": 574,
+          "kb": 42.0
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-03-900.webp",
+          "w": 900,
+          "h": 1077,
+          "kb": 133.0
+        },
+        "1147": {
+          "file": "/assets/beauty/beauty-edit-03-1147.webp",
+          "w": 1147,
+          "h": 1372,
+          "kb": 188.3
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-03-1147.webp",
+      "srcSet": "/assets/beauty/beauty-edit-03-480.webp 480w, /assets/beauty/beauty-edit-03-900.webp 900w, /assets/beauty/beauty-edit-03-1147.webp 1147w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 4,
+      "category": "beauty",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-04-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 40.1
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-04-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 112.5
+        },
+        "1199": {
+          "file": "/assets/beauty/beauty-edit-04-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 170.5
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-04-1199.webp",
+      "srcSet": "/assets/beauty/beauty-edit-04-480.webp 480w, /assets/beauty/beauty-edit-04-900.webp 900w, /assets/beauty/beauty-edit-04-1199.webp 1199w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 5,
+      "category": "beauty",
+      "width": 1148,
+      "height": 1371,
+      "ratio": 0.837,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-05-480.webp",
+          "w": 480,
+          "h": 573,
+          "kb": 24.6
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-05-900.webp",
+          "w": 900,
+          "h": 1075,
+          "kb": 59.7
+        },
+        "1148": {
+          "file": "/assets/beauty/beauty-edit-05-1148.webp",
+          "w": 1148,
+          "h": 1371,
+          "kb": 85.2
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-05-1148.webp",
+      "srcSet": "/assets/beauty/beauty-edit-05-480.webp 480w, /assets/beauty/beauty-edit-05-900.webp 900w, /assets/beauty/beauty-edit-05-1148.webp 1148w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 6,
+      "category": "beauty",
+      "width": 1148,
+      "height": 1371,
+      "ratio": 0.837,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-06-480.webp",
+          "w": 480,
+          "h": 573,
+          "kb": 39.2
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-06-900.webp",
+          "w": 900,
+          "h": 1075,
+          "kb": 98.2
+        },
+        "1148": {
+          "file": "/assets/beauty/beauty-edit-06-1148.webp",
+          "w": 1148,
+          "h": 1371,
+          "kb": 136.7
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-06-1148.webp",
+      "srcSet": "/assets/beauty/beauty-edit-06-480.webp 480w, /assets/beauty/beauty-edit-06-900.webp 900w, /assets/beauty/beauty-edit-06-1148.webp 1148w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 7,
+      "category": "beauty",
+      "width": 1222,
+      "height": 1287,
+      "ratio": 0.949,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-07-480.webp",
+          "w": 480,
+          "h": 506,
+          "kb": 27.7
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-07-900.webp",
+          "w": 900,
+          "h": 948,
+          "kb": 84.9
+        },
+        "1200": {
+          "file": "/assets/beauty/beauty-edit-07-1200.webp",
+          "w": 1200,
+          "h": 1264,
+          "kb": 126.2
+        },
+        "1222": {
+          "file": "/assets/beauty/beauty-edit-07-1222.webp",
+          "w": 1222,
+          "h": 1287,
+          "kb": 131.1
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-07-1222.webp",
+      "srcSet": "/assets/beauty/beauty-edit-07-480.webp 480w, /assets/beauty/beauty-edit-07-900.webp 900w, /assets/beauty/beauty-edit-07-1200.webp 1200w, /assets/beauty/beauty-edit-07-1222.webp 1222w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 8,
+      "category": "beauty",
+      "width": 1148,
+      "height": 1371,
+      "ratio": 0.837,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-08-480.webp",
+          "w": 480,
+          "h": 573,
+          "kb": 26.5
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-08-900.webp",
+          "w": 900,
+          "h": 1075,
+          "kb": 63.4
+        },
+        "1148": {
+          "file": "/assets/beauty/beauty-edit-08-1148.webp",
+          "w": 1148,
+          "h": 1371,
+          "kb": 88.1
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-08-1148.webp",
+      "srcSet": "/assets/beauty/beauty-edit-08-480.webp 480w, /assets/beauty/beauty-edit-08-900.webp 900w, /assets/beauty/beauty-edit-08-1148.webp 1148w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 9,
+      "category": "beauty",
+      "width": 1086,
+      "height": 1448,
+      "ratio": 0.75,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-09-480.webp",
+          "w": 480,
+          "h": 640,
+          "kb": 43.2
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-09-900.webp",
+          "w": 900,
+          "h": 1200,
+          "kb": 118.7
+        },
+        "1086": {
+          "file": "/assets/beauty/beauty-edit-09-1086.webp",
+          "w": 1086,
+          "h": 1448,
+          "kb": 158.7
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-09-1086.webp",
+      "srcSet": "/assets/beauty/beauty-edit-09-480.webp 480w, /assets/beauty/beauty-edit-09-900.webp 900w, /assets/beauty/beauty-edit-09-1086.webp 1086w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 10,
+      "category": "beauty",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-10-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 27.7
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-10-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 77.8
+        },
+        "1199": {
+          "file": "/assets/beauty/beauty-edit-10-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 123.6
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-10-1199.webp",
+      "srcSet": "/assets/beauty/beauty-edit-10-480.webp 480w, /assets/beauty/beauty-edit-10-900.webp 900w, /assets/beauty/beauty-edit-10-1199.webp 1199w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 11,
+      "category": "beauty",
+      "width": 1086,
+      "height": 1448,
+      "ratio": 0.75,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-11-480.webp",
+          "w": 480,
+          "h": 640,
+          "kb": 43.1
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-11-900.webp",
+          "w": 900,
+          "h": 1200,
+          "kb": 122.5
+        },
+        "1086": {
+          "file": "/assets/beauty/beauty-edit-11-1086.webp",
+          "w": 1086,
+          "h": 1448,
+          "kb": 164.1
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-11-1086.webp",
+      "srcSet": "/assets/beauty/beauty-edit-11-480.webp 480w, /assets/beauty/beauty-edit-11-900.webp 900w, /assets/beauty/beauty-edit-11-1086.webp 1086w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 12,
+      "category": "beauty",
+      "width": 1086,
+      "height": 1448,
+      "ratio": 0.75,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-12-480.webp",
+          "w": 480,
+          "h": 640,
+          "kb": 44.1
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-12-900.webp",
+          "w": 900,
+          "h": 1200,
+          "kb": 123.7
+        },
+        "1086": {
+          "file": "/assets/beauty/beauty-edit-12-1086.webp",
+          "w": 1086,
+          "h": 1448,
+          "kb": 165.7
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-12-1086.webp",
+      "srcSet": "/assets/beauty/beauty-edit-12-480.webp 480w, /assets/beauty/beauty-edit-12-900.webp 900w, /assets/beauty/beauty-edit-12-1086.webp 1086w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 13,
+      "category": "beauty",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-13-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 29.8
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-13-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 92.8
+        },
+        "1199": {
+          "file": "/assets/beauty/beauty-edit-13-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 147.8
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-13-1199.webp",
+      "srcSet": "/assets/beauty/beauty-edit-13-480.webp 480w, /assets/beauty/beauty-edit-13-900.webp 900w, /assets/beauty/beauty-edit-13-1199.webp 1199w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 14,
+      "category": "beauty",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-14-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 28.6
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-14-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 85.8
+        },
+        "1199": {
+          "file": "/assets/beauty/beauty-edit-14-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 135.3
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-14-1199.webp",
+      "srcSet": "/assets/beauty/beauty-edit-14-480.webp 480w, /assets/beauty/beauty-edit-14-900.webp 900w, /assets/beauty/beauty-edit-14-1199.webp 1199w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 15,
+      "category": "beauty",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-15-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 36.9
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-15-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 116.0
+        },
+        "1199": {
+          "file": "/assets/beauty/beauty-edit-15-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 177.8
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-15-1199.webp",
+      "srcSet": "/assets/beauty/beauty-edit-15-480.webp 480w, /assets/beauty/beauty-edit-15-900.webp 900w, /assets/beauty/beauty-edit-15-1199.webp 1199w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 16,
+      "category": "beauty",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-16-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 29.0
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-16-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 82.9
+        },
+        "1199": {
+          "file": "/assets/beauty/beauty-edit-16-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 131.4
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-16-1199.webp",
+      "srcSet": "/assets/beauty/beauty-edit-16-480.webp 480w, /assets/beauty/beauty-edit-16-900.webp 900w, /assets/beauty/beauty-edit-16-1199.webp 1199w"
+    },
+    {
+      "slug": "beauty-edit",
+      "index": 17,
+      "category": "beauty",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/beauty/beauty-edit-17-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 23.0
+        },
+        "900": {
+          "file": "/assets/beauty/beauty-edit-17-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 59.2
+        },
+        "1199": {
+          "file": "/assets/beauty/beauty-edit-17-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 85.8
+        }
+      },
+      "src": "/assets/beauty/beauty-edit-17-1199.webp",
+      "srcSet": "/assets/beauty/beauty-edit-17-480.webp 480w, /assets/beauty/beauty-edit-17-900.webp 900w, /assets/beauty/beauty-edit-17-1199.webp 1199w"
+    },
+    {
       "slug": "sultry-fragrance",
       "index": 1,
       "category": "beauty",
@@ -1673,6 +2189,366 @@
       "srcSet": "/assets/fashion/trinity-collection-05-480.webp 480w, /assets/fashion/trinity-collection-05-900.webp 900w, /assets/fashion/trinity-collection-05-1200.webp 1200w, /assets/fashion/trinity-collection-05-1376.webp 1376w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 1,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-01-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 42.5
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-01-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 125.1
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-01-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 195.4
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-01-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-01-480.webp 480w, /assets/haircare/haircare-edit-01-900.webp 900w, /assets/haircare/haircare-edit-01-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 2,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-02-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 43.7
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-02-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 115.5
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-02-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 170.2
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-02-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-02-480.webp 480w, /assets/haircare/haircare-edit-02-900.webp 900w, /assets/haircare/haircare-edit-02-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 3,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-03-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 30.9
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-03-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 96.7
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-03-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 147.0
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-03-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-03-480.webp 480w, /assets/haircare/haircare-edit-03-900.webp 900w, /assets/haircare/haircare-edit-03-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 4,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-04-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 33.0
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-04-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 96.4
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-04-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 151.0
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-04-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-04-480.webp 480w, /assets/haircare/haircare-edit-04-900.webp 900w, /assets/haircare/haircare-edit-04-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 5,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-05-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 39.0
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-05-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 108.8
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-05-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 164.9
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-05-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-05-480.webp 480w, /assets/haircare/haircare-edit-05-900.webp 900w, /assets/haircare/haircare-edit-05-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 6,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-06-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 49.2
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-06-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 164.6
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-06-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 270.1
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-06-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-06-480.webp 480w, /assets/haircare/haircare-edit-06-900.webp 900w, /assets/haircare/haircare-edit-06-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 7,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-07-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 36.1
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-07-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 102.4
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-07-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 163.6
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-07-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-07-480.webp 480w, /assets/haircare/haircare-edit-07-900.webp 900w, /assets/haircare/haircare-edit-07-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 8,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-08-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 31.6
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-08-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 100.5
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-08-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 160.1
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-08-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-08-480.webp 480w, /assets/haircare/haircare-edit-08-900.webp 900w, /assets/haircare/haircare-edit-08-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 9,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-09-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 36.9
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-09-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 119.9
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-09-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 198.9
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-09-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-09-480.webp 480w, /assets/haircare/haircare-edit-09-900.webp 900w, /assets/haircare/haircare-edit-09-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 10,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-10-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 33.5
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-10-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 99.7
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-10-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 157.4
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-10-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-10-480.webp 480w, /assets/haircare/haircare-edit-10-900.webp 900w, /assets/haircare/haircare-edit-10-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 11,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-11-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 33.5
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-11-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 95.2
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-11-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 144.7
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-11-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-11-480.webp 480w, /assets/haircare/haircare-edit-11-900.webp 900w, /assets/haircare/haircare-edit-11-1199.webp 1199w"
+    },
+    {
+      "slug": "haircare-edit",
+      "index": 12,
+      "category": "haircare",
+      "width": 1199,
+      "height": 1312,
+      "ratio": 0.914,
+      "variants": {
+        "480": {
+          "file": "/assets/haircare/haircare-edit-12-480.webp",
+          "w": 480,
+          "h": 525,
+          "kb": 30.8
+        },
+        "900": {
+          "file": "/assets/haircare/haircare-edit-12-900.webp",
+          "w": 900,
+          "h": 985,
+          "kb": 101.2
+        },
+        "1199": {
+          "file": "/assets/haircare/haircare-edit-12-1199.webp",
+          "w": 1199,
+          "h": 1312,
+          "kb": 166.2
+        }
+      },
+      "src": "/assets/haircare/haircare-edit-12-1199.webp",
+      "srcSet": "/assets/haircare/haircare-edit-12-480.webp 480w, /assets/haircare/haircare-edit-12-900.webp 900w, /assets/haircare/haircare-edit-12-1199.webp 1199w"
     },
     {
       "slug": "green-door-candle",

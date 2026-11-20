@@ -534,17 +534,22 @@ export default function Work() {
                     <span className="text-xs tabular-nums text-paper/60">
                       {viewer.imageIndex + 1} / {works[viewer.workIndex].images.length}
                     </span>
-                    <a
-                      href={
-                        works[viewer.workIndex].images[viewer.imageIndex].postUrl ||
-                        works[viewer.workIndex].postUrl
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs uppercase tracking-widest text-paper/70 underline underline-offset-4 hover:text-paper"
-                    >
-                      View on TikTok
-                    </a>
+                    {/* Only link out when the frame actually came from a post:
+                        owner-supplied sets have no source URL. */}
+                    {(works[viewer.workIndex].images[viewer.imageIndex].postUrl ||
+                      works[viewer.workIndex].postUrl) && (
+                      <a
+                        href={
+                          works[viewer.workIndex].images[viewer.imageIndex].postUrl ||
+                          works[viewer.workIndex].postUrl
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs uppercase tracking-widest text-paper/70 underline underline-offset-4 hover:text-paper"
+                      >
+                        View on TikTok
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

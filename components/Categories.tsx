@@ -6,7 +6,7 @@ const BLOCKS = [
   {
     key: "fashion" as const,
     label: "Fashion & Styling",
-    slug: "trinity-collection",
+    slug: "lukacev-couture",
     copy:
       "Outfit stories, lookbooks and editorial styling. Seasonal collections, occasion dressing, street style and silhouette-led features.",
     tags: ["Outfit inspiration", "Lookbooks", "Collection features", "Street style"],
@@ -14,7 +14,7 @@ const BLOCKS = [
   {
     key: "beauty" as const,
     label: "Beauty & Skincare",
-    slug: "sultry-fragrance",
+    slug: "beauty-edit",
     copy:
       "Product-forward beauty content: skincare steps, fragrance campaigns, make-up looks and getting-ready sequences built around a brand's hero product.",
     tags: ["Product showcases", "Skincare", "Fragrance", "GRWM"],
@@ -22,7 +22,7 @@ const BLOCKS = [
   {
     key: "lifestyle" as const,
     label: "Haircare & Lifestyle",
-    slug: "green-door-candle",
+    slug: "haircare-edit",
     copy:
       "Haircare routines, home and beauty rituals, and lifestyle moments — softer, atmospheric content that places a product inside a lived-in scene.",
     tags: ["Haircare", "Home fragrance", "Rituals", "Lifestyle"],

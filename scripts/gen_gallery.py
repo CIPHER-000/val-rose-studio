@@ -18,8 +18,16 @@ GROUPS = {
         ("tom-ford-editorial", "Tom Ford Editorial", "Creative direction"),
         ("ootd-styling", "Everyday Styling", "OOTD"),
     ],
-    "beauty": [("sultry-fragrance", "Sultry Extrait de Parfum", "Fragrance")],
-    "lifestyle": [("green-door-candle", "Green Door Candle Co.", "Home fragrance")],
+    "beauty": [
+        ("sultry-fragrance", "Sultry Extrait de Parfum", "Fragrance"),
+        # Owner-supplied skincare/beauty set (not a TikTok post): no post URL, so
+        # the lightbox shows no outbound link for these frames.
+        ("beauty-edit", "Beauty & Skincare", "Skin, product & routine"),
+    ],
+    "lifestyle": [
+        ("haircare-edit", "Haircare", "Hair, care & routine"),
+        ("green-door-candle", "Green Door Candle Co.", "Home fragrance"),
+    ],
 }
 
 # Posts that were published separately but belong to one shoot/story: they are

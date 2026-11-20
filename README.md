@@ -80,9 +80,15 @@ content-inventory.json / CONTENT-INVENTORY.md
 ## Content provenance
 
 All imagery and video is Valentina Rose's own published TikTok content from
-[@valrose.studio0](https://www.tiktok.com/@valrose.studio0). Assets were collected at
-full resolution from the creator's own posts, re-encoded to WebP (two widths) and MP4,
-and each item retains a link to its original post in the lightbox.
+[@valrose.studio0](https://www.tiktok.com/@valrose.studio0), plus two
+**owner-supplied** sets: the hero portrait (`scripts/prepare_hero.py` →
+`public/assets/hero`) and the Beauty & Skincare / Haircare sets taken from the
+supplied `images/` folders. Those sets have no source post, so the lightbox
+shows no outbound "View on TikTok" link for them — the link only appears when a
+frame really came from a post.
+
+TikTok assets were collected at full resolution, re-encoded to WebP (three widths
+up to native) and MP4, and each item retains a link to its original post.
 
 Follower and like figures are taken from the public TikTok profile and are labelled as such.
 No performance statistics, brand partnerships, testimonials or campaign results are claimed
