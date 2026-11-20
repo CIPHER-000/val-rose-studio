@@ -10,22 +10,26 @@ type Props = {
   alt: string;
   priority?: boolean;
   imgClassName?: string;
+  /**
+   * Freeze the frame while a cursor rests on the tile. Used by the gallery, where
+   * holding a piece still is useful. Sections that should read as a steady
+   * sequence (the content directions) turn it off so a resting cursor on the
+   * large image cannot stop the rotation.
+   */
+  pauseOnHover?: boolean;
 };
 
-// Desktop frames change a little faster than mobile, where there is no cursor to
-// hold a frame and the viewer needs longer to read each one.
-const DESKTOP_MS = 2000;
-const MOBILE_MS = 3000;
-const MOBILE_BREAKPOINT = 768;
+// One cadence everywhere: 2.5s per frame, desktop and mobile alike.
+const FRAME_MS = 2500;
 // Hold the first frame briefly after the tile enters view so it registers.
-const START_DELAY_MS = 700;
+const START_DELAY_MS = 400;
 
 /**
  * Carousel tile.
  *
  * - Starts advancing on its own as soon as the tile scrolls into view.
- * - On a device with a cursor, hovering freezes the frame that is showing and
- *   leaving the tile resumes from that same frame (it does not jump back).
+ * - With `pauseOnHover`, a cursor resting on the tile freezes the current frame
+ *   and leaving resumes from that same frame (it does not jump back).
  * - Pauses entirely when scrolled out of view, and stays static for anyone who
  *   asks for reduced motion.
  */
@@ -35,6 +39,7 @@ export default function CarouselTile({
   alt,
   priority = false,
   imgClassName = "",
+  pauseOnHover = true,
 }: Props) {
   const [index, setIndex] = useState(0);
   const [inView, setInView] = useState(false);
@@ -80,18 +85,18 @@ export default function CarouselTile({
     return () => observer.disconnect();
   }, [canCycle]);
 
-  // Run the advance timer while visible and not being inspected.
+  // Run the advance timer while visible (and not being held under a cursor).
   useEffect(() => {
-    if (!canCycle || !inView || hovered) return;
+    if (!canCycle || !inView) return;
+    if (pauseOnHover && hovered) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     preload();
-    const ms = window.innerWidth < MOBILE_BREAKPOINT ? MOBILE_MS : DESKTOP_MS;
 
     const start = window.setTimeout(() => {
       timer.current = window.setInterval(() => {
         setIndex((i) => (i + 1) % images.length);
-      }, ms);
+      }, FRAME_MS);
     }, START_DELAY_MS);
 
     return () => {
@@ -101,19 +106,20 @@ export default function CarouselTile({
         timer.current = null;
       }
     };
-  }, [canCycle, inView, hovered, preload, images.length]);
+  }, [canCycle, inView, hovered, pauseOnHover, preload, images.length]);
 
   const current = images[Math.min(index, images.length - 1)];
   const showDots = canCycle;
+  const hoverHandlers = pauseOnHover && hoverCapable;
 
   return (
     <div
       ref={rootRef}
       className="absolute inset-0"
-      onMouseEnter={hoverCapable ? () => setHovered(true) : undefined}
-      onMouseLeave={hoverCapable ? () => setHovered(false) : undefined}
-      onFocus={hoverCapable ? () => setHovered(true) : undefined}
-      onBlur={hoverCapable ? () => setHovered(false) : undefined}
+      onMouseEnter={hoverHandlers ? () => setHovered(true) : undefined}
+      onMouseLeave={hoverHandlers ? () => setHovered(false) : undefined}
+      onFocus={hoverHandlers ? () => setHovered(true) : undefined}
+      onBlur={hoverHandlers ? () => setHovered(false) : undefined}
     >
       <SmoothImage
         key={current.src}

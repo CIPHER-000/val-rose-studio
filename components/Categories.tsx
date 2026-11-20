@@ -70,6 +70,9 @@ export default function Categories() {
                           sizes="(max-width: 768px) 100vw, 56vw"
                           alt={`${b.label} content by Valentina Rose`}
                           priority={i === 0}
+                          // Steady 2.5s sequence: these images sit under the cursor
+                          // while the copy beside them is being read.
+                          pauseOnHover={false}
                         />
                       )}
                     </div>
