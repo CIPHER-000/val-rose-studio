@@ -35,6 +35,7 @@ POSTS = {
     "halloween-romance": ("7702795356060339474", "Halloween Romance", "fashion"),
     "halloween-peek": ("7702224676579298568", "Halloween Preview", "fashion"),
     "halloween-looks": ("7702535243588291847", "Halloween Looks", "fashion"),
+    "halloween-group": ("7702733715851545863", "Halloween Group", "fashion"),
     "tom-ford-editorial": ("7702221003094641938", "Tom Ford Editorial", "fashion"),
     "city-coffee": ("7702506225749085458", "City & Coffee", "fashion"),
     "parisian-summer": ("7702479453288484114", "Parisian Summer", "fashion"),
@@ -52,9 +53,12 @@ VIDEOS = {
     "fashion-7702357591774661895": ("7702357591774661895", "Autumn Street Style", "fashion"),
 }
 
-# Candidate widths. Each is only used if the source is at least that wide, and the
-# native width is always added as the top variant, so nothing is ever upscaled.
-CANDIDATE_WIDTHS = (480, 900, 1200, 1600)
+# Width ladder. Deliberately short: one intermediate step plus the native width.
+# A candidate is skipped when it sits within 15% of the native width, so a 1024px
+# source yields a single file instead of two near-identical ones. Native is always
+# included, so nothing is ever upscaled.
+CANDIDATE_WIDTHS = (900,)
+NATIVE_DUPLICATE_RATIO = 0.85
 QUALITY = 88
 TIKTOK = "https://www.tiktok.com/@valrose.studio0"
 
@@ -70,7 +74,7 @@ def out_dir(cat):
 
 
 def widths_for(native):
-    ws = [w for w in CANDIDATE_WIDTHS if w < native]
+    ws = [w for w in CANDIDATE_WIDTHS if w <= native * NATIVE_DUPLICATE_RATIO]
     ws.append(native)  # always include the source resolution
     return sorted(set(ws))
 

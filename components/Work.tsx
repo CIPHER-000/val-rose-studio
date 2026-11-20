@@ -10,6 +10,8 @@ import CarouselTile from "./CarouselTile";
 import Reveal from "./Reveal";
 import SmoothImage from "./SmoothImage";
 
+const GALLERY_STORAGE_KEY = "vrs:gallery-expanded";
+
 type ViewerState =
   | { kind: "images"; workIndex: number; imageIndex: number }
   | { kind: "video"; film: Film }
@@ -185,6 +187,24 @@ export default function Work() {
   useEffect(() => {
     setPortalReady(true);
   }, []);
+
+  // Remember the gallery state for the rest of the session, so a reader who opens
+  // it and then clicks through the site does not have to open it again.
+  useEffect(() => {
+    try {
+      if (window.sessionStorage.getItem(GALLERY_STORAGE_KEY) === "1") setExpanded(true);
+    } catch {
+      /* storage can be blocked; the gallery just starts collapsed */
+    }
+  }, []);
+
+  useEffect(() => {
+    try {
+      window.sessionStorage.setItem(GALLERY_STORAGE_KEY, expanded ? "1" : "0");
+    } catch {
+      /* ignore */
+    }
+  }, [expanded]);
 
   const close = useCallback(() => setViewer(null), []);
 

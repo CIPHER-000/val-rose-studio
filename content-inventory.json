@@ -8,12 +8,6 @@
       "height": 1371,
       "ratio": 0.837,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-01-480.webp",
-          "w": 480,
-          "h": 573,
-          "kb": 32.2
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-01-900.webp",
           "w": 900,
@@ -28,7 +22,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-01-1148.webp",
-      "srcSet": "/assets/beauty/beauty-edit-01-480.webp 480w, /assets/beauty/beauty-edit-01-900.webp 900w, /assets/beauty/beauty-edit-01-1148.webp 1148w"
+      "srcSet": "/assets/beauty/beauty-edit-01-900.webp 900w, /assets/beauty/beauty-edit-01-1148.webp 1148w"
     },
     {
       "slug": "beauty-edit",
@@ -38,12 +32,6 @@
       "height": 1371,
       "ratio": 0.837,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-02-480.webp",
-          "w": 480,
-          "h": 573,
-          "kb": 33.1
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-02-900.webp",
           "w": 900,
@@ -58,7 +46,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-02-1148.webp",
-      "srcSet": "/assets/beauty/beauty-edit-02-480.webp 480w, /assets/beauty/beauty-edit-02-900.webp 900w, /assets/beauty/beauty-edit-02-1148.webp 1148w"
+      "srcSet": "/assets/beauty/beauty-edit-02-900.webp 900w, /assets/beauty/beauty-edit-02-1148.webp 1148w"
     },
     {
       "slug": "beauty-edit",
@@ -68,12 +56,6 @@
       "height": 1372,
       "ratio": 0.836,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-03-480.webp",
-          "w": 480,
-          "h": 574,
-          "kb": 42.0
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-03-900.webp",
           "w": 900,
@@ -88,7 +70,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-03-1147.webp",
-      "srcSet": "/assets/beauty/beauty-edit-03-480.webp 480w, /assets/beauty/beauty-edit-03-900.webp 900w, /assets/beauty/beauty-edit-03-1147.webp 1147w"
+      "srcSet": "/assets/beauty/beauty-edit-03-900.webp 900w, /assets/beauty/beauty-edit-03-1147.webp 1147w"
     },
     {
       "slug": "beauty-edit",
@@ -98,12 +80,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-04-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 40.1
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-04-900.webp",
           "w": 900,
@@ -118,7 +94,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-04-1199.webp",
-      "srcSet": "/assets/beauty/beauty-edit-04-480.webp 480w, /assets/beauty/beauty-edit-04-900.webp 900w, /assets/beauty/beauty-edit-04-1199.webp 1199w"
+      "srcSet": "/assets/beauty/beauty-edit-04-900.webp 900w, /assets/beauty/beauty-edit-04-1199.webp 1199w"
     },
     {
       "slug": "beauty-edit",
@@ -128,12 +104,6 @@
       "height": 1371,
       "ratio": 0.837,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-05-480.webp",
-          "w": 480,
-          "h": 573,
-          "kb": 24.6
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-05-900.webp",
           "w": 900,
@@ -148,7 +118,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-05-1148.webp",
-      "srcSet": "/assets/beauty/beauty-edit-05-480.webp 480w, /assets/beauty/beauty-edit-05-900.webp 900w, /assets/beauty/beauty-edit-05-1148.webp 1148w"
+      "srcSet": "/assets/beauty/beauty-edit-05-900.webp 900w, /assets/beauty/beauty-edit-05-1148.webp 1148w"
     },
     {
       "slug": "beauty-edit",
@@ -158,12 +128,6 @@
       "height": 1371,
       "ratio": 0.837,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-06-480.webp",
-          "w": 480,
-          "h": 573,
-          "kb": 39.2
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-06-900.webp",
           "w": 900,
@@ -178,7 +142,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-06-1148.webp",
-      "srcSet": "/assets/beauty/beauty-edit-06-480.webp 480w, /assets/beauty/beauty-edit-06-900.webp 900w, /assets/beauty/beauty-edit-06-1148.webp 1148w"
+      "srcSet": "/assets/beauty/beauty-edit-06-900.webp 900w, /assets/beauty/beauty-edit-06-1148.webp 1148w"
     },
     {
       "slug": "beauty-edit",
@@ -188,23 +152,11 @@
       "height": 1287,
       "ratio": 0.949,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-07-480.webp",
-          "w": 480,
-          "h": 506,
-          "kb": 27.7
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-07-900.webp",
           "w": 900,
           "h": 948,
           "kb": 84.9
-        },
-        "1200": {
-          "file": "/assets/beauty/beauty-edit-07-1200.webp",
-          "w": 1200,
-          "h": 1264,
-          "kb": 126.2
         },
         "1222": {
           "file": "/assets/beauty/beauty-edit-07-1222.webp",
@@ -214,7 +166,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-07-1222.webp",
-      "srcSet": "/assets/beauty/beauty-edit-07-480.webp 480w, /assets/beauty/beauty-edit-07-900.webp 900w, /assets/beauty/beauty-edit-07-1200.webp 1200w, /assets/beauty/beauty-edit-07-1222.webp 1222w"
+      "srcSet": "/assets/beauty/beauty-edit-07-900.webp 900w, /assets/beauty/beauty-edit-07-1222.webp 1222w"
     },
     {
       "slug": "beauty-edit",
@@ -224,12 +176,6 @@
       "height": 1371,
       "ratio": 0.837,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-08-480.webp",
-          "w": 480,
-          "h": 573,
-          "kb": 26.5
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-08-900.webp",
           "w": 900,
@@ -244,7 +190,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-08-1148.webp",
-      "srcSet": "/assets/beauty/beauty-edit-08-480.webp 480w, /assets/beauty/beauty-edit-08-900.webp 900w, /assets/beauty/beauty-edit-08-1148.webp 1148w"
+      "srcSet": "/assets/beauty/beauty-edit-08-900.webp 900w, /assets/beauty/beauty-edit-08-1148.webp 1148w"
     },
     {
       "slug": "beauty-edit",
@@ -254,12 +200,6 @@
       "height": 1448,
       "ratio": 0.75,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-09-480.webp",
-          "w": 480,
-          "h": 640,
-          "kb": 43.2
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-09-900.webp",
           "w": 900,
@@ -274,7 +214,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-09-1086.webp",
-      "srcSet": "/assets/beauty/beauty-edit-09-480.webp 480w, /assets/beauty/beauty-edit-09-900.webp 900w, /assets/beauty/beauty-edit-09-1086.webp 1086w"
+      "srcSet": "/assets/beauty/beauty-edit-09-900.webp 900w, /assets/beauty/beauty-edit-09-1086.webp 1086w"
     },
     {
       "slug": "beauty-edit",
@@ -284,12 +224,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-10-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 27.7
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-10-900.webp",
           "w": 900,
@@ -304,7 +238,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-10-1199.webp",
-      "srcSet": "/assets/beauty/beauty-edit-10-480.webp 480w, /assets/beauty/beauty-edit-10-900.webp 900w, /assets/beauty/beauty-edit-10-1199.webp 1199w"
+      "srcSet": "/assets/beauty/beauty-edit-10-900.webp 900w, /assets/beauty/beauty-edit-10-1199.webp 1199w"
     },
     {
       "slug": "beauty-edit",
@@ -314,12 +248,6 @@
       "height": 1448,
       "ratio": 0.75,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-11-480.webp",
-          "w": 480,
-          "h": 640,
-          "kb": 43.1
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-11-900.webp",
           "w": 900,
@@ -334,7 +262,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-11-1086.webp",
-      "srcSet": "/assets/beauty/beauty-edit-11-480.webp 480w, /assets/beauty/beauty-edit-11-900.webp 900w, /assets/beauty/beauty-edit-11-1086.webp 1086w"
+      "srcSet": "/assets/beauty/beauty-edit-11-900.webp 900w, /assets/beauty/beauty-edit-11-1086.webp 1086w"
     },
     {
       "slug": "beauty-edit",
@@ -344,12 +272,6 @@
       "height": 1448,
       "ratio": 0.75,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-12-480.webp",
-          "w": 480,
-          "h": 640,
-          "kb": 44.1
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-12-900.webp",
           "w": 900,
@@ -364,7 +286,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-12-1086.webp",
-      "srcSet": "/assets/beauty/beauty-edit-12-480.webp 480w, /assets/beauty/beauty-edit-12-900.webp 900w, /assets/beauty/beauty-edit-12-1086.webp 1086w"
+      "srcSet": "/assets/beauty/beauty-edit-12-900.webp 900w, /assets/beauty/beauty-edit-12-1086.webp 1086w"
     },
     {
       "slug": "beauty-edit",
@@ -374,12 +296,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-13-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 29.8
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-13-900.webp",
           "w": 900,
@@ -394,7 +310,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-13-1199.webp",
-      "srcSet": "/assets/beauty/beauty-edit-13-480.webp 480w, /assets/beauty/beauty-edit-13-900.webp 900w, /assets/beauty/beauty-edit-13-1199.webp 1199w"
+      "srcSet": "/assets/beauty/beauty-edit-13-900.webp 900w, /assets/beauty/beauty-edit-13-1199.webp 1199w"
     },
     {
       "slug": "beauty-edit",
@@ -404,12 +320,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-14-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 28.6
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-14-900.webp",
           "w": 900,
@@ -424,7 +334,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-14-1199.webp",
-      "srcSet": "/assets/beauty/beauty-edit-14-480.webp 480w, /assets/beauty/beauty-edit-14-900.webp 900w, /assets/beauty/beauty-edit-14-1199.webp 1199w"
+      "srcSet": "/assets/beauty/beauty-edit-14-900.webp 900w, /assets/beauty/beauty-edit-14-1199.webp 1199w"
     },
     {
       "slug": "beauty-edit",
@@ -434,12 +344,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-15-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 36.9
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-15-900.webp",
           "w": 900,
@@ -454,7 +358,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-15-1199.webp",
-      "srcSet": "/assets/beauty/beauty-edit-15-480.webp 480w, /assets/beauty/beauty-edit-15-900.webp 900w, /assets/beauty/beauty-edit-15-1199.webp 1199w"
+      "srcSet": "/assets/beauty/beauty-edit-15-900.webp 900w, /assets/beauty/beauty-edit-15-1199.webp 1199w"
     },
     {
       "slug": "beauty-edit",
@@ -464,12 +368,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-16-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 29.0
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-16-900.webp",
           "w": 900,
@@ -484,7 +382,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-16-1199.webp",
-      "srcSet": "/assets/beauty/beauty-edit-16-480.webp 480w, /assets/beauty/beauty-edit-16-900.webp 900w, /assets/beauty/beauty-edit-16-1199.webp 1199w"
+      "srcSet": "/assets/beauty/beauty-edit-16-900.webp 900w, /assets/beauty/beauty-edit-16-1199.webp 1199w"
     },
     {
       "slug": "beauty-edit",
@@ -494,12 +392,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/beauty-edit-17-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 23.0
-        },
         "900": {
           "file": "/assets/beauty/beauty-edit-17-900.webp",
           "w": 900,
@@ -514,7 +406,7 @@
         }
       },
       "src": "/assets/beauty/beauty-edit-17-1199.webp",
-      "srcSet": "/assets/beauty/beauty-edit-17-480.webp 480w, /assets/beauty/beauty-edit-17-900.webp 900w, /assets/beauty/beauty-edit-17-1199.webp 1199w"
+      "srcSet": "/assets/beauty/beauty-edit-17-900.webp 900w, /assets/beauty/beauty-edit-17-1199.webp 1199w"
     },
     {
       "slug": "sultry-fragrance",
@@ -524,23 +416,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/sultry-fragrance-01-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 43.4
-        },
         "900": {
           "file": "/assets/beauty/sultry-fragrance-01-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 104.0
-        },
-        "1200": {
-          "file": "/assets/beauty/sultry-fragrance-01-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 151.3
         },
         "1600": {
           "file": "/assets/beauty/sultry-fragrance-01-1600.webp",
@@ -550,7 +430,7 @@
         }
       },
       "src": "/assets/beauty/sultry-fragrance-01-1600.webp",
-      "srcSet": "/assets/beauty/sultry-fragrance-01-480.webp 480w, /assets/beauty/sultry-fragrance-01-900.webp 900w, /assets/beauty/sultry-fragrance-01-1200.webp 1200w, /assets/beauty/sultry-fragrance-01-1600.webp 1600w",
+      "srcSet": "/assets/beauty/sultry-fragrance-01-900.webp 900w, /assets/beauty/sultry-fragrance-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -562,23 +442,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/sultry-fragrance-02-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 44.2
-        },
         "900": {
           "file": "/assets/beauty/sultry-fragrance-02-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 111.0
-        },
-        "1200": {
-          "file": "/assets/beauty/sultry-fragrance-02-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 164.0
         },
         "1600": {
           "file": "/assets/beauty/sultry-fragrance-02-1600.webp",
@@ -588,7 +456,7 @@
         }
       },
       "src": "/assets/beauty/sultry-fragrance-02-1600.webp",
-      "srcSet": "/assets/beauty/sultry-fragrance-02-480.webp 480w, /assets/beauty/sultry-fragrance-02-900.webp 900w, /assets/beauty/sultry-fragrance-02-1200.webp 1200w, /assets/beauty/sultry-fragrance-02-1600.webp 1600w",
+      "srcSet": "/assets/beauty/sultry-fragrance-02-900.webp 900w, /assets/beauty/sultry-fragrance-02-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -600,23 +468,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/sultry-fragrance-03-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 51.9
-        },
         "900": {
           "file": "/assets/beauty/sultry-fragrance-03-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 125.5
-        },
-        "1200": {
-          "file": "/assets/beauty/sultry-fragrance-03-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 178.9
         },
         "1600": {
           "file": "/assets/beauty/sultry-fragrance-03-1600.webp",
@@ -626,7 +482,7 @@
         }
       },
       "src": "/assets/beauty/sultry-fragrance-03-1600.webp",
-      "srcSet": "/assets/beauty/sultry-fragrance-03-480.webp 480w, /assets/beauty/sultry-fragrance-03-900.webp 900w, /assets/beauty/sultry-fragrance-03-1200.webp 1200w, /assets/beauty/sultry-fragrance-03-1600.webp 1600w",
+      "srcSet": "/assets/beauty/sultry-fragrance-03-900.webp 900w, /assets/beauty/sultry-fragrance-03-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -638,23 +494,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/sultry-fragrance-04-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 49.7
-        },
         "900": {
           "file": "/assets/beauty/sultry-fragrance-04-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 113.2
-        },
-        "1200": {
-          "file": "/assets/beauty/sultry-fragrance-04-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 163.8
         },
         "1600": {
           "file": "/assets/beauty/sultry-fragrance-04-1600.webp",
@@ -664,7 +508,7 @@
         }
       },
       "src": "/assets/beauty/sultry-fragrance-04-1600.webp",
-      "srcSet": "/assets/beauty/sultry-fragrance-04-480.webp 480w, /assets/beauty/sultry-fragrance-04-900.webp 900w, /assets/beauty/sultry-fragrance-04-1200.webp 1200w, /assets/beauty/sultry-fragrance-04-1600.webp 1600w",
+      "srcSet": "/assets/beauty/sultry-fragrance-04-900.webp 900w, /assets/beauty/sultry-fragrance-04-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -676,23 +520,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/sultry-fragrance-05-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 42.8
-        },
         "900": {
           "file": "/assets/beauty/sultry-fragrance-05-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 102.7
-        },
-        "1200": {
-          "file": "/assets/beauty/sultry-fragrance-05-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 150.6
         },
         "1600": {
           "file": "/assets/beauty/sultry-fragrance-05-1600.webp",
@@ -702,7 +534,7 @@
         }
       },
       "src": "/assets/beauty/sultry-fragrance-05-1600.webp",
-      "srcSet": "/assets/beauty/sultry-fragrance-05-480.webp 480w, /assets/beauty/sultry-fragrance-05-900.webp 900w, /assets/beauty/sultry-fragrance-05-1200.webp 1200w, /assets/beauty/sultry-fragrance-05-1600.webp 1600w",
+      "srcSet": "/assets/beauty/sultry-fragrance-05-900.webp 900w, /assets/beauty/sultry-fragrance-05-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -714,23 +546,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/sultry-fragrance-06-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 43.0
-        },
         "900": {
           "file": "/assets/beauty/sultry-fragrance-06-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 104.5
-        },
-        "1200": {
-          "file": "/assets/beauty/sultry-fragrance-06-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 154.0
         },
         "1600": {
           "file": "/assets/beauty/sultry-fragrance-06-1600.webp",
@@ -740,7 +560,7 @@
         }
       },
       "src": "/assets/beauty/sultry-fragrance-06-1600.webp",
-      "srcSet": "/assets/beauty/sultry-fragrance-06-480.webp 480w, /assets/beauty/sultry-fragrance-06-900.webp 900w, /assets/beauty/sultry-fragrance-06-1200.webp 1200w, /assets/beauty/sultry-fragrance-06-1600.webp 1600w",
+      "srcSet": "/assets/beauty/sultry-fragrance-06-900.webp 900w, /assets/beauty/sultry-fragrance-06-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -752,23 +572,11 @@
       "height": 1600,
       "ratio": 1.0,
       "variants": {
-        "480": {
-          "file": "/assets/beauty/sultry-fragrance-07-480.webp",
-          "w": 480,
-          "h": 480,
-          "kb": 40.7
-        },
         "900": {
           "file": "/assets/beauty/sultry-fragrance-07-900.webp",
           "w": 900,
           "h": 900,
           "kb": 104.5
-        },
-        "1200": {
-          "file": "/assets/beauty/sultry-fragrance-07-1200.webp",
-          "w": 1200,
-          "h": 1200,
-          "kb": 149.6
         },
         "1600": {
           "file": "/assets/beauty/sultry-fragrance-07-1600.webp",
@@ -778,7 +586,7 @@
         }
       },
       "src": "/assets/beauty/sultry-fragrance-07-1600.webp",
-      "srcSet": "/assets/beauty/sultry-fragrance-07-480.webp 480w, /assets/beauty/sultry-fragrance-07-900.webp 900w, /assets/beauty/sultry-fragrance-07-1200.webp 1200w, /assets/beauty/sultry-fragrance-07-1600.webp 1600w",
+      "srcSet": "/assets/beauty/sultry-fragrance-07-900.webp 900w, /assets/beauty/sultry-fragrance-07-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
       "title": "Sultry Extrait de Parfum"
     },
@@ -790,18 +598,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/burgundy-looks-01-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 40.5
-        },
-        "900": {
-          "file": "/assets/fashion/burgundy-looks-01-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 103.1
-        },
         "1024": {
           "file": "/assets/fashion/burgundy-looks-01-1024.webp",
           "w": 1024,
@@ -810,7 +606,7 @@
         }
       },
       "src": "/assets/fashion/burgundy-looks-01-1024.webp",
-      "srcSet": "/assets/fashion/burgundy-looks-01-480.webp 480w, /assets/fashion/burgundy-looks-01-900.webp 900w, /assets/fashion/burgundy-looks-01-1024.webp 1024w",
+      "srcSet": "/assets/fashion/burgundy-looks-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -822,18 +618,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/burgundy-looks-02-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 39.2
-        },
-        "900": {
-          "file": "/assets/fashion/burgundy-looks-02-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 108.1
-        },
         "1024": {
           "file": "/assets/fashion/burgundy-looks-02-1024.webp",
           "w": 1024,
@@ -842,7 +626,7 @@
         }
       },
       "src": "/assets/fashion/burgundy-looks-02-1024.webp",
-      "srcSet": "/assets/fashion/burgundy-looks-02-480.webp 480w, /assets/fashion/burgundy-looks-02-900.webp 900w, /assets/fashion/burgundy-looks-02-1024.webp 1024w",
+      "srcSet": "/assets/fashion/burgundy-looks-02-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -854,18 +638,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/burgundy-looks-03-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 28.4
-        },
-        "900": {
-          "file": "/assets/fashion/burgundy-looks-03-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 69.3
-        },
         "1024": {
           "file": "/assets/fashion/burgundy-looks-03-1024.webp",
           "w": 1024,
@@ -874,7 +646,7 @@
         }
       },
       "src": "/assets/fashion/burgundy-looks-03-1024.webp",
-      "srcSet": "/assets/fashion/burgundy-looks-03-480.webp 480w, /assets/fashion/burgundy-looks-03-900.webp 900w, /assets/fashion/burgundy-looks-03-1024.webp 1024w",
+      "srcSet": "/assets/fashion/burgundy-looks-03-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -886,23 +658,11 @@
       "height": 1024,
       "ratio": 1.5,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/burgundy-looks-04-480.webp",
-          "w": 480,
-          "h": 320,
-          "kb": 20.4
-        },
         "900": {
           "file": "/assets/fashion/burgundy-looks-04-900.webp",
           "w": 900,
           "h": 600,
           "kb": 52.0
-        },
-        "1200": {
-          "file": "/assets/fashion/burgundy-looks-04-1200.webp",
-          "w": 1200,
-          "h": 800,
-          "kb": 80.8
         },
         "1536": {
           "file": "/assets/fashion/burgundy-looks-04-1536.webp",
@@ -912,7 +672,7 @@
         }
       },
       "src": "/assets/fashion/burgundy-looks-04-1536.webp",
-      "srcSet": "/assets/fashion/burgundy-looks-04-480.webp 480w, /assets/fashion/burgundy-looks-04-900.webp 900w, /assets/fashion/burgundy-looks-04-1200.webp 1200w, /assets/fashion/burgundy-looks-04-1536.webp 1536w",
+      "srcSet": "/assets/fashion/burgundy-looks-04-900.webp 900w, /assets/fashion/burgundy-looks-04-1536.webp 1536w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -924,23 +684,11 @@
       "height": 1024,
       "ratio": 1.5,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/burgundy-looks-05-480.webp",
-          "w": 480,
-          "h": 320,
-          "kb": 21.9
-        },
         "900": {
           "file": "/assets/fashion/burgundy-looks-05-900.webp",
           "w": 900,
           "h": 600,
           "kb": 65.6
-        },
-        "1200": {
-          "file": "/assets/fashion/burgundy-looks-05-1200.webp",
-          "w": 1200,
-          "h": 800,
-          "kb": 103.5
         },
         "1536": {
           "file": "/assets/fashion/burgundy-looks-05-1536.webp",
@@ -950,7 +698,7 @@
         }
       },
       "src": "/assets/fashion/burgundy-looks-05-1536.webp",
-      "srcSet": "/assets/fashion/burgundy-looks-05-480.webp 480w, /assets/fashion/burgundy-looks-05-900.webp 900w, /assets/fashion/burgundy-looks-05-1200.webp 1200w, /assets/fashion/burgundy-looks-05-1536.webp 1536w",
+      "srcSet": "/assets/fashion/burgundy-looks-05-900.webp 900w, /assets/fashion/burgundy-looks-05-1536.webp 1536w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
       "title": "Burgundy Looks"
     },
@@ -962,18 +710,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/city-coffee-01-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 63.3
-        },
-        "900": {
-          "file": "/assets/fashion/city-coffee-01-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 152.5
-        },
         "1024": {
           "file": "/assets/fashion/city-coffee-01-1024.webp",
           "w": 1024,
@@ -982,9 +718,35 @@
         }
       },
       "src": "/assets/fashion/city-coffee-01-1024.webp",
-      "srcSet": "/assets/fashion/city-coffee-01-480.webp 480w, /assets/fashion/city-coffee-01-900.webp 900w, /assets/fashion/city-coffee-01-1024.webp 1024w",
+      "srcSet": "/assets/fashion/city-coffee-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702506225749085458",
       "title": "City & Coffee"
+    },
+    {
+      "slug": "halloween-group",
+      "index": 1,
+      "category": "fashion",
+      "width": 1376,
+      "height": 768,
+      "ratio": 1.792,
+      "variants": {
+        "900": {
+          "file": "/assets/fashion/halloween-group-01-900.webp",
+          "w": 900,
+          "h": 502,
+          "kb": 89.8
+        },
+        "1376": {
+          "file": "/assets/fashion/halloween-group-01-1376.webp",
+          "w": 1376,
+          "h": 768,
+          "kb": 175.8
+        }
+      },
+      "src": "/assets/fashion/halloween-group-01-1376.webp",
+      "srcSet": "/assets/fashion/halloween-group-01-900.webp 900w, /assets/fashion/halloween-group-01-1376.webp 1376w",
+      "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702733715851545863",
+      "title": "Halloween Group"
     },
     {
       "slug": "halloween-looks",
@@ -994,18 +756,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/halloween-looks-01-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 50.9
-        },
-        "900": {
-          "file": "/assets/fashion/halloween-looks-01-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 119.3
-        },
         "1024": {
           "file": "/assets/fashion/halloween-looks-01-1024.webp",
           "w": 1024,
@@ -1014,7 +764,7 @@
         }
       },
       "src": "/assets/fashion/halloween-looks-01-1024.webp",
-      "srcSet": "/assets/fashion/halloween-looks-01-480.webp 480w, /assets/fashion/halloween-looks-01-900.webp 900w, /assets/fashion/halloween-looks-01-1024.webp 1024w",
+      "srcSet": "/assets/fashion/halloween-looks-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
       "title": "Halloween Looks"
     },
@@ -1026,18 +776,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/halloween-looks-02-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 53.3
-        },
-        "900": {
-          "file": "/assets/fashion/halloween-looks-02-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 122.0
-        },
         "1024": {
           "file": "/assets/fashion/halloween-looks-02-1024.webp",
           "w": 1024,
@@ -1046,7 +784,7 @@
         }
       },
       "src": "/assets/fashion/halloween-looks-02-1024.webp",
-      "srcSet": "/assets/fashion/halloween-looks-02-480.webp 480w, /assets/fashion/halloween-looks-02-900.webp 900w, /assets/fashion/halloween-looks-02-1024.webp 1024w",
+      "srcSet": "/assets/fashion/halloween-looks-02-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
       "title": "Halloween Looks"
     },
@@ -1058,18 +796,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/halloween-looks-03-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 39.2
-        },
-        "900": {
-          "file": "/assets/fashion/halloween-looks-03-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 93.7
-        },
         "1024": {
           "file": "/assets/fashion/halloween-looks-03-1024.webp",
           "w": 1024,
@@ -1078,7 +804,7 @@
         }
       },
       "src": "/assets/fashion/halloween-looks-03-1024.webp",
-      "srcSet": "/assets/fashion/halloween-looks-03-480.webp 480w, /assets/fashion/halloween-looks-03-900.webp 900w, /assets/fashion/halloween-looks-03-1024.webp 1024w",
+      "srcSet": "/assets/fashion/halloween-looks-03-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
       "title": "Halloween Looks"
     },
@@ -1090,18 +816,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/halloween-looks-04-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 61.3
-        },
-        "900": {
-          "file": "/assets/fashion/halloween-looks-04-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 168.4
-        },
         "1024": {
           "file": "/assets/fashion/halloween-looks-04-1024.webp",
           "w": 1024,
@@ -1110,7 +824,7 @@
         }
       },
       "src": "/assets/fashion/halloween-looks-04-1024.webp",
-      "srcSet": "/assets/fashion/halloween-looks-04-480.webp 480w, /assets/fashion/halloween-looks-04-900.webp 900w, /assets/fashion/halloween-looks-04-1024.webp 1024w",
+      "srcSet": "/assets/fashion/halloween-looks-04-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
       "title": "Halloween Looks"
     },
@@ -1122,18 +836,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/halloween-looks-05-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 27.7
-        },
-        "900": {
-          "file": "/assets/fashion/halloween-looks-05-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 63.9
-        },
         "1024": {
           "file": "/assets/fashion/halloween-looks-05-1024.webp",
           "w": 1024,
@@ -1142,7 +844,7 @@
         }
       },
       "src": "/assets/fashion/halloween-looks-05-1024.webp",
-      "srcSet": "/assets/fashion/halloween-looks-05-480.webp 480w, /assets/fashion/halloween-looks-05-900.webp 900w, /assets/fashion/halloween-looks-05-1024.webp 1024w",
+      "srcSet": "/assets/fashion/halloween-looks-05-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847",
       "title": "Halloween Looks"
     },
@@ -1154,18 +856,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/halloween-peek-01-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 27.7
-        },
-        "900": {
-          "file": "/assets/fashion/halloween-peek-01-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 63.9
-        },
         "1024": {
           "file": "/assets/fashion/halloween-peek-01-1024.webp",
           "w": 1024,
@@ -1174,7 +864,7 @@
         }
       },
       "src": "/assets/fashion/halloween-peek-01-1024.webp",
-      "srcSet": "/assets/fashion/halloween-peek-01-480.webp 480w, /assets/fashion/halloween-peek-01-900.webp 900w, /assets/fashion/halloween-peek-01-1024.webp 1024w",
+      "srcSet": "/assets/fashion/halloween-peek-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568",
       "title": "Halloween Preview"
     },
@@ -1186,18 +876,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/halloween-romance-01-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 61.3
-        },
-        "900": {
-          "file": "/assets/fashion/halloween-romance-01-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 168.4
-        },
         "1024": {
           "file": "/assets/fashion/halloween-romance-01-1024.webp",
           "w": 1024,
@@ -1206,7 +884,7 @@
         }
       },
       "src": "/assets/fashion/halloween-romance-01-1024.webp",
-      "srcSet": "/assets/fashion/halloween-romance-01-480.webp 480w, /assets/fashion/halloween-romance-01-900.webp 900w, /assets/fashion/halloween-romance-01-1024.webp 1024w",
+      "srcSet": "/assets/fashion/halloween-romance-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702795356060339474",
       "title": "Halloween Romance"
     },
@@ -1218,23 +896,11 @@
       "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/lukacev-couture-01-480.webp",
-          "w": 480,
-          "h": 719,
-          "kb": 56.4
-        },
         "900": {
           "file": "/assets/fashion/lukacev-couture-01-900.webp",
           "w": 900,
           "h": 1348,
           "kb": 135.8
-        },
-        "1200": {
-          "file": "/assets/fashion/lukacev-couture-01-1200.webp",
-          "w": 1200,
-          "h": 1797,
-          "kb": 191.8
         },
         "1600": {
           "file": "/assets/fashion/lukacev-couture-01-1600.webp",
@@ -1244,7 +910,7 @@
         }
       },
       "src": "/assets/fashion/lukacev-couture-01-1600.webp",
-      "srcSet": "/assets/fashion/lukacev-couture-01-480.webp 480w, /assets/fashion/lukacev-couture-01-900.webp 900w, /assets/fashion/lukacev-couture-01-1200.webp 1200w, /assets/fashion/lukacev-couture-01-1600.webp 1600w",
+      "srcSet": "/assets/fashion/lukacev-couture-01-900.webp 900w, /assets/fashion/lukacev-couture-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -1256,23 +922,11 @@
       "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/lukacev-couture-02-480.webp",
-          "w": 480,
-          "h": 719,
-          "kb": 22.2
-        },
         "900": {
           "file": "/assets/fashion/lukacev-couture-02-900.webp",
           "w": 900,
           "h": 1348,
           "kb": 51.2
-        },
-        "1200": {
-          "file": "/assets/fashion/lukacev-couture-02-1200.webp",
-          "w": 1200,
-          "h": 1797,
-          "kb": 73.3
         },
         "1600": {
           "file": "/assets/fashion/lukacev-couture-02-1600.webp",
@@ -1282,7 +936,7 @@
         }
       },
       "src": "/assets/fashion/lukacev-couture-02-1600.webp",
-      "srcSet": "/assets/fashion/lukacev-couture-02-480.webp 480w, /assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1200.webp 1200w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
+      "srcSet": "/assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -1294,23 +948,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/lukacev-couture-03-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 27.9
-        },
         "900": {
           "file": "/assets/fashion/lukacev-couture-03-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 64.2
-        },
-        "1200": {
-          "file": "/assets/fashion/lukacev-couture-03-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 94.1
         },
         "1600": {
           "file": "/assets/fashion/lukacev-couture-03-1600.webp",
@@ -1320,7 +962,7 @@
         }
       },
       "src": "/assets/fashion/lukacev-couture-03-1600.webp",
-      "srcSet": "/assets/fashion/lukacev-couture-03-480.webp 480w, /assets/fashion/lukacev-couture-03-900.webp 900w, /assets/fashion/lukacev-couture-03-1200.webp 1200w, /assets/fashion/lukacev-couture-03-1600.webp 1600w",
+      "srcSet": "/assets/fashion/lukacev-couture-03-900.webp 900w, /assets/fashion/lukacev-couture-03-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -1332,23 +974,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/lukacev-couture-04-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 27.1
-        },
         "900": {
           "file": "/assets/fashion/lukacev-couture-04-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 66.0
-        },
-        "1200": {
-          "file": "/assets/fashion/lukacev-couture-04-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 95.9
         },
         "1600": {
           "file": "/assets/fashion/lukacev-couture-04-1600.webp",
@@ -1358,7 +988,7 @@
         }
       },
       "src": "/assets/fashion/lukacev-couture-04-1600.webp",
-      "srcSet": "/assets/fashion/lukacev-couture-04-480.webp 480w, /assets/fashion/lukacev-couture-04-900.webp 900w, /assets/fashion/lukacev-couture-04-1200.webp 1200w, /assets/fashion/lukacev-couture-04-1600.webp 1600w",
+      "srcSet": "/assets/fashion/lukacev-couture-04-900.webp 900w, /assets/fashion/lukacev-couture-04-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -1370,23 +1000,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/lukacev-couture-05-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 29.0
-        },
         "900": {
           "file": "/assets/fashion/lukacev-couture-05-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 70.5
-        },
-        "1200": {
-          "file": "/assets/fashion/lukacev-couture-05-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 102.3
         },
         "1600": {
           "file": "/assets/fashion/lukacev-couture-05-1600.webp",
@@ -1396,7 +1014,7 @@
         }
       },
       "src": "/assets/fashion/lukacev-couture-05-1600.webp",
-      "srcSet": "/assets/fashion/lukacev-couture-05-480.webp 480w, /assets/fashion/lukacev-couture-05-900.webp 900w, /assets/fashion/lukacev-couture-05-1200.webp 1200w, /assets/fashion/lukacev-couture-05-1600.webp 1600w",
+      "srcSet": "/assets/fashion/lukacev-couture-05-900.webp 900w, /assets/fashion/lukacev-couture-05-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -1408,23 +1026,11 @@
       "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/lukacev-couture-06-480.webp",
-          "w": 480,
-          "h": 719,
-          "kb": 33.2
-        },
         "900": {
           "file": "/assets/fashion/lukacev-couture-06-900.webp",
           "w": 900,
           "h": 1348,
           "kb": 84.5
-        },
-        "1200": {
-          "file": "/assets/fashion/lukacev-couture-06-1200.webp",
-          "w": 1200,
-          "h": 1797,
-          "kb": 121.7
         },
         "1600": {
           "file": "/assets/fashion/lukacev-couture-06-1600.webp",
@@ -1434,7 +1040,7 @@
         }
       },
       "src": "/assets/fashion/lukacev-couture-06-1600.webp",
-      "srcSet": "/assets/fashion/lukacev-couture-06-480.webp 480w, /assets/fashion/lukacev-couture-06-900.webp 900w, /assets/fashion/lukacev-couture-06-1200.webp 1200w, /assets/fashion/lukacev-couture-06-1600.webp 1600w",
+      "srcSet": "/assets/fashion/lukacev-couture-06-900.webp 900w, /assets/fashion/lukacev-couture-06-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -1446,23 +1052,11 @@
       "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/lukacev-couture-07-480.webp",
-          "w": 480,
-          "h": 719,
-          "kb": 40.0
-        },
         "900": {
           "file": "/assets/fashion/lukacev-couture-07-900.webp",
           "w": 900,
           "h": 1348,
           "kb": 103.1
-        },
-        "1200": {
-          "file": "/assets/fashion/lukacev-couture-07-1200.webp",
-          "w": 1200,
-          "h": 1797,
-          "kb": 146.6
         },
         "1600": {
           "file": "/assets/fashion/lukacev-couture-07-1600.webp",
@@ -1472,7 +1066,7 @@
         }
       },
       "src": "/assets/fashion/lukacev-couture-07-1600.webp",
-      "srcSet": "/assets/fashion/lukacev-couture-07-480.webp 480w, /assets/fashion/lukacev-couture-07-900.webp 900w, /assets/fashion/lukacev-couture-07-1200.webp 1200w, /assets/fashion/lukacev-couture-07-1600.webp 1600w",
+      "srcSet": "/assets/fashion/lukacev-couture-07-900.webp 900w, /assets/fashion/lukacev-couture-07-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -1484,23 +1078,11 @@
       "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/lukacev-couture-08-480.webp",
-          "w": 480,
-          "h": 719,
-          "kb": 20.3
-        },
         "900": {
           "file": "/assets/fashion/lukacev-couture-08-900.webp",
           "w": 900,
           "h": 1348,
           "kb": 48.3
-        },
-        "1200": {
-          "file": "/assets/fashion/lukacev-couture-08-1200.webp",
-          "w": 1200,
-          "h": 1797,
-          "kb": 70.0
         },
         "1600": {
           "file": "/assets/fashion/lukacev-couture-08-1600.webp",
@@ -1510,7 +1092,7 @@
         }
       },
       "src": "/assets/fashion/lukacev-couture-08-1600.webp",
-      "srcSet": "/assets/fashion/lukacev-couture-08-480.webp 480w, /assets/fashion/lukacev-couture-08-900.webp 900w, /assets/fashion/lukacev-couture-08-1200.webp 1200w, /assets/fashion/lukacev-couture-08-1600.webp 1600w",
+      "srcSet": "/assets/fashion/lukacev-couture-08-900.webp 900w, /assets/fashion/lukacev-couture-08-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
       "title": "Lukacev Couture"
     },
@@ -1522,23 +1104,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/navy-burgundy-01-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 18.0
-        },
         "900": {
           "file": "/assets/fashion/navy-burgundy-01-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 43.3
-        },
-        "1200": {
-          "file": "/assets/fashion/navy-burgundy-01-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 63.5
         },
         "1600": {
           "file": "/assets/fashion/navy-burgundy-01-1600.webp",
@@ -1548,7 +1118,7 @@
         }
       },
       "src": "/assets/fashion/navy-burgundy-01-1600.webp",
-      "srcSet": "/assets/fashion/navy-burgundy-01-480.webp 480w, /assets/fashion/navy-burgundy-01-900.webp 900w, /assets/fashion/navy-burgundy-01-1200.webp 1200w, /assets/fashion/navy-burgundy-01-1600.webp 1600w",
+      "srcSet": "/assets/fashion/navy-burgundy-01-900.webp 900w, /assets/fashion/navy-burgundy-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706521375812390151",
       "title": "Navy & Burgundy"
     },
@@ -1560,18 +1130,6 @@
       "height": 436,
       "ratio": 2.349,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/ootd-styling-01-480.webp",
-          "w": 480,
-          "h": 204,
-          "kb": 10.6
-        },
-        "900": {
-          "file": "/assets/fashion/ootd-styling-01-900.webp",
-          "w": 900,
-          "h": 383,
-          "kb": 23.8
-        },
         "1024": {
           "file": "/assets/fashion/ootd-styling-01-1024.webp",
           "w": 1024,
@@ -1580,7 +1138,7 @@
         }
       },
       "src": "/assets/fashion/ootd-styling-01-1024.webp",
-      "srcSet": "/assets/fashion/ootd-styling-01-480.webp 480w, /assets/fashion/ootd-styling-01-900.webp 900w, /assets/fashion/ootd-styling-01-1024.webp 1024w",
+      "srcSet": "/assets/fashion/ootd-styling-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702478324743851272",
       "title": "Everyday Styling"
     },
@@ -1592,23 +1150,11 @@
       "height": 2408,
       "ratio": 0.507,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/paris-fashion-week-01-480.webp",
-          "w": 480,
-          "h": 947,
-          "kb": 64.6
-        },
         "900": {
           "file": "/assets/fashion/paris-fashion-week-01-900.webp",
           "w": 900,
           "h": 1776,
           "kb": 140.1
-        },
-        "1200": {
-          "file": "/assets/fashion/paris-fashion-week-01-1200.webp",
-          "w": 1200,
-          "h": 2369,
-          "kb": 196.8
         },
         "1220": {
           "file": "/assets/fashion/paris-fashion-week-01-1220.webp",
@@ -1618,7 +1164,7 @@
         }
       },
       "src": "/assets/fashion/paris-fashion-week-01-1220.webp",
-      "srcSet": "/assets/fashion/paris-fashion-week-01-480.webp 480w, /assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1200.webp 1200w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
+      "srcSet": "/assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520",
       "title": "Paris Fashion Week"
     },
@@ -1630,18 +1176,6 @@
       "height": 1672,
       "ratio": 0.565,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/parisian-summer-01-480.webp",
-          "w": 480,
-          "h": 850,
-          "kb": 82.3
-        },
-        "900": {
-          "file": "/assets/fashion/parisian-summer-01-900.webp",
-          "w": 900,
-          "h": 1594,
-          "kb": 181.1
-        },
         "944": {
           "file": "/assets/fashion/parisian-summer-01-944.webp",
           "w": 944,
@@ -1650,7 +1184,7 @@
         }
       },
       "src": "/assets/fashion/parisian-summer-01-944.webp",
-      "srcSet": "/assets/fashion/parisian-summer-01-480.webp 480w, /assets/fashion/parisian-summer-01-900.webp 900w, /assets/fashion/parisian-summer-01-944.webp 944w",
+      "srcSet": "/assets/fashion/parisian-summer-01-944.webp 944w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702479453288484114",
       "title": "Parisian Summer"
     },
@@ -1662,23 +1196,11 @@
       "height": 2396,
       "ratio": 0.668,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/runway-collection-01-480.webp",
-          "w": 480,
-          "h": 719,
-          "kb": 26.1
-        },
         "900": {
           "file": "/assets/fashion/runway-collection-01-900.webp",
           "w": 900,
           "h": 1348,
           "kb": 59.4
-        },
-        "1200": {
-          "file": "/assets/fashion/runway-collection-01-1200.webp",
-          "w": 1200,
-          "h": 1797,
-          "kb": 86.5
         },
         "1600": {
           "file": "/assets/fashion/runway-collection-01-1600.webp",
@@ -1688,7 +1210,7 @@
         }
       },
       "src": "/assets/fashion/runway-collection-01-1600.webp",
-      "srcSet": "/assets/fashion/runway-collection-01-480.webp 480w, /assets/fashion/runway-collection-01-900.webp 900w, /assets/fashion/runway-collection-01-1200.webp 1200w, /assets/fashion/runway-collection-01-1600.webp 1600w",
+      "srcSet": "/assets/fashion/runway-collection-01-900.webp 900w, /assets/fashion/runway-collection-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706",
       "title": "Runway Edit"
     },
@@ -1700,23 +1222,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/runway-collection-02-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 19.4
-        },
         "900": {
           "file": "/assets/fashion/runway-collection-02-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 43.9
-        },
-        "1200": {
-          "file": "/assets/fashion/runway-collection-02-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 63.8
         },
         "1600": {
           "file": "/assets/fashion/runway-collection-02-1600.webp",
@@ -1726,7 +1236,7 @@
         }
       },
       "src": "/assets/fashion/runway-collection-02-1600.webp",
-      "srcSet": "/assets/fashion/runway-collection-02-480.webp 480w, /assets/fashion/runway-collection-02-900.webp 900w, /assets/fashion/runway-collection-02-1200.webp 1200w, /assets/fashion/runway-collection-02-1600.webp 1600w",
+      "srcSet": "/assets/fashion/runway-collection-02-900.webp 900w, /assets/fashion/runway-collection-02-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706",
       "title": "Runway Edit"
     },
@@ -1738,23 +1248,11 @@
       "height": 2130,
       "ratio": 0.751,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/runway-collection-03-480.webp",
-          "w": 480,
-          "h": 639,
-          "kb": 23.5
-        },
         "900": {
           "file": "/assets/fashion/runway-collection-03-900.webp",
           "w": 900,
           "h": 1198,
           "kb": 50.6
-        },
-        "1200": {
-          "file": "/assets/fashion/runway-collection-03-1200.webp",
-          "w": 1200,
-          "h": 1598,
-          "kb": 74.6
         },
         "1600": {
           "file": "/assets/fashion/runway-collection-03-1600.webp",
@@ -1764,7 +1262,7 @@
         }
       },
       "src": "/assets/fashion/runway-collection-03-1600.webp",
-      "srcSet": "/assets/fashion/runway-collection-03-480.webp 480w, /assets/fashion/runway-collection-03-900.webp 900w, /assets/fashion/runway-collection-03-1200.webp 1200w, /assets/fashion/runway-collection-03-1600.webp 1600w",
+      "srcSet": "/assets/fashion/runway-collection-03-900.webp 900w, /assets/fashion/runway-collection-03-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706",
       "title": "Runway Edit"
     },
@@ -1776,18 +1274,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/street-style-bags-01-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 39.5
-        },
-        "900": {
-          "file": "/assets/fashion/street-style-bags-01-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 105.4
-        },
         "1024": {
           "file": "/assets/fashion/street-style-bags-01-1024.webp",
           "w": 1024,
@@ -1796,7 +1282,7 @@
         }
       },
       "src": "/assets/fashion/street-style-bags-01-1024.webp",
-      "srcSet": "/assets/fashion/street-style-bags-01-480.webp 480w, /assets/fashion/street-style-bags-01-900.webp 900w, /assets/fashion/street-style-bags-01-1024.webp 1024w",
+      "srcSet": "/assets/fashion/street-style-bags-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -1808,18 +1294,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/street-style-bags-02-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 53.2
-        },
-        "900": {
-          "file": "/assets/fashion/street-style-bags-02-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 143.4
-        },
         "1024": {
           "file": "/assets/fashion/street-style-bags-02-1024.webp",
           "w": 1024,
@@ -1828,7 +1302,7 @@
         }
       },
       "src": "/assets/fashion/street-style-bags-02-1024.webp",
-      "srcSet": "/assets/fashion/street-style-bags-02-480.webp 480w, /assets/fashion/street-style-bags-02-900.webp 900w, /assets/fashion/street-style-bags-02-1024.webp 1024w",
+      "srcSet": "/assets/fashion/street-style-bags-02-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -1840,18 +1314,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/street-style-bags-03-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 75.9
-        },
-        "900": {
-          "file": "/assets/fashion/street-style-bags-03-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 188.6
-        },
         "1024": {
           "file": "/assets/fashion/street-style-bags-03-1024.webp",
           "w": 1024,
@@ -1860,7 +1322,7 @@
         }
       },
       "src": "/assets/fashion/street-style-bags-03-1024.webp",
-      "srcSet": "/assets/fashion/street-style-bags-03-480.webp 480w, /assets/fashion/street-style-bags-03-900.webp 900w, /assets/fashion/street-style-bags-03-1024.webp 1024w",
+      "srcSet": "/assets/fashion/street-style-bags-03-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -1872,12 +1334,6 @@
       "height": 1296,
       "ratio": 0.833,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/street-style-bags-04-480.webp",
-          "w": 480,
-          "h": 576,
-          "kb": 50.1
-        },
         "900": {
           "file": "/assets/fashion/street-style-bags-04-900.webp",
           "w": 900,
@@ -1892,7 +1348,7 @@
         }
       },
       "src": "/assets/fashion/street-style-bags-04-1080.webp",
-      "srcSet": "/assets/fashion/street-style-bags-04-480.webp 480w, /assets/fashion/street-style-bags-04-900.webp 900w, /assets/fashion/street-style-bags-04-1080.webp 1080w",
+      "srcSet": "/assets/fashion/street-style-bags-04-900.webp 900w, /assets/fashion/street-style-bags-04-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -1904,12 +1360,6 @@
       "height": 1300,
       "ratio": 0.831,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/street-style-bags-05-480.webp",
-          "w": 480,
-          "h": 578,
-          "kb": 44.4
-        },
         "900": {
           "file": "/assets/fashion/street-style-bags-05-900.webp",
           "w": 900,
@@ -1924,7 +1374,7 @@
         }
       },
       "src": "/assets/fashion/street-style-bags-05-1080.webp",
-      "srcSet": "/assets/fashion/street-style-bags-05-480.webp 480w, /assets/fashion/street-style-bags-05-900.webp 900w, /assets/fashion/street-style-bags-05-1080.webp 1080w",
+      "srcSet": "/assets/fashion/street-style-bags-05-900.webp 900w, /assets/fashion/street-style-bags-05-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
       "title": "Street Style & Statement Bags"
     },
@@ -1936,12 +1386,6 @@
       "height": 1440,
       "ratio": 0.75,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/streetwear-sneakers-01-480.webp",
-          "w": 480,
-          "h": 640,
-          "kb": 65.0
-        },
         "900": {
           "file": "/assets/fashion/streetwear-sneakers-01-900.webp",
           "w": 900,
@@ -1956,7 +1400,7 @@
         }
       },
       "src": "/assets/fashion/streetwear-sneakers-01-1080.webp",
-      "srcSet": "/assets/fashion/streetwear-sneakers-01-480.webp 480w, /assets/fashion/streetwear-sneakers-01-900.webp 900w, /assets/fashion/streetwear-sneakers-01-1080.webp 1080w",
+      "srcSet": "/assets/fashion/streetwear-sneakers-01-900.webp 900w, /assets/fashion/streetwear-sneakers-01-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706059500494572808",
       "title": "Streetwear & Sneakers"
     },
@@ -1968,12 +1412,6 @@
       "height": 1440,
       "ratio": 0.75,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/streetwear-sneakers-02-480.webp",
-          "w": 480,
-          "h": 640,
-          "kb": 57.5
-        },
         "900": {
           "file": "/assets/fashion/streetwear-sneakers-02-900.webp",
           "w": 900,
@@ -1988,7 +1426,7 @@
         }
       },
       "src": "/assets/fashion/streetwear-sneakers-02-1080.webp",
-      "srcSet": "/assets/fashion/streetwear-sneakers-02-480.webp 480w, /assets/fashion/streetwear-sneakers-02-900.webp 900w, /assets/fashion/streetwear-sneakers-02-1080.webp 1080w",
+      "srcSet": "/assets/fashion/streetwear-sneakers-02-900.webp 900w, /assets/fashion/streetwear-sneakers-02-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7706059500494572808",
       "title": "Streetwear & Sneakers"
     },
@@ -2000,12 +1438,6 @@
       "height": 1352,
       "ratio": 0.799,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/tom-ford-editorial-01-480.webp",
-          "w": 480,
-          "h": 601,
-          "kb": 28.3
-        },
         "900": {
           "file": "/assets/fashion/tom-ford-editorial-01-900.webp",
           "w": 900,
@@ -2020,7 +1452,7 @@
         }
       },
       "src": "/assets/fashion/tom-ford-editorial-01-1080.webp",
-      "srcSet": "/assets/fashion/tom-ford-editorial-01-480.webp 480w, /assets/fashion/tom-ford-editorial-01-900.webp 900w, /assets/fashion/tom-ford-editorial-01-1080.webp 1080w",
+      "srcSet": "/assets/fashion/tom-ford-editorial-01-900.webp 900w, /assets/fashion/tom-ford-editorial-01-1080.webp 1080w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702221003094641938",
       "title": "Tom Ford Editorial"
     },
@@ -2032,18 +1464,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/trinity-collection-01-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 61.8
-        },
-        "900": {
-          "file": "/assets/fashion/trinity-collection-01-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 145.6
-        },
         "1024": {
           "file": "/assets/fashion/trinity-collection-01-1024.webp",
           "w": 1024,
@@ -2052,7 +1472,7 @@
         }
       },
       "src": "/assets/fashion/trinity-collection-01-1024.webp",
-      "srcSet": "/assets/fashion/trinity-collection-01-480.webp 480w, /assets/fashion/trinity-collection-01-900.webp 900w, /assets/fashion/trinity-collection-01-1024.webp 1024w",
+      "srcSet": "/assets/fashion/trinity-collection-01-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -2064,18 +1484,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/trinity-collection-02-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 40.7
-        },
-        "900": {
-          "file": "/assets/fashion/trinity-collection-02-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 102.5
-        },
         "1024": {
           "file": "/assets/fashion/trinity-collection-02-1024.webp",
           "w": 1024,
@@ -2084,7 +1492,7 @@
         }
       },
       "src": "/assets/fashion/trinity-collection-02-1024.webp",
-      "srcSet": "/assets/fashion/trinity-collection-02-480.webp 480w, /assets/fashion/trinity-collection-02-900.webp 900w, /assets/fashion/trinity-collection-02-1024.webp 1024w",
+      "srcSet": "/assets/fashion/trinity-collection-02-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -2096,18 +1504,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/trinity-collection-03-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 56.0
-        },
-        "900": {
-          "file": "/assets/fashion/trinity-collection-03-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 134.5
-        },
         "1024": {
           "file": "/assets/fashion/trinity-collection-03-1024.webp",
           "w": 1024,
@@ -2116,7 +1512,7 @@
         }
       },
       "src": "/assets/fashion/trinity-collection-03-1024.webp",
-      "srcSet": "/assets/fashion/trinity-collection-03-480.webp 480w, /assets/fashion/trinity-collection-03-900.webp 900w, /assets/fashion/trinity-collection-03-1024.webp 1024w",
+      "srcSet": "/assets/fashion/trinity-collection-03-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -2128,18 +1524,6 @@
       "height": 1536,
       "ratio": 0.667,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/trinity-collection-04-480.webp",
-          "w": 480,
-          "h": 720,
-          "kb": 40.2
-        },
-        "900": {
-          "file": "/assets/fashion/trinity-collection-04-900.webp",
-          "w": 900,
-          "h": 1350,
-          "kb": 102.1
-        },
         "1024": {
           "file": "/assets/fashion/trinity-collection-04-1024.webp",
           "w": 1024,
@@ -2148,7 +1532,7 @@
         }
       },
       "src": "/assets/fashion/trinity-collection-04-1024.webp",
-      "srcSet": "/assets/fashion/trinity-collection-04-480.webp 480w, /assets/fashion/trinity-collection-04-900.webp 900w, /assets/fashion/trinity-collection-04-1024.webp 1024w",
+      "srcSet": "/assets/fashion/trinity-collection-04-1024.webp 1024w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -2160,23 +1544,11 @@
       "height": 768,
       "ratio": 1.792,
       "variants": {
-        "480": {
-          "file": "/assets/fashion/trinity-collection-05-480.webp",
-          "w": 480,
-          "h": 268,
-          "kb": 27.3
-        },
         "900": {
           "file": "/assets/fashion/trinity-collection-05-900.webp",
           "w": 900,
           "h": 502,
           "kb": 72.1
-        },
-        "1200": {
-          "file": "/assets/fashion/trinity-collection-05-1200.webp",
-          "w": 1200,
-          "h": 670,
-          "kb": 109.6
         },
         "1376": {
           "file": "/assets/fashion/trinity-collection-05-1376.webp",
@@ -2186,7 +1558,7 @@
         }
       },
       "src": "/assets/fashion/trinity-collection-05-1376.webp",
-      "srcSet": "/assets/fashion/trinity-collection-05-480.webp 480w, /assets/fashion/trinity-collection-05-900.webp 900w, /assets/fashion/trinity-collection-05-1200.webp 1200w, /assets/fashion/trinity-collection-05-1376.webp 1376w",
+      "srcSet": "/assets/fashion/trinity-collection-05-900.webp 900w, /assets/fashion/trinity-collection-05-1376.webp 1376w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
       "title": "The Trinity Collection"
     },
@@ -2198,12 +1570,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-01-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 42.5
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-01-900.webp",
           "w": 900,
@@ -2218,7 +1584,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-01-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-01-480.webp 480w, /assets/haircare/haircare-edit-01-900.webp 900w, /assets/haircare/haircare-edit-01-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-01-900.webp 900w, /assets/haircare/haircare-edit-01-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2228,12 +1594,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-02-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 43.7
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-02-900.webp",
           "w": 900,
@@ -2248,7 +1608,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-02-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-02-480.webp 480w, /assets/haircare/haircare-edit-02-900.webp 900w, /assets/haircare/haircare-edit-02-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-02-900.webp 900w, /assets/haircare/haircare-edit-02-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2258,12 +1618,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-03-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 30.9
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-03-900.webp",
           "w": 900,
@@ -2278,7 +1632,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-03-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-03-480.webp 480w, /assets/haircare/haircare-edit-03-900.webp 900w, /assets/haircare/haircare-edit-03-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-03-900.webp 900w, /assets/haircare/haircare-edit-03-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2288,12 +1642,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-04-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 33.0
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-04-900.webp",
           "w": 900,
@@ -2308,7 +1656,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-04-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-04-480.webp 480w, /assets/haircare/haircare-edit-04-900.webp 900w, /assets/haircare/haircare-edit-04-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-04-900.webp 900w, /assets/haircare/haircare-edit-04-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2318,12 +1666,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-05-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 39.0
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-05-900.webp",
           "w": 900,
@@ -2338,7 +1680,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-05-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-05-480.webp 480w, /assets/haircare/haircare-edit-05-900.webp 900w, /assets/haircare/haircare-edit-05-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-05-900.webp 900w, /assets/haircare/haircare-edit-05-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2348,12 +1690,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-06-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 49.2
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-06-900.webp",
           "w": 900,
@@ -2368,7 +1704,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-06-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-06-480.webp 480w, /assets/haircare/haircare-edit-06-900.webp 900w, /assets/haircare/haircare-edit-06-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-06-900.webp 900w, /assets/haircare/haircare-edit-06-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2378,12 +1714,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-07-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 36.1
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-07-900.webp",
           "w": 900,
@@ -2398,7 +1728,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-07-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-07-480.webp 480w, /assets/haircare/haircare-edit-07-900.webp 900w, /assets/haircare/haircare-edit-07-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-07-900.webp 900w, /assets/haircare/haircare-edit-07-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2408,12 +1738,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-08-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 31.6
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-08-900.webp",
           "w": 900,
@@ -2428,7 +1752,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-08-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-08-480.webp 480w, /assets/haircare/haircare-edit-08-900.webp 900w, /assets/haircare/haircare-edit-08-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-08-900.webp 900w, /assets/haircare/haircare-edit-08-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2438,12 +1762,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-09-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 36.9
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-09-900.webp",
           "w": 900,
@@ -2458,7 +1776,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-09-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-09-480.webp 480w, /assets/haircare/haircare-edit-09-900.webp 900w, /assets/haircare/haircare-edit-09-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-09-900.webp 900w, /assets/haircare/haircare-edit-09-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2468,12 +1786,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-10-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 33.5
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-10-900.webp",
           "w": 900,
@@ -2488,7 +1800,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-10-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-10-480.webp 480w, /assets/haircare/haircare-edit-10-900.webp 900w, /assets/haircare/haircare-edit-10-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-10-900.webp 900w, /assets/haircare/haircare-edit-10-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2498,12 +1810,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-11-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 33.5
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-11-900.webp",
           "w": 900,
@@ -2518,7 +1824,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-11-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-11-480.webp 480w, /assets/haircare/haircare-edit-11-900.webp 900w, /assets/haircare/haircare-edit-11-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-11-900.webp 900w, /assets/haircare/haircare-edit-11-1199.webp 1199w"
     },
     {
       "slug": "haircare-edit",
@@ -2528,12 +1834,6 @@
       "height": 1312,
       "ratio": 0.914,
       "variants": {
-        "480": {
-          "file": "/assets/haircare/haircare-edit-12-480.webp",
-          "w": 480,
-          "h": 525,
-          "kb": 30.8
-        },
         "900": {
           "file": "/assets/haircare/haircare-edit-12-900.webp",
           "w": 900,
@@ -2548,7 +1848,7 @@
         }
       },
       "src": "/assets/haircare/haircare-edit-12-1199.webp",
-      "srcSet": "/assets/haircare/haircare-edit-12-480.webp 480w, /assets/haircare/haircare-edit-12-900.webp 900w, /assets/haircare/haircare-edit-12-1199.webp 1199w"
+      "srcSet": "/assets/haircare/haircare-edit-12-900.webp 900w, /assets/haircare/haircare-edit-12-1199.webp 1199w"
     },
     {
       "slug": "green-door-candle",
@@ -2558,23 +1858,11 @@
       "height": 1600,
       "ratio": 1.0,
       "variants": {
-        "480": {
-          "file": "/assets/lifestyle/green-door-candle-01-480.webp",
-          "w": 480,
-          "h": 480,
-          "kb": 29.4
-        },
         "900": {
           "file": "/assets/lifestyle/green-door-candle-01-900.webp",
           "w": 900,
           "h": 900,
           "kb": 70.5
-        },
-        "1200": {
-          "file": "/assets/lifestyle/green-door-candle-01-1200.webp",
-          "w": 1200,
-          "h": 1200,
-          "kb": 101.7
         },
         "1600": {
           "file": "/assets/lifestyle/green-door-candle-01-1600.webp",
@@ -2584,7 +1872,7 @@
         }
       },
       "src": "/assets/lifestyle/green-door-candle-01-1600.webp",
-      "srcSet": "/assets/lifestyle/green-door-candle-01-480.webp 480w, /assets/lifestyle/green-door-candle-01-900.webp 900w, /assets/lifestyle/green-door-candle-01-1200.webp 1200w, /assets/lifestyle/green-door-candle-01-1600.webp 1600w",
+      "srcSet": "/assets/lifestyle/green-door-candle-01-900.webp 900w, /assets/lifestyle/green-door-candle-01-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
       "title": "Green Door Candle Co."
     },
@@ -2596,23 +1884,11 @@
       "height": 1600,
       "ratio": 1.0,
       "variants": {
-        "480": {
-          "file": "/assets/lifestyle/green-door-candle-02-480.webp",
-          "w": 480,
-          "h": 480,
-          "kb": 30.3
-        },
         "900": {
           "file": "/assets/lifestyle/green-door-candle-02-900.webp",
           "w": 900,
           "h": 900,
           "kb": 69.1
-        },
-        "1200": {
-          "file": "/assets/lifestyle/green-door-candle-02-1200.webp",
-          "w": 1200,
-          "h": 1200,
-          "kb": 97.3
         },
         "1600": {
           "file": "/assets/lifestyle/green-door-candle-02-1600.webp",
@@ -2622,7 +1898,7 @@
         }
       },
       "src": "/assets/lifestyle/green-door-candle-02-1600.webp",
-      "srcSet": "/assets/lifestyle/green-door-candle-02-480.webp 480w, /assets/lifestyle/green-door-candle-02-900.webp 900w, /assets/lifestyle/green-door-candle-02-1200.webp 1200w, /assets/lifestyle/green-door-candle-02-1600.webp 1600w",
+      "srcSet": "/assets/lifestyle/green-door-candle-02-900.webp 900w, /assets/lifestyle/green-door-candle-02-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
       "title": "Green Door Candle Co."
     },
@@ -2634,23 +1910,11 @@
       "height": 1600,
       "ratio": 1.0,
       "variants": {
-        "480": {
-          "file": "/assets/lifestyle/green-door-candle-03-480.webp",
-          "w": 480,
-          "h": 480,
-          "kb": 34.6
-        },
         "900": {
           "file": "/assets/lifestyle/green-door-candle-03-900.webp",
           "w": 900,
           "h": 900,
           "kb": 88.8
-        },
-        "1200": {
-          "file": "/assets/lifestyle/green-door-candle-03-1200.webp",
-          "w": 1200,
-          "h": 1200,
-          "kb": 129.8
         },
         "1600": {
           "file": "/assets/lifestyle/green-door-candle-03-1600.webp",
@@ -2660,7 +1924,7 @@
         }
       },
       "src": "/assets/lifestyle/green-door-candle-03-1600.webp",
-      "srcSet": "/assets/lifestyle/green-door-candle-03-480.webp 480w, /assets/lifestyle/green-door-candle-03-900.webp 900w, /assets/lifestyle/green-door-candle-03-1200.webp 1200w, /assets/lifestyle/green-door-candle-03-1600.webp 1600w",
+      "srcSet": "/assets/lifestyle/green-door-candle-03-900.webp 900w, /assets/lifestyle/green-door-candle-03-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
       "title": "Green Door Candle Co."
     },
@@ -2672,23 +1936,11 @@
       "height": 1066,
       "ratio": 1.501,
       "variants": {
-        "480": {
-          "file": "/assets/lifestyle/green-door-candle-04-480.webp",
-          "w": 480,
-          "h": 320,
-          "kb": 34.0
-        },
         "900": {
           "file": "/assets/lifestyle/green-door-candle-04-900.webp",
           "w": 900,
           "h": 600,
           "kb": 83.2
-        },
-        "1200": {
-          "file": "/assets/lifestyle/green-door-candle-04-1200.webp",
-          "w": 1200,
-          "h": 800,
-          "kb": 122.6
         },
         "1600": {
           "file": "/assets/lifestyle/green-door-candle-04-1600.webp",
@@ -2698,7 +1950,7 @@
         }
       },
       "src": "/assets/lifestyle/green-door-candle-04-1600.webp",
-      "srcSet": "/assets/lifestyle/green-door-candle-04-480.webp 480w, /assets/lifestyle/green-door-candle-04-900.webp 900w, /assets/lifestyle/green-door-candle-04-1200.webp 1200w, /assets/lifestyle/green-door-candle-04-1600.webp 1600w",
+      "srcSet": "/assets/lifestyle/green-door-candle-04-900.webp 900w, /assets/lifestyle/green-door-candle-04-1600.webp 1600w",
       "post_url": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
       "title": "Green Door Candle Co."
     }

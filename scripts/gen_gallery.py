@@ -38,7 +38,7 @@ MERGES = [
         "title": "Halloween",
         "kind": "Seasonal",
         "category": "fashion",
-        "sources": ["halloween-peek", "halloween-romance", "halloween-looks"],
+        "sources": ["halloween-peek", "halloween-romance", "halloween-looks", "halloween-group"],
         "position_after": "trinity-collection",
     },
     {

@@ -28,12 +28,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7709115570213424391",
     "cover": "/assets/fashion/lukacev-couture-02-1600.webp",
-    "coverSrcSet": "/assets/fashion/lukacev-couture-02-480.webp 480w, /assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1200.webp 1200w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
+    "coverSrcSet": "/assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
     "coverRatio": 0.668,
     "images": [
       {
         "src": "/assets/fashion/lukacev-couture-02-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-02-480.webp 480w, /assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1200.webp 1200w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
+        "srcSet": "/assets/fashion/lukacev-couture-02-900.webp 900w, /assets/fashion/lukacev-couture-02-1600.webp 1600w",
         "ratio": 0.668,
         "width": 1600,
         "height": 2396,
@@ -41,7 +41,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/lukacev-couture-03-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-03-480.webp 480w, /assets/fashion/lukacev-couture-03-900.webp 900w, /assets/fashion/lukacev-couture-03-1200.webp 1200w, /assets/fashion/lukacev-couture-03-1600.webp 1600w",
+        "srcSet": "/assets/fashion/lukacev-couture-03-900.webp 900w, /assets/fashion/lukacev-couture-03-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -49,7 +49,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/lukacev-couture-04-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-04-480.webp 480w, /assets/fashion/lukacev-couture-04-900.webp 900w, /assets/fashion/lukacev-couture-04-1200.webp 1200w, /assets/fashion/lukacev-couture-04-1600.webp 1600w",
+        "srcSet": "/assets/fashion/lukacev-couture-04-900.webp 900w, /assets/fashion/lukacev-couture-04-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -57,7 +57,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/lukacev-couture-05-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-05-480.webp 480w, /assets/fashion/lukacev-couture-05-900.webp 900w, /assets/fashion/lukacev-couture-05-1200.webp 1200w, /assets/fashion/lukacev-couture-05-1600.webp 1600w",
+        "srcSet": "/assets/fashion/lukacev-couture-05-900.webp 900w, /assets/fashion/lukacev-couture-05-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -65,7 +65,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/lukacev-couture-06-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-06-480.webp 480w, /assets/fashion/lukacev-couture-06-900.webp 900w, /assets/fashion/lukacev-couture-06-1200.webp 1200w, /assets/fashion/lukacev-couture-06-1600.webp 1600w",
+        "srcSet": "/assets/fashion/lukacev-couture-06-900.webp 900w, /assets/fashion/lukacev-couture-06-1600.webp 1600w",
         "ratio": 0.668,
         "width": 1600,
         "height": 2396,
@@ -73,7 +73,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/lukacev-couture-07-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-07-480.webp 480w, /assets/fashion/lukacev-couture-07-900.webp 900w, /assets/fashion/lukacev-couture-07-1200.webp 1200w, /assets/fashion/lukacev-couture-07-1600.webp 1600w",
+        "srcSet": "/assets/fashion/lukacev-couture-07-900.webp 900w, /assets/fashion/lukacev-couture-07-1600.webp 1600w",
         "ratio": 0.668,
         "width": 1600,
         "height": 2396,
@@ -81,7 +81,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/lukacev-couture-08-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-08-480.webp 480w, /assets/fashion/lukacev-couture-08-900.webp 900w, /assets/fashion/lukacev-couture-08-1200.webp 1200w, /assets/fashion/lukacev-couture-08-1600.webp 1600w",
+        "srcSet": "/assets/fashion/lukacev-couture-08-900.webp 900w, /assets/fashion/lukacev-couture-08-1600.webp 1600w",
         "ratio": 0.668,
         "width": 1600,
         "height": 2396,
@@ -89,7 +89,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/lukacev-couture-01-1600.webp",
-        "srcSet": "/assets/fashion/lukacev-couture-01-480.webp 480w, /assets/fashion/lukacev-couture-01-900.webp 900w, /assets/fashion/lukacev-couture-01-1200.webp 1200w, /assets/fashion/lukacev-couture-01-1600.webp 1600w",
+        "srcSet": "/assets/fashion/lukacev-couture-01-900.webp 900w, /assets/fashion/lukacev-couture-01-1600.webp 1600w",
         "ratio": 0.668,
         "width": 1600,
         "height": 2396,
@@ -104,12 +104,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702112550586141970",
     "cover": "/assets/fashion/trinity-collection-01-1024.webp",
-    "coverSrcSet": "/assets/fashion/trinity-collection-01-480.webp 480w, /assets/fashion/trinity-collection-01-900.webp 900w, /assets/fashion/trinity-collection-01-1024.webp 1024w",
+    "coverSrcSet": "/assets/fashion/trinity-collection-01-1024.webp 1024w",
     "coverRatio": 0.667,
     "images": [
       {
         "src": "/assets/fashion/trinity-collection-01-1024.webp",
-        "srcSet": "/assets/fashion/trinity-collection-01-480.webp 480w, /assets/fashion/trinity-collection-01-900.webp 900w, /assets/fashion/trinity-collection-01-1024.webp 1024w",
+        "srcSet": "/assets/fashion/trinity-collection-01-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -117,7 +117,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/trinity-collection-02-1024.webp",
-        "srcSet": "/assets/fashion/trinity-collection-02-480.webp 480w, /assets/fashion/trinity-collection-02-900.webp 900w, /assets/fashion/trinity-collection-02-1024.webp 1024w",
+        "srcSet": "/assets/fashion/trinity-collection-02-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -125,7 +125,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/trinity-collection-03-1024.webp",
-        "srcSet": "/assets/fashion/trinity-collection-03-480.webp 480w, /assets/fashion/trinity-collection-03-900.webp 900w, /assets/fashion/trinity-collection-03-1024.webp 1024w",
+        "srcSet": "/assets/fashion/trinity-collection-03-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -133,7 +133,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/trinity-collection-04-1024.webp",
-        "srcSet": "/assets/fashion/trinity-collection-04-480.webp 480w, /assets/fashion/trinity-collection-04-900.webp 900w, /assets/fashion/trinity-collection-04-1024.webp 1024w",
+        "srcSet": "/assets/fashion/trinity-collection-04-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -148,12 +148,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702224676579298568",
     "cover": "/assets/fashion/halloween-peek-01-1024.webp",
-    "coverSrcSet": "/assets/fashion/halloween-peek-01-480.webp 480w, /assets/fashion/halloween-peek-01-900.webp 900w, /assets/fashion/halloween-peek-01-1024.webp 1024w",
+    "coverSrcSet": "/assets/fashion/halloween-peek-01-1024.webp 1024w",
     "coverRatio": 0.667,
     "images": [
       {
         "src": "/assets/fashion/halloween-peek-01-1024.webp",
-        "srcSet": "/assets/fashion/halloween-peek-01-480.webp 480w, /assets/fashion/halloween-peek-01-900.webp 900w, /assets/fashion/halloween-peek-01-1024.webp 1024w",
+        "srcSet": "/assets/fashion/halloween-peek-01-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -161,7 +161,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/halloween-romance-01-1024.webp",
-        "srcSet": "/assets/fashion/halloween-romance-01-480.webp 480w, /assets/fashion/halloween-romance-01-900.webp 900w, /assets/fashion/halloween-romance-01-1024.webp 1024w",
+        "srcSet": "/assets/fashion/halloween-romance-01-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -169,7 +169,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/halloween-looks-01-1024.webp",
-        "srcSet": "/assets/fashion/halloween-looks-01-480.webp 480w, /assets/fashion/halloween-looks-01-900.webp 900w, /assets/fashion/halloween-looks-01-1024.webp 1024w",
+        "srcSet": "/assets/fashion/halloween-looks-01-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -177,7 +177,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/halloween-looks-02-1024.webp",
-        "srcSet": "/assets/fashion/halloween-looks-02-480.webp 480w, /assets/fashion/halloween-looks-02-900.webp 900w, /assets/fashion/halloween-looks-02-1024.webp 1024w",
+        "srcSet": "/assets/fashion/halloween-looks-02-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -185,7 +185,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/halloween-looks-03-1024.webp",
-        "srcSet": "/assets/fashion/halloween-looks-03-480.webp 480w, /assets/fashion/halloween-looks-03-900.webp 900w, /assets/fashion/halloween-looks-03-1024.webp 1024w",
+        "srcSet": "/assets/fashion/halloween-looks-03-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -193,7 +193,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/halloween-looks-04-1024.webp",
-        "srcSet": "/assets/fashion/halloween-looks-04-480.webp 480w, /assets/fashion/halloween-looks-04-900.webp 900w, /assets/fashion/halloween-looks-04-1024.webp 1024w",
+        "srcSet": "/assets/fashion/halloween-looks-04-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -201,11 +201,19 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/halloween-looks-05-1024.webp",
-        "srcSet": "/assets/fashion/halloween-looks-05-480.webp 480w, /assets/fashion/halloween-looks-05-900.webp 900w, /assets/fashion/halloween-looks-05-1024.webp 1024w",
+        "srcSet": "/assets/fashion/halloween-looks-05-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
         "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702535243588291847"
+      },
+      {
+        "src": "/assets/fashion/halloween-group-01-1376.webp",
+        "srcSet": "/assets/fashion/halloween-group-01-900.webp 900w, /assets/fashion/halloween-group-01-1376.webp 1376w",
+        "ratio": 1.792,
+        "width": 1376,
+        "height": 768,
+        "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702733715851545863"
       }
     ]
   },
@@ -216,12 +224,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7704416610462780690",
     "cover": "/assets/fashion/street-style-bags-01-1024.webp",
-    "coverSrcSet": "/assets/fashion/street-style-bags-01-480.webp 480w, /assets/fashion/street-style-bags-01-900.webp 900w, /assets/fashion/street-style-bags-01-1024.webp 1024w",
+    "coverSrcSet": "/assets/fashion/street-style-bags-01-1024.webp 1024w",
     "coverRatio": 0.667,
     "images": [
       {
         "src": "/assets/fashion/street-style-bags-01-1024.webp",
-        "srcSet": "/assets/fashion/street-style-bags-01-480.webp 480w, /assets/fashion/street-style-bags-01-900.webp 900w, /assets/fashion/street-style-bags-01-1024.webp 1024w",
+        "srcSet": "/assets/fashion/street-style-bags-01-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -229,7 +237,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/street-style-bags-02-1024.webp",
-        "srcSet": "/assets/fashion/street-style-bags-02-480.webp 480w, /assets/fashion/street-style-bags-02-900.webp 900w, /assets/fashion/street-style-bags-02-1024.webp 1024w",
+        "srcSet": "/assets/fashion/street-style-bags-02-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -237,7 +245,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/street-style-bags-03-1024.webp",
-        "srcSet": "/assets/fashion/street-style-bags-03-480.webp 480w, /assets/fashion/street-style-bags-03-900.webp 900w, /assets/fashion/street-style-bags-03-1024.webp 1024w",
+        "srcSet": "/assets/fashion/street-style-bags-03-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -245,7 +253,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/street-style-bags-04-1080.webp",
-        "srcSet": "/assets/fashion/street-style-bags-04-480.webp 480w, /assets/fashion/street-style-bags-04-900.webp 900w, /assets/fashion/street-style-bags-04-1080.webp 1080w",
+        "srcSet": "/assets/fashion/street-style-bags-04-900.webp 900w, /assets/fashion/street-style-bags-04-1080.webp 1080w",
         "ratio": 0.833,
         "width": 1080,
         "height": 1296,
@@ -253,7 +261,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/street-style-bags-05-1080.webp",
-        "srcSet": "/assets/fashion/street-style-bags-05-480.webp 480w, /assets/fashion/street-style-bags-05-900.webp 900w, /assets/fashion/street-style-bags-05-1080.webp 1080w",
+        "srcSet": "/assets/fashion/street-style-bags-05-900.webp 900w, /assets/fashion/street-style-bags-05-1080.webp 1080w",
         "ratio": 0.831,
         "width": 1080,
         "height": 1300,
@@ -268,12 +276,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7701978198073969928",
     "cover": "/assets/fashion/burgundy-looks-01-1024.webp",
-    "coverSrcSet": "/assets/fashion/burgundy-looks-01-480.webp 480w, /assets/fashion/burgundy-looks-01-900.webp 900w, /assets/fashion/burgundy-looks-01-1024.webp 1024w",
+    "coverSrcSet": "/assets/fashion/burgundy-looks-01-1024.webp 1024w",
     "coverRatio": 0.667,
     "images": [
       {
         "src": "/assets/fashion/burgundy-looks-01-1024.webp",
-        "srcSet": "/assets/fashion/burgundy-looks-01-480.webp 480w, /assets/fashion/burgundy-looks-01-900.webp 900w, /assets/fashion/burgundy-looks-01-1024.webp 1024w",
+        "srcSet": "/assets/fashion/burgundy-looks-01-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -281,7 +289,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/burgundy-looks-02-1024.webp",
-        "srcSet": "/assets/fashion/burgundy-looks-02-480.webp 480w, /assets/fashion/burgundy-looks-02-900.webp 900w, /assets/fashion/burgundy-looks-02-1024.webp 1024w",
+        "srcSet": "/assets/fashion/burgundy-looks-02-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -289,7 +297,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/burgundy-looks-03-1024.webp",
-        "srcSet": "/assets/fashion/burgundy-looks-03-480.webp 480w, /assets/fashion/burgundy-looks-03-900.webp 900w, /assets/fashion/burgundy-looks-03-1024.webp 1024w",
+        "srcSet": "/assets/fashion/burgundy-looks-03-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -297,7 +305,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/burgundy-looks-04-1536.webp",
-        "srcSet": "/assets/fashion/burgundy-looks-04-480.webp 480w, /assets/fashion/burgundy-looks-04-900.webp 900w, /assets/fashion/burgundy-looks-04-1200.webp 1200w, /assets/fashion/burgundy-looks-04-1536.webp 1536w",
+        "srcSet": "/assets/fashion/burgundy-looks-04-900.webp 900w, /assets/fashion/burgundy-looks-04-1536.webp 1536w",
         "ratio": 1.5,
         "width": 1536,
         "height": 1024,
@@ -305,7 +313,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/burgundy-looks-05-1536.webp",
-        "srcSet": "/assets/fashion/burgundy-looks-05-480.webp 480w, /assets/fashion/burgundy-looks-05-900.webp 900w, /assets/fashion/burgundy-looks-05-1200.webp 1200w, /assets/fashion/burgundy-looks-05-1536.webp 1536w",
+        "srcSet": "/assets/fashion/burgundy-looks-05-900.webp 900w, /assets/fashion/burgundy-looks-05-1536.webp 1536w",
         "ratio": 1.5,
         "width": 1536,
         "height": 1024,
@@ -320,12 +328,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7706928361880210706",
     "cover": "/assets/fashion/runway-collection-01-1600.webp",
-    "coverSrcSet": "/assets/fashion/runway-collection-01-480.webp 480w, /assets/fashion/runway-collection-01-900.webp 900w, /assets/fashion/runway-collection-01-1200.webp 1200w, /assets/fashion/runway-collection-01-1600.webp 1600w",
+    "coverSrcSet": "/assets/fashion/runway-collection-01-900.webp 900w, /assets/fashion/runway-collection-01-1600.webp 1600w",
     "coverRatio": 0.668,
     "images": [
       {
         "src": "/assets/fashion/runway-collection-01-1600.webp",
-        "srcSet": "/assets/fashion/runway-collection-01-480.webp 480w, /assets/fashion/runway-collection-01-900.webp 900w, /assets/fashion/runway-collection-01-1200.webp 1200w, /assets/fashion/runway-collection-01-1600.webp 1600w",
+        "srcSet": "/assets/fashion/runway-collection-01-900.webp 900w, /assets/fashion/runway-collection-01-1600.webp 1600w",
         "ratio": 0.668,
         "width": 1600,
         "height": 2396,
@@ -333,7 +341,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/runway-collection-02-1600.webp",
-        "srcSet": "/assets/fashion/runway-collection-02-480.webp 480w, /assets/fashion/runway-collection-02-900.webp 900w, /assets/fashion/runway-collection-02-1200.webp 1200w, /assets/fashion/runway-collection-02-1600.webp 1600w",
+        "srcSet": "/assets/fashion/runway-collection-02-900.webp 900w, /assets/fashion/runway-collection-02-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -341,7 +349,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/runway-collection-03-1600.webp",
-        "srcSet": "/assets/fashion/runway-collection-03-480.webp 480w, /assets/fashion/runway-collection-03-900.webp 900w, /assets/fashion/runway-collection-03-1200.webp 1200w, /assets/fashion/runway-collection-03-1600.webp 1600w",
+        "srcSet": "/assets/fashion/runway-collection-03-900.webp 900w, /assets/fashion/runway-collection-03-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -356,12 +364,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7706059500494572808",
     "cover": "/assets/fashion/streetwear-sneakers-01-1080.webp",
-    "coverSrcSet": "/assets/fashion/streetwear-sneakers-01-480.webp 480w, /assets/fashion/streetwear-sneakers-01-900.webp 900w, /assets/fashion/streetwear-sneakers-01-1080.webp 1080w",
+    "coverSrcSet": "/assets/fashion/streetwear-sneakers-01-900.webp 900w, /assets/fashion/streetwear-sneakers-01-1080.webp 1080w",
     "coverRatio": 0.75,
     "images": [
       {
         "src": "/assets/fashion/streetwear-sneakers-01-1080.webp",
-        "srcSet": "/assets/fashion/streetwear-sneakers-01-480.webp 480w, /assets/fashion/streetwear-sneakers-01-900.webp 900w, /assets/fashion/streetwear-sneakers-01-1080.webp 1080w",
+        "srcSet": "/assets/fashion/streetwear-sneakers-01-900.webp 900w, /assets/fashion/streetwear-sneakers-01-1080.webp 1080w",
         "ratio": 0.75,
         "width": 1080,
         "height": 1440,
@@ -369,7 +377,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/streetwear-sneakers-02-1080.webp",
-        "srcSet": "/assets/fashion/streetwear-sneakers-02-480.webp 480w, /assets/fashion/streetwear-sneakers-02-900.webp 900w, /assets/fashion/streetwear-sneakers-02-1080.webp 1080w",
+        "srcSet": "/assets/fashion/streetwear-sneakers-02-900.webp 900w, /assets/fashion/streetwear-sneakers-02-1080.webp 1080w",
         "ratio": 0.75,
         "width": 1080,
         "height": 1440,
@@ -384,12 +392,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7706521375812390151",
     "cover": "/assets/fashion/navy-burgundy-01-1600.webp",
-    "coverSrcSet": "/assets/fashion/navy-burgundy-01-480.webp 480w, /assets/fashion/navy-burgundy-01-900.webp 900w, /assets/fashion/navy-burgundy-01-1200.webp 1200w, /assets/fashion/navy-burgundy-01-1600.webp 1600w",
+    "coverSrcSet": "/assets/fashion/navy-burgundy-01-900.webp 900w, /assets/fashion/navy-burgundy-01-1600.webp 1600w",
     "coverRatio": 0.751,
     "images": [
       {
         "src": "/assets/fashion/navy-burgundy-01-1600.webp",
-        "srcSet": "/assets/fashion/navy-burgundy-01-480.webp 480w, /assets/fashion/navy-burgundy-01-900.webp 900w, /assets/fashion/navy-burgundy-01-1200.webp 1200w, /assets/fashion/navy-burgundy-01-1600.webp 1600w",
+        "srcSet": "/assets/fashion/navy-burgundy-01-900.webp 900w, /assets/fashion/navy-burgundy-01-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -404,12 +412,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7708516666623200520",
     "cover": "/assets/fashion/paris-fashion-week-01-1220.webp",
-    "coverSrcSet": "/assets/fashion/paris-fashion-week-01-480.webp 480w, /assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1200.webp 1200w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
+    "coverSrcSet": "/assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
     "coverRatio": 0.507,
     "images": [
       {
         "src": "/assets/fashion/paris-fashion-week-01-1220.webp",
-        "srcSet": "/assets/fashion/paris-fashion-week-01-480.webp 480w, /assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1200.webp 1200w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
+        "srcSet": "/assets/fashion/paris-fashion-week-01-900.webp 900w, /assets/fashion/paris-fashion-week-01-1220.webp 1220w",
         "ratio": 0.507,
         "width": 1220,
         "height": 2408,
@@ -417,7 +425,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/fashion/city-coffee-01-1024.webp",
-        "srcSet": "/assets/fashion/city-coffee-01-480.webp 480w, /assets/fashion/city-coffee-01-900.webp 900w, /assets/fashion/city-coffee-01-1024.webp 1024w",
+        "srcSet": "/assets/fashion/city-coffee-01-1024.webp 1024w",
         "ratio": 0.667,
         "width": 1024,
         "height": 1536,
@@ -432,12 +440,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702221003094641938",
     "cover": "/assets/fashion/tom-ford-editorial-01-1080.webp",
-    "coverSrcSet": "/assets/fashion/tom-ford-editorial-01-480.webp 480w, /assets/fashion/tom-ford-editorial-01-900.webp 900w, /assets/fashion/tom-ford-editorial-01-1080.webp 1080w",
+    "coverSrcSet": "/assets/fashion/tom-ford-editorial-01-900.webp 900w, /assets/fashion/tom-ford-editorial-01-1080.webp 1080w",
     "coverRatio": 0.799,
     "images": [
       {
         "src": "/assets/fashion/tom-ford-editorial-01-1080.webp",
-        "srcSet": "/assets/fashion/tom-ford-editorial-01-480.webp 480w, /assets/fashion/tom-ford-editorial-01-900.webp 900w, /assets/fashion/tom-ford-editorial-01-1080.webp 1080w",
+        "srcSet": "/assets/fashion/tom-ford-editorial-01-900.webp 900w, /assets/fashion/tom-ford-editorial-01-1080.webp 1080w",
         "ratio": 0.799,
         "width": 1080,
         "height": 1352,
@@ -452,12 +460,12 @@ export const works: Work[] = [
     "category": "fashion",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7702478324743851272",
     "cover": "/assets/fashion/ootd-styling-01-1024.webp",
-    "coverSrcSet": "/assets/fashion/ootd-styling-01-480.webp 480w, /assets/fashion/ootd-styling-01-900.webp 900w, /assets/fashion/ootd-styling-01-1024.webp 1024w",
+    "coverSrcSet": "/assets/fashion/ootd-styling-01-1024.webp 1024w",
     "coverRatio": 2.349,
     "images": [
       {
         "src": "/assets/fashion/ootd-styling-01-1024.webp",
-        "srcSet": "/assets/fashion/ootd-styling-01-480.webp 480w, /assets/fashion/ootd-styling-01-900.webp 900w, /assets/fashion/ootd-styling-01-1024.webp 1024w",
+        "srcSet": "/assets/fashion/ootd-styling-01-1024.webp 1024w",
         "ratio": 2.349,
         "width": 1024,
         "height": 436,
@@ -472,12 +480,12 @@ export const works: Work[] = [
     "category": "beauty",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7707948802816281874",
     "cover": "/assets/beauty/sultry-fragrance-01-1600.webp",
-    "coverSrcSet": "/assets/beauty/sultry-fragrance-01-480.webp 480w, /assets/beauty/sultry-fragrance-01-900.webp 900w, /assets/beauty/sultry-fragrance-01-1200.webp 1200w, /assets/beauty/sultry-fragrance-01-1600.webp 1600w",
+    "coverSrcSet": "/assets/beauty/sultry-fragrance-01-900.webp 900w, /assets/beauty/sultry-fragrance-01-1600.webp 1600w",
     "coverRatio": 0.751,
     "images": [
       {
         "src": "/assets/beauty/sultry-fragrance-01-1600.webp",
-        "srcSet": "/assets/beauty/sultry-fragrance-01-480.webp 480w, /assets/beauty/sultry-fragrance-01-900.webp 900w, /assets/beauty/sultry-fragrance-01-1200.webp 1200w, /assets/beauty/sultry-fragrance-01-1600.webp 1600w",
+        "srcSet": "/assets/beauty/sultry-fragrance-01-900.webp 900w, /assets/beauty/sultry-fragrance-01-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -485,7 +493,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/sultry-fragrance-02-1600.webp",
-        "srcSet": "/assets/beauty/sultry-fragrance-02-480.webp 480w, /assets/beauty/sultry-fragrance-02-900.webp 900w, /assets/beauty/sultry-fragrance-02-1200.webp 1200w, /assets/beauty/sultry-fragrance-02-1600.webp 1600w",
+        "srcSet": "/assets/beauty/sultry-fragrance-02-900.webp 900w, /assets/beauty/sultry-fragrance-02-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -493,7 +501,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/sultry-fragrance-03-1600.webp",
-        "srcSet": "/assets/beauty/sultry-fragrance-03-480.webp 480w, /assets/beauty/sultry-fragrance-03-900.webp 900w, /assets/beauty/sultry-fragrance-03-1200.webp 1200w, /assets/beauty/sultry-fragrance-03-1600.webp 1600w",
+        "srcSet": "/assets/beauty/sultry-fragrance-03-900.webp 900w, /assets/beauty/sultry-fragrance-03-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -501,7 +509,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/sultry-fragrance-04-1600.webp",
-        "srcSet": "/assets/beauty/sultry-fragrance-04-480.webp 480w, /assets/beauty/sultry-fragrance-04-900.webp 900w, /assets/beauty/sultry-fragrance-04-1200.webp 1200w, /assets/beauty/sultry-fragrance-04-1600.webp 1600w",
+        "srcSet": "/assets/beauty/sultry-fragrance-04-900.webp 900w, /assets/beauty/sultry-fragrance-04-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -509,7 +517,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/sultry-fragrance-05-1600.webp",
-        "srcSet": "/assets/beauty/sultry-fragrance-05-480.webp 480w, /assets/beauty/sultry-fragrance-05-900.webp 900w, /assets/beauty/sultry-fragrance-05-1200.webp 1200w, /assets/beauty/sultry-fragrance-05-1600.webp 1600w",
+        "srcSet": "/assets/beauty/sultry-fragrance-05-900.webp 900w, /assets/beauty/sultry-fragrance-05-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -517,7 +525,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/sultry-fragrance-06-1600.webp",
-        "srcSet": "/assets/beauty/sultry-fragrance-06-480.webp 480w, /assets/beauty/sultry-fragrance-06-900.webp 900w, /assets/beauty/sultry-fragrance-06-1200.webp 1200w, /assets/beauty/sultry-fragrance-06-1600.webp 1600w",
+        "srcSet": "/assets/beauty/sultry-fragrance-06-900.webp 900w, /assets/beauty/sultry-fragrance-06-1600.webp 1600w",
         "ratio": 0.751,
         "width": 1600,
         "height": 2130,
@@ -532,12 +540,12 @@ export const works: Work[] = [
     "category": "beauty",
     "postUrl": "",
     "cover": "/assets/beauty/beauty-edit-01-1148.webp",
-    "coverSrcSet": "/assets/beauty/beauty-edit-01-480.webp 480w, /assets/beauty/beauty-edit-01-900.webp 900w, /assets/beauty/beauty-edit-01-1148.webp 1148w",
+    "coverSrcSet": "/assets/beauty/beauty-edit-01-900.webp 900w, /assets/beauty/beauty-edit-01-1148.webp 1148w",
     "coverRatio": 0.837,
     "images": [
       {
         "src": "/assets/beauty/beauty-edit-01-1148.webp",
-        "srcSet": "/assets/beauty/beauty-edit-01-480.webp 480w, /assets/beauty/beauty-edit-01-900.webp 900w, /assets/beauty/beauty-edit-01-1148.webp 1148w",
+        "srcSet": "/assets/beauty/beauty-edit-01-900.webp 900w, /assets/beauty/beauty-edit-01-1148.webp 1148w",
         "ratio": 0.837,
         "width": 1148,
         "height": 1371,
@@ -545,7 +553,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-02-1148.webp",
-        "srcSet": "/assets/beauty/beauty-edit-02-480.webp 480w, /assets/beauty/beauty-edit-02-900.webp 900w, /assets/beauty/beauty-edit-02-1148.webp 1148w",
+        "srcSet": "/assets/beauty/beauty-edit-02-900.webp 900w, /assets/beauty/beauty-edit-02-1148.webp 1148w",
         "ratio": 0.837,
         "width": 1148,
         "height": 1371,
@@ -553,7 +561,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-03-1147.webp",
-        "srcSet": "/assets/beauty/beauty-edit-03-480.webp 480w, /assets/beauty/beauty-edit-03-900.webp 900w, /assets/beauty/beauty-edit-03-1147.webp 1147w",
+        "srcSet": "/assets/beauty/beauty-edit-03-900.webp 900w, /assets/beauty/beauty-edit-03-1147.webp 1147w",
         "ratio": 0.836,
         "width": 1147,
         "height": 1372,
@@ -561,7 +569,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-04-1199.webp",
-        "srcSet": "/assets/beauty/beauty-edit-04-480.webp 480w, /assets/beauty/beauty-edit-04-900.webp 900w, /assets/beauty/beauty-edit-04-1199.webp 1199w",
+        "srcSet": "/assets/beauty/beauty-edit-04-900.webp 900w, /assets/beauty/beauty-edit-04-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -569,7 +577,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-05-1148.webp",
-        "srcSet": "/assets/beauty/beauty-edit-05-480.webp 480w, /assets/beauty/beauty-edit-05-900.webp 900w, /assets/beauty/beauty-edit-05-1148.webp 1148w",
+        "srcSet": "/assets/beauty/beauty-edit-05-900.webp 900w, /assets/beauty/beauty-edit-05-1148.webp 1148w",
         "ratio": 0.837,
         "width": 1148,
         "height": 1371,
@@ -577,7 +585,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-06-1148.webp",
-        "srcSet": "/assets/beauty/beauty-edit-06-480.webp 480w, /assets/beauty/beauty-edit-06-900.webp 900w, /assets/beauty/beauty-edit-06-1148.webp 1148w",
+        "srcSet": "/assets/beauty/beauty-edit-06-900.webp 900w, /assets/beauty/beauty-edit-06-1148.webp 1148w",
         "ratio": 0.837,
         "width": 1148,
         "height": 1371,
@@ -585,7 +593,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-07-1222.webp",
-        "srcSet": "/assets/beauty/beauty-edit-07-480.webp 480w, /assets/beauty/beauty-edit-07-900.webp 900w, /assets/beauty/beauty-edit-07-1200.webp 1200w, /assets/beauty/beauty-edit-07-1222.webp 1222w",
+        "srcSet": "/assets/beauty/beauty-edit-07-900.webp 900w, /assets/beauty/beauty-edit-07-1222.webp 1222w",
         "ratio": 0.949,
         "width": 1222,
         "height": 1287,
@@ -593,7 +601,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-08-1148.webp",
-        "srcSet": "/assets/beauty/beauty-edit-08-480.webp 480w, /assets/beauty/beauty-edit-08-900.webp 900w, /assets/beauty/beauty-edit-08-1148.webp 1148w",
+        "srcSet": "/assets/beauty/beauty-edit-08-900.webp 900w, /assets/beauty/beauty-edit-08-1148.webp 1148w",
         "ratio": 0.837,
         "width": 1148,
         "height": 1371,
@@ -601,7 +609,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-09-1086.webp",
-        "srcSet": "/assets/beauty/beauty-edit-09-480.webp 480w, /assets/beauty/beauty-edit-09-900.webp 900w, /assets/beauty/beauty-edit-09-1086.webp 1086w",
+        "srcSet": "/assets/beauty/beauty-edit-09-900.webp 900w, /assets/beauty/beauty-edit-09-1086.webp 1086w",
         "ratio": 0.75,
         "width": 1086,
         "height": 1448,
@@ -609,7 +617,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-10-1199.webp",
-        "srcSet": "/assets/beauty/beauty-edit-10-480.webp 480w, /assets/beauty/beauty-edit-10-900.webp 900w, /assets/beauty/beauty-edit-10-1199.webp 1199w",
+        "srcSet": "/assets/beauty/beauty-edit-10-900.webp 900w, /assets/beauty/beauty-edit-10-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -617,7 +625,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-11-1086.webp",
-        "srcSet": "/assets/beauty/beauty-edit-11-480.webp 480w, /assets/beauty/beauty-edit-11-900.webp 900w, /assets/beauty/beauty-edit-11-1086.webp 1086w",
+        "srcSet": "/assets/beauty/beauty-edit-11-900.webp 900w, /assets/beauty/beauty-edit-11-1086.webp 1086w",
         "ratio": 0.75,
         "width": 1086,
         "height": 1448,
@@ -625,7 +633,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-12-1086.webp",
-        "srcSet": "/assets/beauty/beauty-edit-12-480.webp 480w, /assets/beauty/beauty-edit-12-900.webp 900w, /assets/beauty/beauty-edit-12-1086.webp 1086w",
+        "srcSet": "/assets/beauty/beauty-edit-12-900.webp 900w, /assets/beauty/beauty-edit-12-1086.webp 1086w",
         "ratio": 0.75,
         "width": 1086,
         "height": 1448,
@@ -633,7 +641,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-13-1199.webp",
-        "srcSet": "/assets/beauty/beauty-edit-13-480.webp 480w, /assets/beauty/beauty-edit-13-900.webp 900w, /assets/beauty/beauty-edit-13-1199.webp 1199w",
+        "srcSet": "/assets/beauty/beauty-edit-13-900.webp 900w, /assets/beauty/beauty-edit-13-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -641,7 +649,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-14-1199.webp",
-        "srcSet": "/assets/beauty/beauty-edit-14-480.webp 480w, /assets/beauty/beauty-edit-14-900.webp 900w, /assets/beauty/beauty-edit-14-1199.webp 1199w",
+        "srcSet": "/assets/beauty/beauty-edit-14-900.webp 900w, /assets/beauty/beauty-edit-14-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -649,7 +657,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-15-1199.webp",
-        "srcSet": "/assets/beauty/beauty-edit-15-480.webp 480w, /assets/beauty/beauty-edit-15-900.webp 900w, /assets/beauty/beauty-edit-15-1199.webp 1199w",
+        "srcSet": "/assets/beauty/beauty-edit-15-900.webp 900w, /assets/beauty/beauty-edit-15-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -657,7 +665,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-16-1199.webp",
-        "srcSet": "/assets/beauty/beauty-edit-16-480.webp 480w, /assets/beauty/beauty-edit-16-900.webp 900w, /assets/beauty/beauty-edit-16-1199.webp 1199w",
+        "srcSet": "/assets/beauty/beauty-edit-16-900.webp 900w, /assets/beauty/beauty-edit-16-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -665,7 +673,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/beauty/beauty-edit-17-1199.webp",
-        "srcSet": "/assets/beauty/beauty-edit-17-480.webp 480w, /assets/beauty/beauty-edit-17-900.webp 900w, /assets/beauty/beauty-edit-17-1199.webp 1199w",
+        "srcSet": "/assets/beauty/beauty-edit-17-900.webp 900w, /assets/beauty/beauty-edit-17-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -680,12 +688,12 @@ export const works: Work[] = [
     "category": "lifestyle",
     "postUrl": "",
     "cover": "/assets/haircare/haircare-edit-01-1199.webp",
-    "coverSrcSet": "/assets/haircare/haircare-edit-01-480.webp 480w, /assets/haircare/haircare-edit-01-900.webp 900w, /assets/haircare/haircare-edit-01-1199.webp 1199w",
+    "coverSrcSet": "/assets/haircare/haircare-edit-01-900.webp 900w, /assets/haircare/haircare-edit-01-1199.webp 1199w",
     "coverRatio": 0.914,
     "images": [
       {
         "src": "/assets/haircare/haircare-edit-01-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-01-480.webp 480w, /assets/haircare/haircare-edit-01-900.webp 900w, /assets/haircare/haircare-edit-01-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-01-900.webp 900w, /assets/haircare/haircare-edit-01-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -693,7 +701,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-02-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-02-480.webp 480w, /assets/haircare/haircare-edit-02-900.webp 900w, /assets/haircare/haircare-edit-02-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-02-900.webp 900w, /assets/haircare/haircare-edit-02-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -701,7 +709,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-03-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-03-480.webp 480w, /assets/haircare/haircare-edit-03-900.webp 900w, /assets/haircare/haircare-edit-03-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-03-900.webp 900w, /assets/haircare/haircare-edit-03-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -709,7 +717,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-04-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-04-480.webp 480w, /assets/haircare/haircare-edit-04-900.webp 900w, /assets/haircare/haircare-edit-04-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-04-900.webp 900w, /assets/haircare/haircare-edit-04-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -717,7 +725,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-05-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-05-480.webp 480w, /assets/haircare/haircare-edit-05-900.webp 900w, /assets/haircare/haircare-edit-05-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-05-900.webp 900w, /assets/haircare/haircare-edit-05-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -725,7 +733,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-06-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-06-480.webp 480w, /assets/haircare/haircare-edit-06-900.webp 900w, /assets/haircare/haircare-edit-06-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-06-900.webp 900w, /assets/haircare/haircare-edit-06-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -733,7 +741,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-07-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-07-480.webp 480w, /assets/haircare/haircare-edit-07-900.webp 900w, /assets/haircare/haircare-edit-07-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-07-900.webp 900w, /assets/haircare/haircare-edit-07-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -741,7 +749,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-08-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-08-480.webp 480w, /assets/haircare/haircare-edit-08-900.webp 900w, /assets/haircare/haircare-edit-08-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-08-900.webp 900w, /assets/haircare/haircare-edit-08-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -749,7 +757,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-09-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-09-480.webp 480w, /assets/haircare/haircare-edit-09-900.webp 900w, /assets/haircare/haircare-edit-09-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-09-900.webp 900w, /assets/haircare/haircare-edit-09-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -757,7 +765,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-10-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-10-480.webp 480w, /assets/haircare/haircare-edit-10-900.webp 900w, /assets/haircare/haircare-edit-10-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-10-900.webp 900w, /assets/haircare/haircare-edit-10-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -765,7 +773,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-11-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-11-480.webp 480w, /assets/haircare/haircare-edit-11-900.webp 900w, /assets/haircare/haircare-edit-11-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-11-900.webp 900w, /assets/haircare/haircare-edit-11-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -773,7 +781,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/haircare/haircare-edit-12-1199.webp",
-        "srcSet": "/assets/haircare/haircare-edit-12-480.webp 480w, /assets/haircare/haircare-edit-12-900.webp 900w, /assets/haircare/haircare-edit-12-1199.webp 1199w",
+        "srcSet": "/assets/haircare/haircare-edit-12-900.webp 900w, /assets/haircare/haircare-edit-12-1199.webp 1199w",
         "ratio": 0.914,
         "width": 1199,
         "height": 1312,
@@ -788,12 +796,12 @@ export const works: Work[] = [
     "category": "lifestyle",
     "postUrl": "https://www.tiktok.com/@valrose.studio0/photo/7708144920048979218",
     "cover": "/assets/lifestyle/green-door-candle-01-1600.webp",
-    "coverSrcSet": "/assets/lifestyle/green-door-candle-01-480.webp 480w, /assets/lifestyle/green-door-candle-01-900.webp 900w, /assets/lifestyle/green-door-candle-01-1200.webp 1200w, /assets/lifestyle/green-door-candle-01-1600.webp 1600w",
+    "coverSrcSet": "/assets/lifestyle/green-door-candle-01-900.webp 900w, /assets/lifestyle/green-door-candle-01-1600.webp 1600w",
     "coverRatio": 1.0,
     "images": [
       {
         "src": "/assets/lifestyle/green-door-candle-01-1600.webp",
-        "srcSet": "/assets/lifestyle/green-door-candle-01-480.webp 480w, /assets/lifestyle/green-door-candle-01-900.webp 900w, /assets/lifestyle/green-door-candle-01-1200.webp 1200w, /assets/lifestyle/green-door-candle-01-1600.webp 1600w",
+        "srcSet": "/assets/lifestyle/green-door-candle-01-900.webp 900w, /assets/lifestyle/green-door-candle-01-1600.webp 1600w",
         "ratio": 1.0,
         "width": 1600,
         "height": 1600,
@@ -801,7 +809,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/lifestyle/green-door-candle-02-1600.webp",
-        "srcSet": "/assets/lifestyle/green-door-candle-02-480.webp 480w, /assets/lifestyle/green-door-candle-02-900.webp 900w, /assets/lifestyle/green-door-candle-02-1200.webp 1200w, /assets/lifestyle/green-door-candle-02-1600.webp 1600w",
+        "srcSet": "/assets/lifestyle/green-door-candle-02-900.webp 900w, /assets/lifestyle/green-door-candle-02-1600.webp 1600w",
         "ratio": 1.0,
         "width": 1600,
         "height": 1600,
@@ -809,7 +817,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/lifestyle/green-door-candle-03-1600.webp",
-        "srcSet": "/assets/lifestyle/green-door-candle-03-480.webp 480w, /assets/lifestyle/green-door-candle-03-900.webp 900w, /assets/lifestyle/green-door-candle-03-1200.webp 1200w, /assets/lifestyle/green-door-candle-03-1600.webp 1600w",
+        "srcSet": "/assets/lifestyle/green-door-candle-03-900.webp 900w, /assets/lifestyle/green-door-candle-03-1600.webp 1600w",
         "ratio": 1.0,
         "width": 1600,
         "height": 1600,
@@ -817,7 +825,7 @@ export const works: Work[] = [
       },
       {
         "src": "/assets/lifestyle/green-door-candle-04-1600.webp",
-        "srcSet": "/assets/lifestyle/green-door-candle-04-480.webp 480w, /assets/lifestyle/green-door-candle-04-900.webp 900w, /assets/lifestyle/green-door-candle-04-1200.webp 1200w, /assets/lifestyle/green-door-candle-04-1600.webp 1600w",
+        "srcSet": "/assets/lifestyle/green-door-candle-04-900.webp 900w, /assets/lifestyle/green-door-candle-04-1600.webp 1600w",
         "ratio": 1.501,
         "width": 1600,
         "height": 1066,
